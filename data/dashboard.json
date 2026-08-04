@@ -1,0 +1,171 @@
+{
+  "asOf": "2026-08-03",
+  "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
+  "score": 72,
+  "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
+  "metrics": [
+    {
+      "label": "Adjusted monthly XRP payment volume",
+      "value": "8.42B XRP",
+      "change": 11.4,
+      "quality": "Estimate"
+    },
+    {
+      "label": "Successful payment count",
+      "value": "6.4M",
+      "change": 6.2,
+      "quality": "Estimate"
+    },
+    {
+      "label": "Unique payment senders",
+      "value": "312K",
+      "change": 4.8,
+      "quality": "Estimate"
+    }
+  ],
+  "monthly": [
+    {
+      "month": "Aug 2025",
+      "gross": 7.31,
+      "adjusted": 2.86,
+      "payments": 5.8,
+      "active": 318
+    },
+    {
+      "month": "Sep 2025",
+      "gross": 6.94,
+      "adjusted": 2.71,
+      "payments": 5.5,
+      "active": 305
+    },
+    {
+      "month": "Oct 2025",
+      "gross": 8.12,
+      "adjusted": 3.24,
+      "payments": 6.1,
+      "active": 331
+    },
+    {
+      "month": "Nov 2025",
+      "gross": 8.87,
+      "adjusted": 3.62,
+      "payments": 6.6,
+      "active": 342
+    },
+    {
+      "month": "Dec 2025",
+      "gross": 9.45,
+      "adjusted": 3.88,
+      "payments": 7.0,
+      "active": 356
+    },
+    {
+      "month": "Jan 2026",
+      "gross": 8.63,
+      "adjusted": 3.41,
+      "payments": 6.4,
+      "active": 337
+    },
+    {
+      "month": "Feb 2026",
+      "gross": 7.98,
+      "adjusted": 3.19,
+      "payments": 6.0,
+      "active": 322
+    },
+    {
+      "month": "Mar 2026",
+      "gross": 8.34,
+      "adjusted": 3.42,
+      "payments": 6.2,
+      "active": 328
+    },
+    {
+      "month": "Apr 2026",
+      "gross": 8.71,
+      "adjusted": 3.66,
+      "payments": 6.5,
+      "active": 335
+    },
+    {
+      "month": "May 2026",
+      "gross": 9.02,
+      "adjusted": 3.79,
+      "payments": 6.7,
+      "active": 344
+    },
+    {
+      "month": "Jun 2026",
+      "gross": 8.55,
+      "adjusted": 3.68,
+      "payments": 6.3,
+      "active": 339
+    },
+    {
+      "month": "Jul 2026",
+      "gross": 8.42,
+      "adjusted": 3.71,
+      "payments": 6.4,
+      "active": 346
+    }
+  ],
+  "cached": {
+    "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
+    "updatedAt": "2026-08-03T23:52:26+00:00",
+    "xrpPrice": 1.074,
+    "xrpMarketCap": 67160551116,
+    "xrpVolume24h": 1015483069,
+    "rlusdOnXrpl": 850688753.6615455,
+    "rlusdTotalSupply": 1549771541.330466
+  },
+  "news": [
+    {
+      "title": "XRP Wallet Xaman Defends Security Amid $38M Losses Linked to Coldcard RNG Flaw",
+      "source": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WSVFVSnZyN1prbDZBeUFURWNpcGdJYUt1OTRlU2pQLWJlSTlKczJrS19TenR0V2NadWNzQmpWYUg1dDZHd01PY2JxeTAxVy1GUUh1VlNzMmxwUQ?oc=5",
+      "publishedAt": "2026-08-03T21:42:10+00:00"
+    },
+    {
+      "title": "XRP Ledger expands global access with Ankr's pu...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd2VVakZ0LUFyRnFKX1dvSWl3THhqVmI1bmNYZmdFb2R5dGVQRTNXRVhhOGFqZVFackc3MUkwTW5QZk9xUDc2U1dLbDE3UzktaXpHdGh5dk5XTlRGXzNfTkVOZmZoZmJ3Wld5dWZaTnhWQWZFdU5yR0JaVzhIRGgwUldoMjQtQQ?oc=5",
+      "publishedAt": "2026-08-03T21:09:22+00:00"
+    },
+    {
+      "title": "Breaking: XRP Ledger Launches Global Public Nodes Network Ahead v3.3.0 Mainnet Upgrade",
+      "source": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3bjh5aUdJS09iZTlOY2k4X1EydmVPVFdZMW1oOXV3VHptQkZNelp0cWFDZC1oWWNIWlhBV2MxcFNwZDlJeHdsc19tMTJCd1Q4NmpqckpoRHUyQQ?oc=5",
+      "publishedAt": "2026-08-03T21:06:47+00:00"
+    },
+    {
+      "title": "Expert Shares Timeline for XRP Price Rally to New All-Time High",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBVckpnOVMzcE1ZeE5DbDBia1RoZGdaMHdaS0lqUGVOQ0FYVDEwdm9lcTlncDhnbUQ1aTFpd1R6VWJiUkdEMVZ6TlNBdVhnVWxlNmhzLWhZbXZpNW5wMUlLMTZ0b9IBY0FVX3lxTFBVckpnOVMzcE1ZeE5DbDBia1RoZGdaMHdaS0lqUGVOQ0FYVDEwdm9lcTlncDhnbUQ1aTFpd1R6VWJiUkdEMVZ6TlNBdVhnVWxlNmhzLWhZbXZpNW5wMUlLMTZ0bw?oc=5",
+      "publishedAt": "2026-08-03T20:40:59+00:00"
+    },
+    {
+      "title": "Egrag Crypto Says Indeed, XRP Will Rise from the Ashes. Here\u2019s why",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kYV9rMGc0ZXdwMU5zQ2Y1T0FDZUNIcmxEN2tkYnc5WFd5dlVGZkhQWmRDRjYxdnVFSHRMbVlCWUlTMzJ6eVNnZzhwbEYzbDlyVi1RSG5fNFMtNDRPSUxGbXY2b9IBY0FVX3lxTE1kYV9rMGc0ZXdwMU5zQ2Y1T0FDZUNIcmxEN2tkYnc5WFd5dlVGZkhQWmRDRjYxdnVFSHRMbVlCWUlTMzJ6eVNnZzhwbEYzbDlyVi1RSG5fNFMtNDRPSUxGbXY2bw?oc=5",
+      "publishedAt": "2026-08-03T20:40:59+00:00"
+    },
+    {
+      "title": "Mastercard acquires BVNK, strengthens stablecoin and XRP payments push",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5SeV9JX2RlTVZHTzZ3VjgwZFlYenp6cm1VTnRJbXpVcm1rVldSWlVTWXR5YVdKakRiX1BLdTFubWxYSUNmb0VsLUlXcmY4U1NrSDBfQlZpRkllc2VmVE1aV0p5NNIBY0FVX3lxTE5SeV9JX2RlTVZHTzZ3VjgwZFlYenp6cm1VTnRJbXpVcm1rVldSWlVTWXR5YVdKakRiX1BLdTFubWxYSUNmb0VsLUlXcmY4U1NrSDBfQlZpRkllc2VmVE1aV0p5NA?oc=5",
+      "publishedAt": "2026-08-03T20:40:59+00:00"
+    },
+    {
+      "title": "Japanese Financial Giant Holding $42 Billion Worth of XRP Explains the Reason for XRP\u2019s Decline!",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5SenVvSElfOHJ0c05QbFYwSThKS0hpSE51bjFYOVdVMG1Fc2hGcUJHRWRwSm81MWtNNDR0RWE0eXN3Sm14REdNX1lmNXljSngxWnhVTzl4N0FpLUhXT2xzeUxVONIBY0FVX3lxTE5SenVvSElfOHJ0c05QbFYwSThKS0hpSE51bjFYOVdVMG1Fc2hGcUJHRWRwSm81MWtNNDR0RWE0eXN3Sm14REdNX1lmNXljSngxWnhVTzl4N0FpLUhXT2xzeUxVOA?oc=5",
+      "publishedAt": "2026-08-03T20:40:59+00:00"
+    },
+    {
+      "title": "XRP Trendline Signals Key Test Before Bullish Move",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Jb0hxRjhpS2NIaUJxeFRCcXJGSEgtMmxqVmdPX3Zua2ZNcXYzU2hDNGxOR0VHZ3BlNFZmeTNnOEdIaW53ekpNRTBqQW82V1lpNGk0ZFdMUVlzei15MTljN18xVdIBY0FVX3lxTE5Jb0hxRjhpS2NIaUJxeFRCcXJGSEgtMmxqVmdPX3Zua2ZNcXYzU2hDNGxOR0VHZ3BlNFZmeTNnOEdIaW53ekpNRTBqQW82V1lpNGk0ZFdMUVlzei15MTljN18xVQ?oc=5",
+      "publishedAt": "2026-08-03T20:40:59+00:00"
+    }
+  ]
+}
