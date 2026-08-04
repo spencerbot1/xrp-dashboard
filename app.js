@@ -146,10 +146,54 @@ function buildTable(containerId, headers, rows) {
 }
 document.addEventListener('click', (e) => {
   const btn = e.target.closest('.table-toggle[data-table]');
-  if (!btn) return;
-  const view = $('table-' + btn.dataset.table);
-  view.hidden = !view.hidden;
-  btn.textContent = view.hidden ? 'View data' : 'Hide data';
+  if (btn) {
+    const view = $('table-' + btn.dataset.table);
+    view.hidden = !view.hidden;
+    btn.textContent = view.hidden ? 'View data' : 'Hide data';
+    return;
+  }
+  const info = e.target.closest('.info-toggle');
+  if (info) {
+    const panel = $('info-' + info.dataset.info);
+    panel.hidden = !panel.hidden;
+    info.setAttribute('aria-expanded', String(!panel.hidden));
+  }
+});
+
+/* ---------- price chart range state ---------- */
+const priceData = { d7: null, d365: null };
+let priceRange = '7D';
+const RANGE_META = {
+  '7D': { days: 7, label: 'last 7 days, hourly' },
+  '1M': { days: 30, label: 'last 30 days, daily' },
+  '3M': { days: 90, label: 'last 90 days, daily' },
+  '1Y': { days: 365, label: 'last 12 months, daily' },
+};
+
+function priceSeries() {
+  if (priceRange === '7D' && priceData.d7?.length) return priceData.d7;
+  const days = RANGE_META[priceRange]?.days ?? 365;
+  const cutoff = Date.now() - days * 86400e3;
+  return (priceData.d365 || []).filter((p) => p[0] >= cutoff);
+}
+
+function renderPrice() {
+  const series = priceSeries();
+  if (!series.length) return;
+  renderPriceChart(series);
+  $('price-range-label').textContent = RANGE_META[priceRange].label
+    + (priceRange === '7D' && !priceData.d7?.length ? ' (daily fallback)' : '');
+}
+
+$('price-ranges').addEventListener('click', (e) => {
+  const btn = e.target.closest('button[data-range]');
+  if (!btn || btn.dataset.range === priceRange) return;
+  priceRange = btn.dataset.range;
+  for (const b of $('price-ranges').querySelectorAll('button')) {
+    b.classList.toggle('active', b === btn);
+    b.setAttribute('aria-selected', String(b === btn));
+  }
+  renderPrice();
 });
 
 /* ---------- price line chart ---------- */
@@ -171,28 +215,42 @@ function renderPriceChart(prices) {
   const X = (t) => m.left + ((t - xMin) / (xMax - xMin)) * iw;
   const Y = (v) => m.top + ih - ((v - yMin) / (yMax - yMin)) * ih;
 
-  // gridlines + y ticks (clean numbers)
+  // gridlines + y ticks — step adapts to the visible range
   const span = yMax - yMin;
-  const step = span > 2 ? 0.5 : span > 1 ? 0.25 : 0.1;
+  const rawStep = span / 4;
+  const stepMag = Math.pow(10, Math.floor(Math.log10(rawStep)));
+  const step = [1, 2, 2.5, 5, 10].map((mult) => mult * stepMag).find((s) => s >= rawStep) || rawStep;
+  const dp = step < 0.05 ? 3 : 2;
   const first = Math.ceil(yMin / step) * step;
   for (let v = first; v <= yMax; v += step) {
     svg.appendChild(svgEl('line', { x1: m.left, x2: m.left + iw, y1: Y(v), y2: Y(v), stroke: 'var(--grid)', 'stroke-width': 1, 'shape-rendering': 'crispEdges' }));
     const t = svgEl('text', { x: m.left - 8, y: Y(v) + 4, 'text-anchor': 'end', class: 'axis-text', style: 'font-variant-numeric: tabular-nums' });
-    t.textContent = '$' + v.toFixed(2);
+    t.textContent = '$' + v.toFixed(dp);
     svg.appendChild(t);
   }
-  // x labels: ~ every 2 months
-  const seen = new Set();
+  // x labels — density and format adapt to the visible span
+  const spanDays = (xMax - xMin) / 86400e3;
+  const tickEvery = Math.max(1, Math.ceil(spanDays / 6));
+  const seenDays = new Set();
   for (let i = 0; i < xs.length; i += 1) {
+    const dayKey = Math.floor(xs[i] / 86400e3);
+    if (seenDays.has(dayKey)) continue;
+    seenDays.add(dayKey);
+    const dayNum = Math.floor((xs[i] - xMin) / 86400e3);
+    if (dayNum % tickEvery !== 0) continue;
+    if (X(xs[i]) > m.left + iw - 20) continue;
     const d = new Date(xs[i]);
-    const key = d.getFullYear() + '-' + d.getMonth();
-    if (d.getDate() <= 3 && !seen.has(key) && d.getMonth() % 2 === 0) {
-      seen.add(key);
-      const t = svgEl('text', { x: X(xs[i]), y: H - 8, 'text-anchor': 'middle', class: 'axis-text' });
-      t.textContent = d.toLocaleDateString('en-US', { month: 'short' });
-      svg.appendChild(t);
-    }
+    const t = svgEl('text', { x: X(xs[i]), y: H - 8, 'text-anchor': 'middle', class: 'axis-text' });
+    t.textContent = spanDays <= 8
+      ? d.toLocaleDateString('en-US', { weekday: 'short' })
+      : spanDays <= 130
+        ? d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+        : d.toLocaleDateString('en-US', { month: 'short' });
+    svg.appendChild(t);
   }
+  const fmtTitle = (ms) => spanDays <= 8
+    ? new Date(ms).toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit' })
+    : fmtDate(ms);
 
   // area wash + line
   const pts = prices.map((p) => `${X(p[0]).toFixed(1)},${Y(p[1]).toFixed(1)}`);
@@ -223,7 +281,7 @@ function renderPriceChart(prices) {
     cross.setAttribute('visibility', 'visible');
     dot.setAttribute('cx', X(p[0])); dot.setAttribute('cy', Y(p[1]));
     dot.setAttribute('visibility', 'visible');
-    tooltip.show(clientX ?? window.innerWidth / 2, clientY ?? window.innerHeight / 2, fmtDate(p[0]), [
+    tooltip.show(clientX ?? window.innerWidth / 2, clientY ?? window.innerHeight / 2, fmtTitle(p[0]), [
       { label: 'XRP', value: fmtUsd(p[1]), color: 'var(--series-1)' },
     ]);
   };
@@ -251,10 +309,10 @@ function renderPriceChart(prices) {
 
   wrap.appendChild(svg);
 
-  // table view (monthly closes to keep it readable)
+  // table view (monthly closes from the full year, regardless of visible range)
   const monthly = [];
   let lastKey = '';
-  for (const p of prices) {
+  for (const p of (priceData.d365 || prices)) {
     const d = new Date(p[0]);
     const key = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0');
     if (key !== lastKey) { monthly.push([key, p[1], p[1], p[1]]); lastKey = key; }
@@ -1124,6 +1182,12 @@ function renderGovernance(validators, amendments) {
         chip.textContent = 'Majority';
         name.appendChild(chip);
       }
+      if (a.delta7d != null && a.delta7d !== 0) {
+        const chip = document.createElement('span');
+        chip.className = 'q ' + (a.delta7d > 0 ? 'q-delta-up' : 'q-delta-down');
+        chip.textContent = (a.delta7d > 0 ? '+' : '') + a.delta7d + ' this wk';
+        name.appendChild(chip);
+      }
       const votes = document.createElement('span');
       votes.className = 'a-votes';
       votes.textContent = a.count + ' / ' + a.threshold + ' validators';
@@ -1143,6 +1207,13 @@ function renderGovernance(validators, amendments) {
       }
       list.appendChild(row);
     }
+    const note = $('amendment-note');
+    const bits = [];
+    if (amendments.hiddenCount) bits.push(amendments.hiddenCount + ' dormant amendments with zero validator support are hidden');
+    bits.push(amendments.deltaSince
+      ? 'vote changes measured since ' + amendments.deltaSince
+      : 'vote-change tracking started today — weekly deltas will appear as history accumulates');
+    note.textContent = bits.join(' · ');
     const recent = $('recently-enabled');
     recent.replaceChildren();
     if (amendments.recentlyEnabled?.length) {
@@ -1293,6 +1364,11 @@ async function boot() {
     .then((d) => {
       const items = d.cache?.news?.payload;
       if (Array.isArray(items) && items.length) renderNews(items);
+      const p7 = d.cache?.price_history_7d?.payload;
+      if (!priceData.d7?.length && Array.isArray(p7) && p7.length) {
+        priceData.d7 = p7;
+        if (priceRange === '7D') renderPrice();
+      }
       const daily = d.cache?.pipeline_daily?.payload;
       if (Array.isArray(daily) && daily.length) renderPipeline(daily);
       renderGovernance(d.cache?.validators?.payload, d.cache?.amendments?.payload);
@@ -1306,6 +1382,10 @@ async function boot() {
   const marketsP = fetchMarkets().catch(() => null);
   const historyP = fetchPriceHistory().catch(() => null);
   const rlusdHistoryP = fetchRlusdHistory().catch(() => null);
+  fetch('https://api.coingecko.com/api/v3/coins/ripple/market_chart?vs_currency=usd&days=7')
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then((j) => { priceData.d7 = j.prices; if (priceRange === '7D') renderPrice(); })
+    .catch(() => { /* cache fallback below */ });
 
   // XRPL websocket (RLUSD) + ledger pulse in parallel
   const rlusdP = fetchRlusdOnXrpl();
@@ -1336,7 +1416,8 @@ async function boot() {
   }
   if (history) {
     cachedHistory = history;
-    renderPriceChart(history.prices);
+    priceData.d365 = history.prices;
+    renderPrice();
     renderSpark(history.prices);
     renderVolumeChart(history.volumes);
   } else {
@@ -1367,10 +1448,8 @@ let resizeTimer = null;
 window.addEventListener('resize', () => {
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(() => {
-    if (cachedHistory) {
-      renderPriceChart(cachedHistory.prices);
-      renderVolumeChart(cachedHistory.volumes);
-    }
+    renderPrice();
+    if (cachedHistory) renderVolumeChart(cachedHistory.volumes);
     if (cachedRlusdHistory) renderRlusdChart(cachedRlusdHistory);
     if (curatedData) renderMonthlyChart(curatedData.monthly);
   }, 200);

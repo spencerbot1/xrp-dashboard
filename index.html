@@ -50,20 +50,29 @@
     <div class="tile">
       <div class="tile-label">RLUSD on XRPL <span class="q q-live">Live</span></div>
       <div class="tile-value" id="kpi-rlusd">—</div>
-      <div class="tile-note" id="kpi-rlusd-note"></div>
+      <div class="tile-note" id="kpi-rlusd-note">Issuer obligations, validated ledger</div>
     </div>
   </section>
 
-  <!-- Row: price chart + score -->
+  <!-- 1. Market: price + score -->
   <section class="grid-main">
     <article class="card">
       <div class="card-head">
         <div>
-          <h2>XRP price — last 12 months</h2>
-          <p class="card-sub">Daily close, USD · CoinGecko</p>
+          <h2>XRP price <button class="info-toggle" data-info="price" aria-expanded="false" title="Why this matters">i</button></h2>
+          <p class="card-sub">USD · CoinGecko · <span id="price-range-label">last 7 days, hourly</span></p>
         </div>
-        <button class="table-toggle" data-table="price">View data</button>
+        <div class="card-actions">
+          <div class="range-tabs" id="price-ranges" role="tablist" aria-label="Price chart range">
+            <button data-range="7D" class="active" role="tab" aria-selected="true">7D</button>
+            <button data-range="1M" role="tab" aria-selected="false">1M</button>
+            <button data-range="3M" role="tab" aria-selected="false">3M</button>
+            <button data-range="1Y" role="tab" aria-selected="false">1Y</button>
+          </div>
+          <button class="table-toggle" data-table="price">View data</button>
+        </div>
       </div>
+      <div class="card-info" id="info-price" hidden>Market price sets the fiat value of everything else on this page. The default 7-day view is hourly for short-term structure; longer ranges use daily closes. The range selector affects only this chart.</div>
       <div class="chart-wrap" id="chart-price"><div class="chart-empty">Loading market data…</div></div>
       <div class="table-view" id="table-price" hidden></div>
     </article>
@@ -71,10 +80,11 @@
     <article class="card score-card">
       <div class="card-head">
         <div>
-          <h2>Fundamentals score <span class="q q-est" id="score-quality">Estimate</span></h2>
+          <h2>Fundamentals score <span class="q q-est" id="score-quality">Estimate</span> <button class="info-toggle" data-info="score" aria-expanded="false" title="Why this matters">i</button></h2>
           <p class="card-sub">Price momentum · liquidity · RLUSD adoption · ledger activity</p>
         </div>
       </div>
+      <div class="card-info" id="info-score" hidden>One number summarizing four measurable health signals, each scored 0–25 against fixed benchmarks. It answers "is the XRP ecosystem healthier than last time I looked?" without reading every chart. Computed fresh from live data on every page load — the breakdown below shows exactly where the points come from.</div>
       <div class="hero-figure" id="score-value">—</div>
       <div class="meter" role="img" aria-label="Fundamentals score out of 100">
         <div class="meter-track"><div class="meter-fill" id="score-fill"></div></div>
@@ -85,28 +95,72 @@
     </article>
   </section>
 
-  <!-- Row: monthly volume + RLUSD -->
+  <!-- 2. Measured on-ledger volume (the pipeline) -->
   <section class="grid-main">
     <article class="card">
       <div class="card-head">
         <div>
-          <h2>Monthly XRP payment volume</h2>
-          <p class="card-sub">Billions of XRP delivered · <span class="q q-est">Curated estimate</span> pending XRPL pipeline</p>
+          <h2>On-ledger payment volume — daily <span class="q q-live">Measured</span> <button class="info-toggle" data-info="pipeline" aria-expanded="false" title="Why this matters">i</button></h2>
+          <p class="card-sub">Every validated ledger, classified · accumulating since Aug 4, 2026</p>
         </div>
-        <button class="table-toggle" data-table="monthly">View data</button>
+        <button class="table-toggle" data-table="pipeline">View data</button>
       </div>
-      <div class="legend" id="legend-monthly"></div>
-      <div class="chart-wrap" id="chart-monthly"><div class="chart-empty">Loading…</div></div>
-      <div class="table-view" id="table-monthly" hidden></div>
+      <div class="card-info" id="info-pipeline" hidden>The headline question for XRP: is it actually being used to settle value? Gross volume counts every XRP delivered; <strong>adjusted volume</strong> (blue) removes same-entity shuffling and Ripple treasury moves to isolate real economic settlement — the number that one-figure "settlement volume" claims usually overstate.</div>
+      <div class="legend" id="legend-pipeline"></div>
+      <div class="chart-wrap short" id="chart-pipeline"><div class="chart-empty">Waiting for pipeline data…</div></div>
+      <div class="table-view" id="table-pipeline" hidden></div>
     </article>
 
     <article class="card">
       <div class="card-head">
         <div>
-          <h2>RLUSD</h2>
+          <h2>Ingestion pipeline <button class="info-toggle" data-info="pipeinfo" aria-expanded="false" title="How this works">i</button></h2>
+          <p class="card-sub">XRPL full coverage → entity classification → daily rollup</p>
+        </div>
+      </div>
+      <div class="card-info" id="info-pipeinfo" hidden>A worker walks every validated ledger (QuickNode full-coverage mode), classifies each successful XRP payment against XRPSCAN's registry of 2,772 known wallets, and rolls up daily metrics. Days ingested before full coverage began are extrapolated from their sample and labeled with their coverage percentage.</div>
+      <div class="pulse-stats" id="pipeline-stats"></div>
+      <p class="score-note">Unique senders shows "≥" while a day's coverage is below 90%.</p>
+    </article>
+  </section>
+
+  <!-- 3. Movers: whales + news -->
+  <section class="grid-main">
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>Whale watch <span class="q q-live">Measured</span> <button class="info-toggle" data-info="whales" aria-expanded="false" title="Why this matters">i</button></h2>
+          <p class="card-sub">Largest XRP payments (≥500K) in the last 24h · entity-labeled</p>
+        </div>
+      </div>
+      <div class="card-info" id="info-whales" hidden>Single large transfers often precede or explain market moves: exchange inflows can signal selling intent, outflows signal accumulation, and treasury moves fuel supply narratives. Entity labels separate meaningful transfers from internal exchange housekeeping.</div>
+      <div class="whale-list" id="whale-list"></div>
+      <p class="score-note">Entity names from XRPSCAN's registry; unlabeled addresses are truncated.</p>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>XRP in the news <button class="info-toggle" data-info="news" aria-expanded="false" title="Why this matters">i</button></h2>
+          <p class="card-sub">Market-relevant stories from the last 72 hours · Google News</p>
+        </div>
+      </div>
+      <div class="card-info" id="info-news" hidden>Crypto prices react to headlines faster than to fundamentals. The feed is relevance-filtered to XRP/RLUSD/Ripple stories and hard-capped at 72 hours, so everything here is still actionable context for what the charts are doing.</div>
+      <ul class="news-list" id="news-list"></ul>
+      <p class="score-note" id="news-note"></p>
+    </article>
+  </section>
+
+  <!-- 4. RLUSD + supply/DeFi -->
+  <section class="grid-main">
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>RLUSD <button class="info-toggle" data-info="rlusd" aria-expanded="false" title="Why this matters">i</button></h2>
           <p class="card-sub">Ripple USD stablecoin · on-ledger vs cross-chain</p>
         </div>
       </div>
+      <div class="card-info" id="info-rlusd" hidden>RLUSD is the clearest leading indicator of institutional XRPL adoption: stablecoin supply only grows when someone deposits real dollars. The XRPL share matters because RLUSD also lives on Ethereum — only the on-ledger portion drives XRPL activity.</div>
       <div class="rlusd-stats">
         <div class="ministat">
           <div class="tile-label">Issued on XRPL <span class="q q-live">Live</span></div>
@@ -131,98 +185,92 @@
       </div>
       <div class="chart-wrap mini" id="chart-rlusd"></div>
       <div class="table-view" id="table-rlusd" hidden></div>
-      <p class="score-note">On-ledger supply read from the issuer account via <code>gateway_balances</code>; total (all chains) from CoinGecko market cap of the $1 stablecoin. Cross-chain supply is never presented as XRPL-only.</p>
-    </article>
-  </section>
-
-  <!-- Row: ingestion pipeline (measured daily volume) -->
-  <section class="grid-main">
-    <article class="card">
-      <div class="card-head">
-        <div>
-          <h2>On-ledger payment volume — daily <span class="q q-live">Measured</span></h2>
-          <p class="card-sub">Extrapolated from sampled validated ledgers · accumulating since Aug 4, 2026</p>
-        </div>
-        <button class="table-toggle" data-table="pipeline">View data</button>
-      </div>
-      <div class="legend" id="legend-pipeline"></div>
-      <div class="chart-wrap short" id="chart-pipeline"><div class="chart-empty">Waiting for pipeline data…</div></div>
-      <div class="table-view" id="table-pipeline" hidden></div>
     </article>
 
     <article class="card">
       <div class="card-head">
         <div>
-          <h2>Ingestion pipeline</h2>
-          <p class="card-sub">XRPL sampling → entity classification → daily rollup</p>
+          <h2>Supply &amp; DeFi <span class="q q-live">Live</span> <button class="info-toggle" data-info="defi" aria-expanded="false" title="Why this matters">i</button></h2>
+          <p class="card-sub">Two supply-side forces: scheduled unlocks and on-ledger liquidity</p>
         </div>
       </div>
-      <div class="pulse-stats" id="pipeline-stats"></div>
-      <p class="score-note">A Supabase edge function samples ~40 validated ledgers every 10 minutes (~25% daily coverage), classifies every successful XRP payment against XRPSCAN's registry of 2,772 known wallets, and rolls up daily metrics. <strong>Adjusted volume</strong> excludes same-entity transfers and Ripple treasury moves. Daily totals are extrapolated from coverage and labeled as such — swap in QuickNode Streams for 100% coverage without changing this dashboard.</p>
-    </article>
-  </section>
-
-  <!-- Row: whale watch + supply/DeFi -->
-  <section class="grid-main">
-    <article class="card">
-      <div class="card-head">
-        <div>
-          <h2>Whale watch <span class="q q-live">Measured</span></h2>
-          <p class="card-sub">Largest XRP payments (≥500K) in sampled ledgers, last 24h · entity-labeled</p>
-        </div>
-      </div>
-      <div class="whale-list" id="whale-list"></div>
-      <p class="score-note">From the ~25% ledger sample — a payment in an unsampled ledger won't appear. Entity names from XRPSCAN's registry; unlabeled addresses are truncated.</p>
-    </article>
-
-    <article class="card">
-      <div class="card-head">
-        <div>
-          <h2>Supply &amp; DeFi <span class="q q-live">Live</span></h2>
-          <p class="card-sub">Ripple escrow calendar · XRPL AMM liquidity</p>
-        </div>
-      </div>
+      <div class="card-info" id="info-defi" hidden><strong>Escrow</strong>: Ripple locked most of its XRP in on-ledger escrows that release on a fixed schedule (~1B per month). Unlocks are predictable new supply — markets often trade around unlock dates, and "released" does not mean "sold" (most is typically re-escrowed). <strong>AMM liquidity</strong>: XRP pooled in the ledger's native automated market makers — a measure of how much can be traded on-ledger without moving the price, and where RLUSD's DeFi footprint shows up.</div>
+      <h3 class="subsection">Ripple escrow — scheduled supply</h3>
       <div class="pulse-stats" id="escrow-stats"></div>
+      <div class="subchart-head"><span class="subchart-title">Upcoming unlocks (XRP)</span></div>
       <div class="unlock-list" id="unlock-list"></div>
+      <h3 class="subsection">AMM liquidity — on-ledger depth</h3>
       <div class="pulse-stats amm-stats" id="amm-stats"></div>
       <p class="score-note" id="defi-note"></p>
     </article>
   </section>
 
-  <!-- Row: governance — amendments + validators -->
+  <!-- 5. Governance -->
   <section class="grid-main">
     <article class="card">
       <div class="card-head">
         <div>
-          <h2>Amendments — voting now <span class="q q-live">Live</span></h2>
+          <h2>Amendments — voting now <span class="q q-live">Live</span> <button class="info-toggle" data-info="amendments" aria-expanded="false" title="Why this matters">i</button></h2>
           <p class="card-sub">Validator support toward the 80% threshold · enabled 2 weeks after majority holds</p>
         </div>
       </div>
+      <div class="card-info" id="info-amendments" hidden>Amendments are XRPL protocol upgrades — new features like lending, vaults or batch transactions. Each needs 28 of the 35 trusted validators voting yes for two continuous weeks. Vote momentum (the "this wk" chips) shows which features are gaining support; a majority chip starts a two-week activation countdown.</div>
       <div class="amendment-list" id="amendment-list"></div>
+      <p class="score-note" id="amendment-note"></p>
       <div class="recently-enabled" id="recently-enabled"></div>
     </article>
 
     <article class="card">
       <div class="card-head">
         <div>
-          <h2>Validators <span class="q q-live">Live</span></h2>
+          <h2>Validators <span class="q q-live">Live</span> <button class="info-toggle" data-info="validators" aria-expanded="false" title="Why this matters">i</button></h2>
           <p class="card-sub">Mainnet consensus network · XRPSCAN registry</p>
         </div>
         <button class="table-toggle" data-table="unl">View UNL</button>
       </div>
+      <div class="card-info" id="info-validators" hidden>The validator network is XRPL's security and decentralization story. The UNL (Unique Node List) is the 35-validator set trusted by default — amendments need 80% of them. The version spread shows how fast operators upgrade, which gates when new amendments can even be voted on.</div>
       <div class="pulse-stats" id="validator-stats"></div>
       <div class="version-bars" id="version-bars"></div>
       <div class="table-view" id="table-unl" hidden></div>
-      <p class="score-note">The UNL (Unique Node List) is the validator set trusted by default — amendments need 80% support from these 35 for two continuous weeks to activate.</p>
     </article>
   </section>
 
-  <!-- Row: live ledger pulse + sources -->
+  <!-- 6. Historical context -->
   <section class="grid-main">
     <article class="card">
       <div class="card-head">
         <div>
-          <h2>Live ledger pulse</h2>
+          <h2>Exchange trading volume — last 12 months <button class="info-toggle" data-info="volume" aria-expanded="false" title="Why this matters">i</button></h2>
+          <p class="card-sub">Weekly totals, USD · CoinGecko <span class="q q-live">Live</span></p>
+        </div>
+        <button class="table-toggle" data-table="volume">View data</button>
+      </div>
+      <div class="card-info" id="info-volume" hidden>Exchange turnover is conviction context for the price chart: moves on heavy volume are meaningful; moves on thin volume fade. Spikes usually mark capitulation or breakout events.</div>
+      <div class="chart-wrap" id="chart-volume"><div class="chart-empty">Loading market data…</div></div>
+      <div class="table-view" id="table-volume" hidden></div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>Monthly XRP payment volume <button class="info-toggle" data-info="monthly" aria-expanded="false" title="What this is">i</button></h2>
+          <p class="card-sub">Billions of XRP delivered · <span class="q q-est">Curated estimate</span></p>
+        </div>
+        <button class="table-toggle" data-table="monthly">View data</button>
+      </div>
+      <div class="card-info" id="info-monthly" hidden>A hand-curated 12-month baseline shown for shape, not precision — it predates the measured pipeline above. As the pipeline accumulates full months of real data, this card gets replaced month by month with measured values.</div>
+      <div class="legend" id="legend-monthly"></div>
+      <div class="chart-wrap" id="chart-monthly"><div class="chart-empty">Loading…</div></div>
+      <div class="table-view" id="table-monthly" hidden></div>
+    </article>
+  </section>
+
+  <!-- 7. Misc: pulse + sources -->
+  <section class="grid-main">
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>Live ledger pulse <button class="info-toggle" data-info="pulse" aria-expanded="false" title="What this is">i</button></h2>
           <p class="card-sub" id="pulse-sub">Successful XRP payments per validated ledger · sampled just now</p>
         </div>
         <div class="card-actions">
@@ -230,35 +278,10 @@
           <button class="table-toggle" id="pulse-refresh">Resample</button>
         </div>
       </div>
+      <div class="card-info" id="info-pulse" hidden>A raw ~40-second window of the ledger right now — the heartbeat behind all the daily aggregates above. Useful for "is the network busy at this moment", not for trends.</div>
       <div class="pulse-stats" id="pulse-stats"></div>
       <div class="chart-wrap short" id="chart-pulse"><div class="chart-empty">Sampling recent ledgers…</div></div>
       <div class="table-view" id="table-pulse" hidden></div>
-    </article>
-
-    <article class="card">
-      <div class="card-head">
-        <div>
-          <h2>XRP in the news</h2>
-          <p class="card-sub">Market-relevant stories from the last 72 hours · Google News</p>
-        </div>
-      </div>
-      <ul class="news-list" id="news-list"></ul>
-      <p class="score-note" id="news-note"></p>
-    </article>
-  </section>
-
-  <!-- Row: volume history + sources -->
-  <section class="grid-main">
-    <article class="card">
-      <div class="card-head">
-        <div>
-          <h2>Exchange trading volume — last 12 months</h2>
-          <p class="card-sub">Weekly totals, USD · CoinGecko <span class="q q-live">Live</span></p>
-        </div>
-        <button class="table-toggle" data-table="volume">View data</button>
-      </div>
-      <div class="chart-wrap" id="chart-volume"><div class="chart-empty">Loading market data…</div></div>
-      <div class="table-view" id="table-volume" hidden></div>
     </article>
 
     <article class="card">
@@ -270,10 +293,10 @@
       </div>
       <ul class="sources">
         <li><span class="q q-live">Live</span><div><strong>CoinGecko API</strong> — price, market cap, volume, 12-month history, RLUSD supply. Free tier, no key.</div></li>
-        <li><span class="q q-live">Live</span><div><strong>XRPL Cluster</strong> (xrplcluster.com) — validated ledgers with expanded transactions; payment volume computed from <code>delivered_amount</code> metadata, successful non-self payments only.</div></li>
-        <li><span class="q q-live">Live</span><div><strong>s1.ripple.com</strong> (WebSocket) — RLUSD issuer obligations via <code>gateway_balances</code>.</div></li>
-        <li><span class="q q-live">Live</span><div><strong>Google News RSS</strong> — XRP/RLUSD headlines fetched by <code>scripts/refresh_data.py</code>, relevance-filtered, and re-filtered to a 72-hour window at view time.</div></li>
-        <li><span class="q q-est">Estimate</span><div><strong>Curated baseline</strong> (<code>data/dashboard.json</code>) — monthly volume series. Replace with the QuickNode → Supabase pipeline output when it's running; the file format is already pipeline-compatible.</div></li>
+        <li><span class="q q-live">Live</span><div><strong>XRP Ledger</strong> (QuickNode full-history, s1.ripple.com fallback) — every validated ledger with expanded transactions; payment volume computed from <code>delivered_amount</code> metadata, successful non-self payments only. RLUSD issuer obligations via <code>gateway_balances</code>.</div></li>
+        <li><span class="q q-live">Live</span><div><strong>XRPSCAN API</strong> — entity registry (2,772 wallets), validator registry, amendments, AMM pools.</div></li>
+        <li><span class="q q-live">Live</span><div><strong>Google News RSS</strong> — XRP/RLUSD headlines, relevance-filtered, re-checked against the 72-hour window at view time.</div></li>
+        <li><span class="q q-est">Estimate</span><div><strong>Curated baseline</strong> (<code>data/dashboard.json</code>) — monthly volume series only, pending a year of pipeline data.</div></li>
       </ul>
       <p class="score-note">Adjusted volume excludes exchange-internal, treasury and self transfers per the classification methodology. Estimates are shown as estimates — one precise-looking number would overstate the analysis.</p>
     </article>
