@@ -21,6 +21,9 @@
     </div>
   </header>
 
+  <!-- alerts banner (hidden unless a rule is tripping) -->
+  <section class="alerts-banner" id="alerts-banner" hidden></section>
+
   <!-- KPI row — live data -->
   <section class="kpi-row" aria-label="Key metrics">
     <div class="tile" id="tile-price">
@@ -156,6 +159,33 @@
       </div>
       <div class="pulse-stats" id="pipeline-stats"></div>
       <p class="score-note">A Supabase edge function samples ~40 validated ledgers every 10 minutes (~25% daily coverage), classifies every successful XRP payment against XRPSCAN's registry of 2,772 known wallets, and rolls up daily metrics. <strong>Adjusted volume</strong> excludes same-entity transfers and Ripple treasury moves. Daily totals are extrapolated from coverage and labeled as such — swap in QuickNode Streams for 100% coverage without changing this dashboard.</p>
+    </article>
+  </section>
+
+  <!-- Row: whale watch + supply/DeFi -->
+  <section class="grid-main">
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>Whale watch <span class="q q-live">Measured</span></h2>
+          <p class="card-sub">Largest XRP payments (≥500K) in sampled ledgers, last 24h · entity-labeled</p>
+        </div>
+      </div>
+      <div class="whale-list" id="whale-list"></div>
+      <p class="score-note">From the ~25% ledger sample — a payment in an unsampled ledger won't appear. Entity names from XRPSCAN's registry; unlabeled addresses are truncated.</p>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>Supply &amp; DeFi <span class="q q-live">Live</span></h2>
+          <p class="card-sub">Ripple escrow calendar · XRPL AMM liquidity</p>
+        </div>
+      </div>
+      <div class="pulse-stats" id="escrow-stats"></div>
+      <div class="unlock-list" id="unlock-list"></div>
+      <div class="pulse-stats amm-stats" id="amm-stats"></div>
+      <p class="score-note" id="defi-note"></p>
     </article>
   </section>
 

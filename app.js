@@ -885,12 +885,19 @@ function renderPipeline(days) {
 
   const stats = $('pipeline-stats');
   stats.replaceChildren();
-  for (const s of [
+  const rows = [
     { v: fmtNum(Number(latest.est_daily_gross)) + ' XRP', l: 'est. gross today' },
     { v: ((Number(latest.xrp_adjusted) / Number(latest.xrp_gross)) * 100).toFixed(1) + '%', l: 'adjusted (economic) share' },
     { v: (Number(latest.coverage) * 100).toFixed(1) + '%', l: 'of ledgers sampled today' },
     { v: fmtNum(Number(latest.rlusd_volume)) + ' RLUSD', l: 'sampled RLUSD payments' },
-  ]) {
+  ];
+  if (latest.est_daily_fee_burn != null) {
+    rows.push({ v: fmtNum(Number(latest.est_daily_fee_burn)) + ' XRP', l: 'est. fees burned/day' });
+  }
+  if (latest.est_daily_accounts != null) {
+    rows.push({ v: fmtNum(Number(latest.est_daily_accounts)), l: 'est. new accounts/day' });
+  }
+  for (const s of rows) {
     const div = document.createElement('div');
     div.className = 'pulse-stat';
     const v = document.createElement('div'); v.className = 'v'; v.textContent = s.v;
@@ -983,6 +990,114 @@ function renderPipeline(days) {
       fmtNum(Number(d.est_daily_adjusted)),
       fmtNum(Number(d.rlusd_volume)),
     ]));
+}
+
+/* ---------- alerts, whales, supply & DeFi ---------- */
+function shortAddr(a) { return a ? a.slice(0, 6) + '…' + a.slice(-4) : '?'; }
+function agoLabel(iso) {
+  const h = (Date.now() - new Date(iso).getTime()) / 3600000;
+  return h < 1 ? Math.max(1, Math.round(h * 60)) + ' min ago' : h < 24 ? Math.round(h) + 'h ago' : Math.round(h / 24) + 'd ago';
+}
+
+function renderAlerts(alerts) {
+  const banner = $('alerts-banner');
+  const active = alerts?.active || [];
+  if (!active.length) { banner.hidden = true; return; }
+  banner.replaceChildren();
+  for (const a of active) {
+    const item = document.createElement('div');
+    item.className = 'alert-item' + (a.severity === 'notable' ? ' notable' : '');
+    const t = document.createElement('span'); t.className = 'al-title'; t.textContent = a.title;
+    const d = document.createElement('span'); d.className = 'al-detail'; d.textContent = a.detail;
+    item.append(t, d);
+    banner.appendChild(item);
+  }
+  banner.hidden = false;
+}
+
+function renderWhales(whales) {
+  const list = $('whale-list');
+  list.replaceChildren();
+  if (!Array.isArray(whales) || !whales.length) {
+    const div = document.createElement('div');
+    div.className = 'whale-empty';
+    div.textContent = 'No payments ≥500K XRP in the sampled ledgers over the last 24 hours.';
+    list.appendChild(div);
+    return;
+  }
+  for (const w of whales) {
+    const row = document.createElement('div');
+    row.className = 'whale-row';
+    const amt = document.createElement('span');
+    amt.className = 'whale-amt';
+    amt.textContent = fmtNum(Number(w.amount_xrp)) + ' XRP';
+    const route = document.createElement('span');
+    route.className = 'whale-route';
+    const from = document.createElement('strong');
+    from.textContent = w.source_entity || shortAddr(w.source);
+    const arrow = document.createElement('span');
+    arrow.className = 'arrow';
+    arrow.textContent = '→';
+    const to = document.createElement('strong');
+    to.textContent = w.dest_entity || shortAddr(w.destination);
+    route.append(from, arrow, to);
+    const when = document.createElement('span');
+    when.className = 'whale-when';
+    when.textContent = agoLabel(w.close_time) + ' · #' + Number(w.ledger_index).toLocaleString('en-US');
+    row.append(amt, route, when);
+    list.appendChild(row);
+  }
+}
+
+function renderSupplyDefi(escrow, amm) {
+  if (escrow) {
+    const stats = $('escrow-stats');
+    stats.replaceChildren();
+    for (const s of [
+      { v: fmtNum(escrow.totalXrp) + ' XRP', l: 'locked in Ripple escrow' },
+      { v: escrow.nextUnlock ? fmtNum(escrow.nextUnlock.amount) : '—', l: escrow.nextUnlock ? 'unlocks ' + escrow.nextUnlock.date : 'no scheduled unlock' },
+    ]) {
+      const div = document.createElement('div');
+      div.className = 'pulse-stat';
+      const v = document.createElement('div'); v.className = 'v'; v.textContent = s.v;
+      const l = document.createElement('div'); l.className = 'l'; l.textContent = s.l;
+      div.append(v, l);
+      stats.appendChild(div);
+    }
+    const list = $('unlock-list');
+    list.replaceChildren();
+    const upcoming = (escrow.upcoming || []).slice(0, 5);
+    const maxAmt = Math.max(...upcoming.map((u) => u.amount), 1);
+    for (const u of upcoming) {
+      const row = document.createElement('div');
+      row.className = 'unlock-row';
+      const d = document.createElement('span'); d.className = 'u-date'; d.textContent = u.date;
+      const track = document.createElement('div'); track.className = 'u-track';
+      const fill = document.createElement('i');
+      fill.style.width = Math.max(4, (u.amount / maxAmt) * 100).toFixed(0) + '%';
+      track.appendChild(fill);
+      const amt = document.createElement('span'); amt.className = 'u-amt'; amt.textContent = fmtNum(u.amount);
+      row.append(d, track, amt);
+      list.appendChild(row);
+    }
+  }
+  if (amm) {
+    const stats = $('amm-stats');
+    stats.replaceChildren();
+    for (const s of [
+      { v: String(amm.poolCount), l: 'AMM pools' },
+      { v: fmtNum(amm.xrpTvl) + ' XRP', l: 'XRP-side liquidity' },
+      { v: amm.rlusdPool ? fmtNum(amm.rlusdPool.xrp) + ' XRP' : '—', l: amm.rlusdPool ? 'RLUSD/XRP pool · ' + amm.rlusdPool.feePct.toFixed(2) + '% fee' : 'RLUSD pool not found' },
+    ]) {
+      const div = document.createElement('div');
+      div.className = 'pulse-stat';
+      const v = document.createElement('div'); v.className = 'v'; v.textContent = s.v;
+      const l = document.createElement('div'); l.className = 'l'; l.textContent = s.l;
+      div.append(v, l);
+      stats.appendChild(div);
+    }
+    $('defi-note').textContent = 'Escrow scanned from Ripple-registry accounts every 6h; AMM pools from XRPSCAN. Unlocked escrow is releasable, not necessarily sold.';
+  }
 }
 
 /* ---------- governance: amendments + validators ---------- */
@@ -1174,6 +1289,9 @@ async function boot() {
       const daily = d.cache?.pipeline_daily?.payload;
       if (Array.isArray(daily) && daily.length) renderPipeline(daily);
       renderGovernance(d.cache?.validators?.payload, d.cache?.amendments?.payload);
+      renderAlerts(d.cache?.alerts?.payload);
+      renderWhales(d.cache?.whales?.payload);
+      renderSupplyDefi(d.cache?.escrow?.payload, d.cache?.amm?.payload);
     })
     .catch(() => { /* dashboard.json news already rendered */ });
 
