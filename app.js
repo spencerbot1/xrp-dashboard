@@ -985,6 +985,94 @@ function renderPipeline(days) {
     ]));
 }
 
+/* ---------- governance: amendments + validators ---------- */
+function renderGovernance(validators, amendments) {
+  if (amendments) {
+    const list = $('amendment-list');
+    list.replaceChildren();
+    for (const a of amendments.voting || []) {
+      const row = document.createElement('div');
+      row.className = 'amendment';
+      const name = document.createElement('span');
+      name.className = 'a-name';
+      name.textContent = a.name;
+      if (a.majority) {
+        const chip = document.createElement('span');
+        chip.className = 'q q-live';
+        chip.textContent = 'Majority';
+        name.appendChild(chip);
+      }
+      const votes = document.createElement('span');
+      votes.className = 'a-votes';
+      votes.textContent = a.count + ' / ' + a.threshold + ' validators';
+      const bar = document.createElement('div');
+      bar.className = 'a-bar';
+      const fill = document.createElement('i');
+      fill.style.width = Math.min(100, (a.count / a.threshold) * 100).toFixed(0) + '%';
+      if (a.majority) fill.className = 'majority';
+      bar.appendChild(fill);
+      row.append(name, votes, bar);
+      if (a.majority) {
+        const eta = new Date(new Date(a.majority).getTime() + 14 * 86400_000);
+        const meta = document.createElement('span');
+        meta.className = 'a-meta';
+        meta.textContent = 'Majority held since ' + fmtDate(new Date(a.majority).getTime()) + ' — activates ~' + fmtDate(eta.getTime()) + ' if support holds';
+        row.appendChild(meta);
+      }
+      list.appendChild(row);
+    }
+    const recent = $('recently-enabled');
+    recent.replaceChildren();
+    if (amendments.recentlyEnabled?.length) {
+      const strong = document.createElement('strong');
+      strong.textContent = 'Recently enabled: ';
+      recent.appendChild(strong);
+      recent.appendChild(document.createTextNode(
+        amendments.recentlyEnabled.map((r) => r.name + ' (' + String(r.enabledOn).slice(0, 10) + ')').join(' · ')
+      ));
+    }
+  }
+
+  if (validators) {
+    const stats = $('validator-stats');
+    stats.replaceChildren();
+    const topVer = validators.versions?.[0];
+    for (const s of [
+      { v: String(validators.unlCount), l: 'UNL validators' },
+      { v: String(validators.total), l: 'total on mainnet' },
+      { v: topVer ? ((topVer[1] / validators.total) * 100).toFixed(0) + '%' : '—', l: topVer ? 'on rippled ' + topVer[0] : '' },
+    ]) {
+      const div = document.createElement('div');
+      div.className = 'pulse-stat';
+      const v = document.createElement('div'); v.className = 'v'; v.textContent = s.v;
+      const l = document.createElement('div'); l.className = 'l'; l.textContent = s.l;
+      div.append(v, l);
+      stats.appendChild(div);
+    }
+    const bars = $('version-bars');
+    bars.replaceChildren();
+    const maxN = validators.versions?.[0]?.[1] || 1;
+    for (const [ver, n] of validators.versions || []) {
+      const row = document.createElement('div');
+      row.className = 'vbar';
+      const name = document.createElement('span'); name.className = 'v-name'; name.textContent = ver;
+      const track = document.createElement('div'); track.className = 'v-track';
+      const fill = document.createElement('i');
+      fill.style.width = ((n / maxN) * 100).toFixed(0) + '%';
+      track.appendChild(fill);
+      const count = document.createElement('span'); count.className = 'v-count'; count.textContent = String(n);
+      row.append(name, track, count);
+      bars.appendChild(row);
+    }
+    buildTable('table-unl', ['Domain', 'Version', 'Last seen (UTC)'],
+      (validators.unl || []).map((u) => [
+        u.domain || '(no domain)',
+        u.version || '—',
+        String(u.lastSeen || '').replace('T', ' ').slice(0, 16),
+      ]));
+  }
+}
+
 /* ---------- news (72-hour window enforced at view time) ---------- */
 function renderNews(news) {
   const list = $('news-list');
@@ -1085,6 +1173,7 @@ async function boot() {
       if (Array.isArray(items) && items.length) renderNews(items);
       const daily = d.cache?.pipeline_daily?.payload;
       if (Array.isArray(daily) && daily.length) renderPipeline(daily);
+      renderGovernance(d.cache?.validators?.payload, d.cache?.amendments?.payload);
     })
     .catch(() => { /* dashboard.json news already rendered */ });
 
