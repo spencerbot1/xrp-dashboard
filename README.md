@@ -45,6 +45,24 @@ The published claude.ai artifact reads this cache live through the viewer's
 Supabase connector (`window.claude.mcp` → `execute_sql`) and falls back to its
 baked snapshot when the connector isn't available.
 
+## XRPL ingestion pipeline (sampling variant)
+
+The free-tier implementation of the QuickNode → Supabase design, running since
+Aug 4, 2026:
+
+- `xrpl_entities` — 2,772 known wallets from XRPSCAN's well-known registry
+  (refreshed weekly); same name = same entity; typed ripple / exchange / service.
+- Edge function `xrpl-ingest` (cron, every 10 min) cursor-walks ~40 validated
+  ledgers, classifies every successful XRP payment (`delivered_amount`,
+  `tesSUCCESS`, non-self), tracks RLUSD IOU payments, writes per-ledger
+  aggregates to `xrpl_ledger_stats`.
+- `xrpl_rollup_daily()` aggregates into `xrpl_daily_metrics` and publishes the
+  last 30 days as the `pipeline_daily` cache key. Coverage ≈ 25% of ledgers/day;
+  daily totals are extrapolated by coverage and labeled as estimates.
+- **Adjusted volume** = gross − same-entity transfers − Ripple treasury moves,
+  per the original methodology. Unique-sender counts and full coverage are the
+  QuickNode upgrade (~$49/mo) — the schema and dashboards need no changes.
+
 Methodology notes (per the design conversation):
 
 - Payment volume uses `delivered_amount` from transaction **metadata**, never the
