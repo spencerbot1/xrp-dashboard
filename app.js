@@ -879,6 +879,112 @@ function renderRlusdChart(history) {
     monthly.map((r) => [r[0], Math.round(r[1]).toLocaleString('en-US')]));
 }
 
+/* ---------- ingestion pipeline (measured daily volume) ---------- */
+function renderPipeline(days) {
+  const latest = days[days.length - 1];
+
+  const stats = $('pipeline-stats');
+  stats.replaceChildren();
+  for (const s of [
+    { v: fmtNum(Number(latest.est_daily_gross)) + ' XRP', l: 'est. gross today' },
+    { v: ((Number(latest.xrp_adjusted) / Number(latest.xrp_gross)) * 100).toFixed(1) + '%', l: 'adjusted (economic) share' },
+    { v: (Number(latest.coverage) * 100).toFixed(1) + '%', l: 'of ledgers sampled today' },
+    { v: fmtNum(Number(latest.rlusd_volume)) + ' RLUSD', l: 'sampled RLUSD payments' },
+  ]) {
+    const div = document.createElement('div');
+    div.className = 'pulse-stat';
+    const v = document.createElement('div'); v.className = 'v'; v.textContent = s.v;
+    const l = document.createElement('div'); l.className = 'l'; l.textContent = s.l;
+    div.append(v, l);
+    stats.appendChild(div);
+  }
+
+  const legend = $('legend-pipeline');
+  legend.replaceChildren();
+  for (const item of [
+    { label: 'Adjusted (economic), est. daily', color: 'var(--series-1)' },
+    { label: 'Excluded — same-entity + Ripple treasury', color: 'var(--deemph)' },
+  ]) {
+    const li = document.createElement('span');
+    li.className = 'legend-item';
+    const sw = document.createElement('span');
+    sw.className = 'legend-swatch';
+    sw.style.background = item.color;
+    li.append(sw, document.createTextNode(item.label));
+    legend.appendChild(li);
+  }
+
+  const wrap = $('chart-pipeline');
+  wrap.replaceChildren();
+  const W = wrap.clientWidth || 640;
+  const H = wrap.clientHeight || 220;
+  const m = { top: 18, right: 12, bottom: 26, left: 52 };
+  const iw = W - m.left - m.right;
+  const ih = H - m.top - m.bottom;
+  const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': 'Estimated daily on-ledger XRP payment volume, adjusted vs excluded' });
+
+  const view = days.slice(-30);
+  const maxV = Math.max(...view.map((d) => Number(d.est_daily_gross) || 0), 1);
+  const ticks = niceTicks(maxV, 3);
+  const yTop = ticks[ticks.length - 1];
+  const Y = (v) => m.top + ih - (v / yTop) * ih;
+  for (const v of ticks) {
+    svg.appendChild(svgEl('line', { x1: m.left, x2: m.left + iw, y1: Y(v), y2: Y(v), stroke: 'var(--grid)', 'stroke-width': 1, 'shape-rendering': 'crispEdges' }));
+    const t = svgEl('text', { x: m.left - 8, y: Y(v) + 4, 'text-anchor': 'end', class: 'axis-text', style: 'font-variant-numeric: tabular-nums' });
+    t.textContent = fmtNum(v);
+    svg.appendChild(t);
+  }
+  const slots = Math.max(view.length, 10); // keep early sparse days readable
+  const band = iw / slots;
+  const barW = Math.min(24, Math.max(6, band * 0.6));
+  const GAP = 2;
+  view.forEach((d, i) => {
+    const cx = m.left + band * i + band / 2;
+    const adj = Number(d.est_daily_adjusted) || 0;
+    const gross = Number(d.est_daily_gross) || 0;
+    const adjH = (adj / yTop) * ih;
+    const otherH = ((gross - adj) / yTop) * ih;
+    const yAdjTop = m.top + ih - adjH;
+    const g = svgEl('g', {});
+    g.appendChild(svgEl('rect', { x: cx - barW / 2, y: yAdjTop, width: barW, height: Math.max(1.5, adjH), fill: 'var(--series-1)' }));
+    if (otherH > GAP + 2) {
+      g.appendChild(svgEl('rect', { x: cx - barW / 2, y: yAdjTop - GAP - otherH, width: barW, height: otherH, rx: 4, ry: 4, fill: 'var(--deemph)' }));
+      g.appendChild(svgEl('rect', { x: cx - barW / 2, y: yAdjTop - GAP - 5, width: barW, height: 5, fill: 'var(--deemph)' }));
+    }
+    const hit = svgEl('rect', { x: cx - Math.max(barW, 24) / 2, y: m.top, width: Math.max(barW, 24), height: ih, fill: 'transparent' });
+    hit.addEventListener('pointermove', (e) => {
+      g.setAttribute('opacity', '0.82');
+      tooltip.show(e.clientX, e.clientY, d.metric_date, [
+        { label: 'Adjusted est.', value: fmtNum(adj) + ' XRP', color: 'var(--series-1)' },
+        { label: 'Excluded est.', value: fmtNum(gross - adj) + ' XRP', color: 'var(--deemph)' },
+        { label: 'Gross est.', value: fmtNum(gross) + ' XRP' },
+        { label: 'Coverage', value: (Number(d.coverage) * 100).toFixed(1) + '% (' + d.ledgers_sampled + ' ledgers)' },
+      ]);
+    });
+    hit.addEventListener('pointerleave', () => { g.removeAttribute('opacity'); tooltip.hide(); });
+    svg.append(g, hit);
+    const t = svgEl('text', { x: cx, y: H - 8, 'text-anchor': 'middle', class: 'axis-text' });
+    t.textContent = d.metric_date.slice(5);
+    if (view.length <= 10 || i % Math.ceil(view.length / 8) === 0) svg.appendChild(t);
+  });
+  svg.appendChild(svgEl('line', { x1: m.left, x2: m.left + iw, y1: m.top + ih, y2: m.top + ih, stroke: 'var(--baseline)', 'stroke-width': 1, 'shape-rendering': 'crispEdges' }));
+  wrap.appendChild(svg);
+
+  buildTable('table-pipeline',
+    ['Date', 'Ledgers', 'Coverage', 'Payments', 'Gross (sampled)', 'Adjusted (sampled)', 'Est. daily gross', 'Est. daily adjusted', 'RLUSD vol'],
+    days.map((d) => [
+      d.metric_date,
+      String(d.ledgers_sampled),
+      (Number(d.coverage) * 100).toFixed(2) + '%',
+      Number(d.payment_count).toLocaleString('en-US'),
+      fmtNum(Number(d.xrp_gross)),
+      fmtNum(Number(d.xrp_adjusted)),
+      fmtNum(Number(d.est_daily_gross)),
+      fmtNum(Number(d.est_daily_adjusted)),
+      fmtNum(Number(d.rlusd_volume)),
+    ]));
+}
+
 /* ---------- news (72-hour window enforced at view time) ---------- */
 function renderNews(news) {
   const list = $('news-list');
@@ -971,12 +1077,14 @@ async function boot() {
     .then((data) => { curatedData = data; renderCurated(data); })
     .catch(() => { $('asof').textContent = 'Baseline unavailable'; });
 
-  // fresher news from the Supabase cache (10-min cron); overrides the JSON fallback when it arrives
+  // Supabase cache (10-min cron): fresher news + measured pipeline metrics
   fetch(CACHE_ENDPOINT)
     .then((r) => r.json())
     .then((d) => {
       const items = d.cache?.news?.payload;
       if (Array.isArray(items) && items.length) renderNews(items);
+      const daily = d.cache?.pipeline_daily?.payload;
+      if (Array.isArray(daily) && daily.length) renderPipeline(daily);
     })
     .catch(() => { /* dashboard.json news already rendered */ });
 

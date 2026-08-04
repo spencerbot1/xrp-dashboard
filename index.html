@@ -132,6 +132,33 @@
     </article>
   </section>
 
+  <!-- Row: ingestion pipeline (measured daily volume) -->
+  <section class="grid-main">
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>On-ledger payment volume — daily <span class="q q-live">Measured</span></h2>
+          <p class="card-sub">Extrapolated from sampled validated ledgers · accumulating since Aug 4, 2026</p>
+        </div>
+        <button class="table-toggle" data-table="pipeline">View data</button>
+      </div>
+      <div class="legend" id="legend-pipeline"></div>
+      <div class="chart-wrap short" id="chart-pipeline"><div class="chart-empty">Waiting for pipeline data…</div></div>
+      <div class="table-view" id="table-pipeline" hidden></div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <h2>Ingestion pipeline</h2>
+          <p class="card-sub">XRPL sampling → entity classification → daily rollup</p>
+        </div>
+      </div>
+      <div class="pulse-stats" id="pipeline-stats"></div>
+      <p class="score-note">A Supabase edge function samples ~40 validated ledgers every 10 minutes (~25% daily coverage), classifies every successful XRP payment against XRPSCAN's registry of 2,772 known wallets, and rolls up daily metrics. <strong>Adjusted volume</strong> excludes same-entity transfers and Ripple treasury moves. Daily totals are extrapolated from coverage and labeled as such — swap in QuickNode Streams for 100% coverage without changing this dashboard.</p>
+    </article>
+  </section>
+
   <!-- Row: live ledger pulse + sources -->
   <section class="grid-main">
     <article class="card">
