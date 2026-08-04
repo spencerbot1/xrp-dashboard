@@ -62,22 +62,20 @@ Aug 4, 2026:
 - **Adjusted volume** = gross − same-entity transfers − Ripple treasury moves,
   per the original methodology.
 
-### QuickNode upgrade (full coverage) — built, awaiting credentials
+### QuickNode upgrade (full coverage) — ACTIVE since Aug 4, 2026
 
-The pipeline is config-driven: it runs in **sampled mode** (~25% coverage) on
-public servers until a QuickNode endpoint is configured, then switches itself
-to **full coverage** — every ledger, exact unique-sender counts, complete whale
-capture. To activate:
+The pipeline is config-driven. With the QuickNode endpoint configured it runs
+in **full-coverage mode**: every ledger, exact unique-sender counts, complete
+whale capture. Configuration lives in the service-role-only `app_secrets`
+table (key `QUICKNODE_XRPL_URL`; the `QUICKNODE_XRPL_URL` env secret takes
+precedence if ever set). Remove the row to fall back to sampled mode.
 
-1. Create a QuickNode account (quicknode.com) and add an **XRP Ledger mainnet**
-   endpoint. The free tier (10M credits) covers a partial trial; the Build plan
-   ($49/mo, 80M credits) comfortably covers all ~665K ledgers/month.
-2. In Supabase (comit-command-center → Project Settings → Edge Functions →
-   Secrets) add: `QUICKNODE_XRPL_URL` = your endpoint's HTTPS URL.
-3. Done. The next cron run reports `"mode": "quicknode"` and begins walking
-   every ledger with a 95-second time budget per run, catching up continuously.
-   Watch coverage in the pipeline card climb toward 100%; the unique-senders
-   tile drops its "≥ sampled floor" qualifier at ≥90% coverage.
+Throughput design: Supabase edge functions have tight CPU limits, so big
+catch-up loops fail with WORKER_RESOURCE_LIMIT. Instead the cron runs **every
+minute** with 60-ledger batches — 60/min capacity against ~15/min ledger
+production keeps up in steady state and erases backlogs at ~45 ledgers/min.
+Coverage in the pipeline card climbs toward 100%; the unique-senders tile
+drops its "≥ sampled floor" qualifier at ≥90% coverage.
 
 Optional push-based alternative: the `quicknode-webhook` edge function accepts
 QuickNode **Streams** deliveries at
