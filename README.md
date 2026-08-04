@@ -60,8 +60,31 @@ Aug 4, 2026:
   last 30 days as the `pipeline_daily` cache key. Coverage ≈ 25% of ledgers/day;
   daily totals are extrapolated by coverage and labeled as estimates.
 - **Adjusted volume** = gross − same-entity transfers − Ripple treasury moves,
-  per the original methodology. Unique-sender counts and full coverage are the
-  QuickNode upgrade (~$49/mo) — the schema and dashboards need no changes.
+  per the original methodology.
+
+### QuickNode upgrade (full coverage) — built, awaiting credentials
+
+The pipeline is config-driven: it runs in **sampled mode** (~25% coverage) on
+public servers until a QuickNode endpoint is configured, then switches itself
+to **full coverage** — every ledger, exact unique-sender counts, complete whale
+capture. To activate:
+
+1. Create a QuickNode account (quicknode.com) and add an **XRP Ledger mainnet**
+   endpoint. The free tier (10M credits) covers a partial trial; the Build plan
+   ($49/mo, 80M credits) comfortably covers all ~665K ledgers/month.
+2. In Supabase (comit-command-center → Project Settings → Edge Functions →
+   Secrets) add: `QUICKNODE_XRPL_URL` = your endpoint's HTTPS URL.
+3. Done. The next cron run reports `"mode": "quicknode"` and begins walking
+   every ledger with a 95-second time budget per run, catching up continuously.
+   Watch coverage in the pipeline card climb toward 100%; the unique-senders
+   tile drops its "≥ sampled floor" qualifier at ≥90% coverage.
+
+Optional push-based alternative: the `quicknode-webhook` edge function accepts
+QuickNode **Streams** deliveries at
+`/functions/v1/quicknode-webhook?token=<QN_WEBHOOK_TOKEN>` (set that secret
+first; the endpoint is disabled without it). The RPC-pull mode above is the
+verified path — Streams payload parsing is defensive but unverified until the
+first real delivery.
 
 Methodology notes (per the design conversation):
 

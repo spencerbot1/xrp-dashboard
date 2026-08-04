@@ -897,6 +897,13 @@ function renderPipeline(days) {
   if (latest.est_daily_accounts != null) {
     rows.push({ v: fmtNum(Number(latest.est_daily_accounts)), l: 'est. new accounts/day' });
   }
+  if (latest.unique_senders != null) {
+    const full = Number(latest.coverage) >= 0.9;
+    rows.push({
+      v: (full ? '' : '≥') + fmtNum(Number(latest.unique_senders)),
+      l: full ? 'unique senders today' : 'unique senders (sampled floor)',
+    });
+  }
   for (const s of rows) {
     const div = document.createElement('div');
     div.className = 'pulse-stat';
