@@ -1348,18 +1348,12 @@ function renderCurated(data) {
 let cachedHistory = null;
 let cachedRlusdHistory = null;
 let curatedData = null;
+let lastRlusdOnXrpl = null;
 
-async function boot() {
-  $('foot-updated').textContent = 'Loaded ' + new Date().toLocaleString('en-US');
-
-  // curated JSON (local, also the offline fallback)
-  const curatedP = fetch('data/dashboard.json')
-    .then((r) => r.json())
-    .then((data) => { curatedData = data; renderCurated(data); })
-    .catch(() => { $('asof').textContent = 'Baseline unavailable'; });
-
-  // Supabase cache (10-min cron): fresher news + measured pipeline metrics
-  fetch(CACHE_ENDPOINT)
+// Supabase cache (refreshed by cron every 10 min; ledger data every minute):
+// news, pipeline metrics, governance, whales, escrow/AMM, alerts.
+function refreshFromCache() {
+  return fetch(CACHE_ENDPOINT)
     .then((r) => r.json())
     .then((d) => {
       const items = d.cache?.news?.payload;
@@ -1376,7 +1370,19 @@ async function boot() {
       renderWhales(d.cache?.whales?.payload);
       renderSupplyDefi(d.cache?.escrow?.payload, d.cache?.amm?.payload);
     })
-    .catch(() => { /* dashboard.json news already rendered */ });
+    .catch(() => { /* dashboard.json fallback already rendered */ });
+}
+
+async function boot() {
+  $('foot-updated').textContent = 'Loaded ' + new Date().toLocaleString('en-US');
+
+  // curated JSON (local, also the offline fallback)
+  const curatedP = fetch('data/dashboard.json')
+    .then((r) => r.json())
+    .then((data) => { curatedData = data; renderCurated(data); })
+    .catch(() => { $('asof').textContent = 'Baseline unavailable'; });
+
+  refreshFromCache();
 
   // CoinGecko
   const marketsP = fetchMarkets().catch(() => null);
@@ -1404,6 +1410,7 @@ async function boot() {
   setSource('coingecko', !!(markets && history));
   setSource('ws', rlusdOnXrpl != null);
 
+  lastRlusdOnXrpl = rlusdOnXrpl;
   if (markets) renderMarket(markets, rlusdOnXrpl);
   else if (curatedData?.cached) {
     // offline fallback from last refresh snapshot
@@ -1443,6 +1450,20 @@ async function boot() {
 $('pulse-refresh').addEventListener('click', () => {
   loadPulse().catch(() => {});
 });
+
+/* ---------- auto-refresh: the page stays current without reloads ---------- */
+setInterval(async () => {
+  const markets = await fetchMarkets().catch(() => null);
+  if (markets) {
+    renderMarket(markets, lastRlusdOnXrpl);
+    $('foot-updated').textContent = 'Updated ' + new Date().toLocaleTimeString('en-US');
+  }
+}, 60_000);
+setInterval(() => { loadPulse().catch(() => {}); }, 180_000);
+setInterval(() => {
+  refreshFromCache();
+  fetchRlusdOnXrpl().then((v) => { if (v != null) lastRlusdOnXrpl = v; });
+}, 300_000);
 
 let resizeTimer = null;
 window.addEventListener('resize', () => {
