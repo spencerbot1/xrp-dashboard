@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-06",
+  "asOf": "2026-08-07",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-06T09:08:28+00:00",
-    "xrpPrice": 1.054,
-    "xrpMarketCap": 65887264702,
-    "xrpVolume24h": 1267483072,
-    "rlusdOnXrpl": 848445970.2015524,
-    "rlusdTotalSupply": 1593931539.870473
+    "updatedAt": "2026-08-07T07:43:52+00:00",
+    "xrpPrice": 1.026,
+    "xrpMarketCap": 64176587776,
+    "xrpVolume24h": 1452258881,
+    "rlusdOnXrpl": 854703146.2015522,
+    "rlusdTotalSupply": 1589608715.870473
   },
   "news": [
     {
-      "title": "XRP Dives To Technical Battleground As Grayscale's GXRP Trust Selloff",
-      "source": "dmarketforces.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjRYa0NqdDZlNTlPelF4ZzNxUkFreGRHc0U0b3RRRzBPNUNEMndEdWd0TmFVYjROVnJ5clpNM1I5dmRKU0dmRTdwZjZRLWZjWUh3WWxkS0cxTlZKY195bm5hbG5KZ3Zaa3NzMm1zOVVsRVRSSThmQ0N5SUloaWtwOE02cU9Lc01UNnY0eGhwdHNwZ0Z1dkVCeHo1bw?oc=5",
-      "publishedAt": "2026-08-06T09:00:27+00:00"
+      "title": "XRP price falls 2% as CLARITY Act vote slips to September",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ2pyN0xnbWViT3FOenZYcjhEaVdGVU5sU09sY1UySU9EX1dwWHpnQVhVN1J6VHA4dEZRVHhmVmdvMUVOU2ZLLTVIb0dzOWgyN3VORnVWNHd2cjh0Z0djMko2WDRPWUdQVnhaRF9FNXREVHZRcFJ0QndjamREaG52dmdqZw?oc=5",
+      "publishedAt": "2026-08-07T07:08:39+00:00"
     },
     {
-      "title": "BREAKING: Grayscale Raises XRP, Bitcoin & Solana Weightage in GDLC ETF, Trims ETH",
+      "title": "Ripple Releases XRP Ledger (XRPL) 3.3.0 Upgrade to Boost Privacy & Tokenization: Details",
       "source": "CoinGape",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSE1ubUo5TnVLekxmdnE5amt2dXA0VmFnSXhTbUdIc0RZS2dQUGphdlFsYW1KUnBkMjJBUmlHYk42RlJxZWZZeG9HSjcyZ09XZkViSHN4LXYzemNtWmlwZ3M5dFVEel85S3Y0R3JiRml2NVRVR1dWWW4zaUVmSjF6YXRjU0FBdU5PSDc5cTlCYw?oc=5",
-      "publishedAt": "2026-08-06T08:49:40+00:00"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWHNmTzZDMTJqOE1qU1VuTUczSmR3VGtyOTRxaUxTMWpKdTRFeDJQM19HTVU5ZTJyZV9XLUVJY19OanB1d1VxWHpLcC1HZE9JaDJNQmphZk9DNExteEh3akkzcE51SWFnd3Z4Y3FyM2tGeEdfQkFzUUIxZEN3dWdJaVZfcktvRm5rcVAyQUdocWdpNHI5S3ZrZThIY1dXMV81VzI4eQ?oc=5",
+      "publishedAt": "2026-08-07T05:47:05+00:00"
     },
     {
-      "title": "Cryptocurrencies Price Prediction: Cardano, Ripple & Pi Network \u2013 Asian Wrap 06 August",
+      "title": "Fake XRP Airdrops Spread Online as Foundation Urges Users to Stay Alert",
+      "source": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xdjNEeTlfOXd4Ul9OaExEWVRfVWh3eDhST2lsN01Gc1kwZi1OWENzQUVsMm9lbEVoN2RFc3l1cmVIeUtfT3Vmb1lqZTBXTVl2cEtDTEF6M3FNQQ?oc=5",
+      "publishedAt": "2026-08-07T05:41:49+00:00"
+    },
+    {
+      "title": "Crypto analyst Dark Defender says CLARITY Act will secure XRP as a commodity",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5faUVqNXhmaDVfN2QyY3VKbVBKQWEzQ21uUUxFd2dhUUN1WG5vNjFuSUctX2lrRExGQm44S1VSUVFwdFc5bTl2ODdiNmhhYjMxczZHLU1uVFlpQjVBT01TNjV2d9IBY0FVX3lxTE5faUVqNXhmaDVfN2QyY3VKbVBKQWEzQ21uUUxFd2dhUUN1WG5vNjFuSUctX2lrRExGQm44S1VSUVFwdFc5bTl2ODdiNmhhYjMxczZHLU1uVFlpQjVBT01TNjV2dw?oc=5",
+      "publishedAt": "2026-08-07T04:35:38+00:00"
+    },
+    {
+      "title": "XRP price: Bitcoin stuck near $64,000 as Clarity Act vote slips to September",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUzdqYzFNZTdmVG5GakY5alZLLXFtYnBYU1dfS2YtSkhPUGFqeUJIbnJNQ3RhTTRxMlk2WVljdjk2dXQwckk4RHdpRkx5Nnh5MDJkSFlqTTItdURGQzAwczdzQmFTdkhnbmhzSG9OVUJDWmc2VTlhZC1WSXFOR3prRkJJTjlqU015ZmVLd2FZV2FxQ3RPZDVmZnVKU2gwRkFCQldUbjBWb25IdFZuNjVqbQ?oc=5",
+      "publishedAt": "2026-08-07T04:18:27+00:00"
+    },
+    {
+      "title": "XRP holds $1.04 support as Grayscale ETF rebalance highlights institutional focus",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE80US1LZmdMMjZ5Y01sVlBWZTczeGhWLTQ4ckhNRV9FTjJPMVBRcnNzdzRCX3Vzc1drVDQzRk9DX1dZSTlrNjV4QmpKZTF2TmFqN3VaM2tpLXJ6T1Rsem9yNVZRVdIBY0FVX3lxTE80US1LZmdMMjZ5Y01sVlBWZTczeGhWLTQ4ckhNRV9FTjJPMVBRcnNzdzRCX3Vzc1drVDQzRk9DX1dZSTlrNjV4QmpKZTF2TmFqN3VaM2tpLXJ6T1Rsem9yNVZRVQ?oc=5",
+      "publishedAt": "2026-08-07T04:03:40+00:00"
+    },
+    {
+      "title": "XRP (XRPUSD) Fluctuated Significantly on Aug 7: Key Variables Behind the Move",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTGt6ODBKOXhXemNQVnMxX0VpN3FmMEs0aVRTMGlOZ09FWHdGWE1RUVRSNkJ0TXdyLXZ6eUFyeDhtclVxQ2xsMDZOZXhrNk85em96VGtwZm0yZzMyM3pPSUlab3BMVTRlOGtRSnZ0cGF1QllZcDdmUlRaOVF3aC1NVl90SWdwNlpEdmlLT2dB?oc=5",
+      "publishedAt": "2026-08-07T04:00:14+00:00"
+    },
+    {
+      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC under pressure, ETH trades sideways, XRP gravitates toward $1",
       "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObHVWSGJyU1BLRWw3UzZwWTBiRG9GRU1QWkx2em1hOVFfbTdrMmF5TDRTdWNNODdfdHJPX0hNWDJUWFJ2aDRDVDh5WmZYcVBfSGJQdnJ5Nk9lbFJSWmJyOW1yMVJMWWs3RERWR2huM09pWDNycURPNDVkQmlIUDhCVEhfNlRWZXlpY0U5Q3duTWdfRi1DRVYyaWpEUEtMWEJ4c2d6NnZSeDA4LUtnWVZKS0ZuYzdCc2plNXZPdm9vMjdJaUFib0p2TEdUNFVjLUxpYWxBa3FmSQ?oc=5",
-      "publishedAt": "2026-08-06T06:16:37+00:00"
-    },
-    {
-      "title": "Top Altcoins Price Forecast: Ripple, Cardano, and Solana vulnerable to deeper losses",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbWdLTmFqRXREN0d0VF9RZ2tNdUQ3Z2tZLWtCUExydkE1Z1drY2RmaHJoS2tCWlJhcjYyNVIwQTl0bmFVa3paa1E1Qk1NcUNHcFFrclhnb2RyQWg1Y2FkX1BfbUxvalUwQjNyRld6b3ZmLVJiaVRZMkFpX3NGQnlDWG12Uzk1QURJc3NRdlVoLTNhMnVHVENGV1NsSGFzYkNsUlZzVjhpMVpJeUxnR0RFdUs4RU9KYlZwN2s2QzBrcHZiSms2ek56NTZYT3NfWGVPZmFIWGxQbTA?oc=5",
-      "publishedAt": "2026-08-06T06:03:06+00:00"
-    },
-    {
-      "title": "Best Crypto Portfolio Shakeup: XRP Stalls at $1 While Pepeto Rockets Toward Its Listing",
-      "source": "StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcWZFNG5NV3VPa1Rzd01NV0syY0t6NXJUU0M2OUZHWElSMndHUHhuUldzT2ZUT1Y3V09MMVloZlhzZ1BWQWlSTVRsMzFmV1NrT2h4ekRObzQ1QjR5T2hXWHg2azFQRV9KdHVjY2JET0V3eUUzcWJ6cGUxaUl2QWNXdTlQdS1yR1BZTF9ELVVPZEVGZWhQYjJMVVR6UnVZSTB0Q1I3Tm5nMDRubkZ0ckJmZE5VMkQtTlI4YWtFYmtvLUt6N3BOMG91Z1QxZC1wZ0NieTMyVms4bmFwM1lwY3FiOXRhNkFiQQ?oc=5",
-      "publishedAt": "2026-08-06T05:56:31+00:00"
-    },
-    {
-      "title": "XRP ETFs log 4-day inflow streak as RWA holders grow 25% \u2013 More gains ahead?",
-      "source": "AMBCrypto",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZzk0RDNBMUh4RUxzQU9jQ3IxeHhkRHA0b0dYUEJXU0ZYamJSeDZBYXJ5cVFwdUl3Q1BDNkR4UzVweGYzaHhENlUxNUJyV0hqRlNBTU9fVWNQRnZMZkZWQWxONG5ZcVk2UW9oM240WXhjME5YdWxUdW9ESU5sWGJpQXA0dEdSR0dEekhVT1FIZnZ1blZ3cV9LOUsxOA?oc=5",
-      "publishedAt": "2026-08-06T05:30:26+00:00"
-    },
-    {
-      "title": "XRP whales quietly buy dips while Ether trades below cost, signaling deeper market capitulation.",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTi1TdWlwNXpqTU9EOWNDZjJOMUdPVDhUNXF6Q1ZqeGZIZ2hJX3RqTzZEZS1ZM0xxUDdhbFlzMmtNbmRFRjV4SURrXzNta2x6cU9ueEdzby03emVsM0J6YkpBSm5PWTBVamhldmVSU3pTWEE1M1IyZ1JobUQySTBSNVdQR2lQTmJiOHh0bEpUSnc?oc=5",
-      "publishedAt": "2026-08-06T05:00:18+00:00"
-    },
-    {
-      "title": "XRP Forms Long-Term Pattern With $27 Price Target: Analyst",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWko5RWlva1pfa0g4MDdwYmRTODNiUi0wVUFyOHg0VGd0eUtFdHlCQm1SWHBlbHpTMl9FMTNpV3pLdlcyTVZfdUtYREg3Mm5VZ3VtUlcwVlFDQVJNTGl2UkJialVhbDQ0a2VsNDZTbzR5R0toc05FTHNsZWRVRGJYLVF3ekhHOEpBeUZQVjZibTlmbkxwNmFpczRR?oc=5",
-      "publishedAt": "2026-08-06T04:50:59+00:00"
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTM5X0sxZm1zTDhFcDdpRzEtZUZna1hrWElCOWVfcVJtempWRWZUWEh6eW5PWmRHbjFXNEdHN0tLemR1TF9ReUZvWE5TdWpKUnBlNmJ1OEwyamNRV3N4a25TaEFqbUpTRzlJWE9WbmxWb1dlWDVTMlhULVA2QnB4NndmbGJEdXdEcFhKbDhzMXJGNXJlNWRSdk85U1dRVXFnSG9uVERvaVgyWnB6cnhhMWlhOW4tX1VhZ0s4OU51Z0NxcDZwU0FNWi0yaEF0dXpIUE5udGhiUTJ0S1FySXNUSGNhcmtHUFZpcFdIczlHNkRfRFRGZGpuRndiUnNyZw?oc=5",
+      "publishedAt": "2026-08-07T03:27:16+00:00"
     }
   ]
 }
