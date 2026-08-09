@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-08",
+  "asOf": "2026-08-09",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-08T07:17:43+00:00",
-    "xrpPrice": 1.033,
-    "xrpMarketCap": 64627820197,
-    "xrpVolume24h": 1338740977,
-    "rlusdOnXrpl": 853457126.2015511,
+    "updatedAt": "2026-08-09T07:18:34+00:00",
+    "xrpPrice": 1.038,
+    "xrpMarketCap": 64945471725,
+    "xrpVolume24h": 641675032,
+    "rlusdOnXrpl": 853457126.2015516,
     "rlusdTotalSupply": 1584168487.570472
   },
   "news": [
     {
-      "title": "XRP Price Prediction: XRP Defends $1 Support as AlphaPepe\u2019s $0.02501 Entry Builds the Smaller-Cap Upside Case",
-      "source": "StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQUXdwSjVNNmpjMHRCWDdMSkQyU2RTLWN4a2ZfN3JFV2MyZ1RCQmdxNkN2U1RxQjFRRDNVdHlvd0RLME04bHQ3LXc4OXV5SnN3ajBmS2JjVVZjc1U0ZlBxTU42a2VnNVlOOFFpdzlWY0x6MFM4Q1dJU0ZlYUQzbURsdlBhVkl5aFhhcXNEZkZ4MU1rbXYxN3l2YVVHWUxuM01iNnVVcE05MGVUbHRpZEtTLVVTaU1SYnd5cFpMTnBTbFVPcmJ2bXVfM3Flclc4TC00b0staWNOYXRIVUcxSndIQmoyNmVFajVXa01MbnV3bm52eXpjQ2ZJd3FvY3pHQ3h5U1Zya3RKcEVPa080SFZ0TA?oc=5",
-      "publishedAt": "2026-08-08T05:25:52+00:00"
-    },
-    {
-      "title": "Ripple Pushes 'Confidential Transfers' on XRP Ledger, Targeting approximately $532.9 Million in Institutional Assets",
-      "source": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1VW9TeERqMjFydTBBelo2YUVaYmpTdEN4UHJueGh1Tnowd2dOck9TMDlmMEFwcGdEU2JBNGdybW9YNW5aTnU0QThLMFBnejFuRkJ6bUxNWWFIQW1yZjFrSERJTWVySFBPTXlocmZXUnY1d3BaMEE?oc=5",
-      "publishedAt": "2026-08-08T04:55:00+00:00"
-    },
-    {
-      "title": "XRP Ledger Seeks Validator Approval for Institutional \u2018Confidential Transfers\u2019 Feature",
-      "source": "bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xeGFPSFlYS21YOXpFdzE0Z3FwdHJtS1BLbUg3aGNUelBMVUJPemFKdS13SWYxTmhNRGZTSkNxanhHeHhkbmtXd01DQjBhWVNPQUNyVg?oc=5",
-      "publishedAt": "2026-08-08T04:37:11+00:00"
-    },
-    {
-      "title": "XRP (XRPUSD) Is up 1.22% on Aug 8: What Do On-Chain Data and Market Sentiment Show?",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRjNMNTF4aExGUms2OFhqZS1iUWxlT1d3NWVXZTduLV9md2J4MzUwNkxwd3c0ajNQR3JNcVNkNWNJVWo3MmdGejJOT2ZIUV9wWHRaaTdXS3FXQTQ4U2Z1ZW9uMktWTElWOUZnbHdORURRd2VNYTBGcEU1Qmx6UUdtRFZHU04wVlZUem9MS1l3?oc=5",
-      "publishedAt": "2026-08-08T04:05:16+00:00"
-    },
-    {
-      "title": "$Ripple (XRP.CC)$ America's LARGEST mortgage lender crashed 50% today \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPUUJ2QkFFMjFEaWp2SE9OS19wVGk4YlJRcW9oRHRuQ3k2NkdEZll2NkJGUlFGdGZfU3UtbmdOUGtqSXY2UDRRUEtrbWhsc2lRNXFQcVBRaXppVU5GU0dVZWxUTXhyUHR5N0dUNmV6UzNGN0hiZ0pjWEJuaHlEY1lMVS11ZmkwbWxjekJjRWx3NzQzQ1RieGNSWHlsVTJzX2VULU56Z3AwM1hrT2loMHgwaTVMWWFSN3p1ZlZNaG1kQU1Vd1QzZWx6ZjBjUGlqY0NaekJsMjVGSEdueWZoeVdiQUFqbVNZYzJ5cGtfcUp5cHRrSkp5UGowMTFUVEFjLWlWb1l5RTdRQnZhbnN0TnQ2Zm9VSW83bkh5WmE2VXV0OENXTHlQRFo2NGpDTDVnd0tqLW9NNzdrVG1aVF9fTHgweTNodU1INTBNYkFiRWxKUXBRZzRqTTBXNDkxRm01aml6UkFEdktHeEs5eFZqcFZyNXh5d1hYa2hvdnJfS3dubmdPTUNkMlZpMVh1TXdVR2ZRbG9yTA?oc=5",
-      "publishedAt": "2026-08-08T03:39:49+00:00"
-    },
-    {
-      "title": "XRP price at Aug 8, 2026 at 12am EDT? Crypto Prediction Market",
+      "title": "XRP price at Aug 9, 2026 at 4am EDT? Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONHctRnF5aVBXRjJCSUhreERJMFdzZGpnZ2k4R2Z6ZVBadHBoU3VYSFQza3JHT2JqWDUxaXRSVGdKS3c2ZV9oTjMwdVAweGJJYmJSaUVzelp3YTRSYnJqTXFvTDNlOENzbE13WVMwaWcwb1ExY21TMlpGSW9FYW5pM1dTVVVHZzdwaHlfOThiYzdOS2JERHIyZ2puZ2tZMHRfM2NkcndGdTJNWHdIa0E?oc=5",
-      "publishedAt": "2026-08-08T03:34:28+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcE1LZjdBRW5JVjVETmhRNXhPUVl3U2I1NEE2aHkyS3BqQU5mdlMwVUk0MmlrOTNwU1d5WHd4TGhGZ0oyb2ZJWU9aalFHVXVxOVR5dk9wWWpRcUlRdkJraG03OFhzMkdxSzhiTjRCX0JYQWY0bTZPbDRFTWIzWmRMcFBoWGc2TFBTT2NndmJrY0s3TmhaSTFqMnVpdmhzckU2S1lsdUxvejR1ZnlT?oc=5",
+      "publishedAt": "2026-08-09T07:04:41+00:00"
     },
     {
       "title": "$Ripple (XRP.CC)$",
       "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQQmJwdndSR3N6cVVjZlBxQktuSkRMVDBYaFRDR2o1eXJXcW1VdFJyYTJzcnJIUTUwbFFYdlFrNnNEVkJFUEY4NEpmZGcxdTVDOXc3QWlCNDFGLW1LdGRXanlrcWdXQ0JZenYya0F2SldURDhTS0M1STR0RmdkMTd3MUl4RTk4RGtKZGx4Mk9UQ05OMF9uWFRkWXpDUmlDbnhuTHpvaDBCU2lmbXRiZTQxYlZlT1pSTlJYMmtQYmp1d2hxeEM5Um5YRk5XQllzUnFMUGJnNmZuOU54THA0d21ZcGQ1VmxhWFJ3Y0Fwam90Q3lRVEJRUnhuWHhIM3NsM1FET1JjQmU2VU92V2lGNG9sd19YT2F0V05telhZdUNqbU16YXdjMmxiRTBIaWNNbS1QWnNvSjZGR1FQdkRZc1hkSUY5YWdFc3M?oc=5",
-      "publishedAt": "2026-08-08T03:30:03+00:00"
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yWkFjMlJVS0tSQXRNN3NaY2RtNmozM3FCNVFqLTYxMlRUcDJJaUlyYUZmODJQNENwanE4TzRDd0hIZnBSdFdTaVE0ZHFDUGVxSTQyV3lEUWVGWkROZlZZOThZNEQ4N3FXdUNuSnVXZWlobE9qS2c?oc=5",
+      "publishedAt": "2026-08-09T04:54:46+00:00"
     },
     {
-      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
-      "source": "coindesk.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLTVmQmNiWEdhOHJsdVlBT3pZXzdfLTlLR041SUZBSEVfWjVXNHBxbVVhSkVaYzR4RUw1TUhqc3E0X0x4U2pEMDRkXzlRbk1VQ2ZjMFNZdTdfcGozaFo4cGlVV0Y3MXhIUkcwV2t1cnlmY2Z5WDdyVU44S0Z2Q0tpN2M0Z2tORktDMmMxM2VyRktscE10RktscVUteTlyN3ZqS0Z5T3RhM1RSVElFb0ZGN0h2SFdBZHhKUWh6OA?oc=5",
-      "publishedAt": "2026-08-08T03:30:00+00:00"
+      "title": "The DTCC Just Invited XRP To The BIG Leagues $$$! BOOooom!\ud83d\udca5 Tesla Stock Price (bSrShIiura)",
+      "source": "Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SUXptaFZfV3BkRURTbGtLbkpLY0Y4V2JLSWFiX3dVd0pkYVVaTy1LQzM1UW5kbUJFV1dzdExYUjl1S3NlMV85eFh4ZC0wYk9qckNNMXhrQUVjdjQ?oc=5",
+      "publishedAt": "2026-08-09T04:48:31+00:00"
+    },
+    {
+      "title": "We Asked ChatGPT: Is XRP Doomed to Fall Below $1 After the CLARITY Act Delay?",
+      "source": "CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX0tJLWg3Zkc5SzhYak9ocDBQYm1VYzljSlcyYkhxTXl3WEFjdUVDa2RCMV9DbkJHZVkzdGdvR1FoZVBuMzY0RUtZc0Y1ek1JTjZ2RWlMTTgzZWU5S21UMFNSOGtIS09YSTVLdDhQSE9zX3JZVkotQy10U2UxSnRwWkp6NmFiRkhnUjBwSVdrd055d3VGNm10Zy00c0NjbFc0b2c?oc=5",
+      "publishedAt": "2026-08-09T04:04:00+00:00"
+    },
+    {
+      "title": "XRP likely to retest $1 level in August amid be...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMm51bkUtN202OXFqTzRiQUFUQm40cTlFNHp3UVZqZTVyeHVpTm9vU1dhZGZPQ2hxUnVtRl8weVJsZ25pMkI2QmdGbml0MkFuenREWm40cGNndUVWdC1sUXJRbkdCSnlYVnVNUzdpR1VoZWNwQnhYZ1E1dE1rNlNFQXVBX1F6Nm1oSm94OER3?oc=5",
+      "publishedAt": "2026-08-09T03:25:53+00:00"
+    },
+    {
+      "title": "THE MAJOR XRP SHIFT IS INCOMING!? (HUGE ANNOUNCEMENTS) Widows Bay (pUdSSq7CFG)",
+      "source": "Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OOWFMRHdROVd2YTdMME5xZURYRE4yT29xOF9ncEF3SEM4d3o4bXlpWDlpVFpXNE5iOE1FS044ZFBOeVM3QlhuUG5GMGNkeU5JNFMyRF9NenhUbVE?oc=5",
+      "publishedAt": "2026-08-09T03:23:36+00:00"
+    },
+    {
+      "title": "XRP Hack: Its All Falling Apart... Lebron James (ykatRFh6CE)",
+      "source": "Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrV0l1QmlZV3p5NERINnVNc1R2ZmFtRVFyMFNzSjlIc1VydUthN2lnXzltTmR3bWFkMXo3aWs3al85Um1VN0hXZEtXWlAzb0NaOVk3SmdsbFhtWVk?oc=5",
+      "publishedAt": "2026-08-09T03:03:57+00:00"
+    },
+    {
+      "title": "\"Ripple Is ABANDONING XRP\u2026\" Are YOU Their EXIT LIQUIDITY!? (INSANE) Angela Rayner (x0fQafnj0Q)",
+      "source": "Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vY1V4bUxnTDdibzU2Q3lQRnNjMEp3VFB2dkd1T195LWJUOWR3a3luQk0xSmQtNExFQi15aXdUVEpUYkZDOUpXNWhFYkVxQzVYeGduckhtbUVJRTA?oc=5",
+      "publishedAt": "2026-08-09T02:23:39+00:00"
     }
   ]
 }
