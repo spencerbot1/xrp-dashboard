@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-09",
+  "asOf": "2026-08-11",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-09T07:18:34+00:00",
-    "xrpPrice": 1.038,
-    "xrpMarketCap": 64945471725,
-    "xrpVolume24h": 641675032,
-    "rlusdOnXrpl": 853457126.2015516,
-    "rlusdTotalSupply": 1584168487.570472
+    "updatedAt": "2026-08-11T07:39:41+00:00",
+    "xrpPrice": 1.004,
+    "xrpMarketCap": 62760163910,
+    "xrpVolume24h": 1022224337,
+    "rlusdOnXrpl": 829107126.2015436,
+    "rlusdTotalSupply": 1553993497.434811
   },
   "news": [
     {
-      "title": "XRP price at Aug 9, 2026 at 4am EDT? Crypto Prediction Market",
+      "title": "XRP price at Aug 11, 2026 at 4am EDT? Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcE1LZjdBRW5JVjVETmhRNXhPUVl3U2I1NEE2aHkyS3BqQU5mdlMwVUk0MmlrOTNwU1d5WHd4TGhGZ0oyb2ZJWU9aalFHVXVxOVR5dk9wWWpRcUlRdkJraG03OFhzMkdxSzhiTjRCX0JYQWY0bTZPbDRFTWIzWmRMcFBoWGc2TFBTT2NndmJrY0s3TmhaSTFqMnVpdmhzckU2S1lsdUxvejR1ZnlT?oc=5",
-      "publishedAt": "2026-08-09T07:04:41+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0trR0JzYjUxOE9pZXdiV0I0VF80czBvLVRkekd2QjJ2MmNhTTlDRFNjZnpQeVd1OVFURC1DWl84WUxlOXBwdEdSdmNjbzFvWXB6TzU3UWR6aS1PN3c4RHFVRTRIdFZiOEVXNlFObVVzZUU4M3pFc2FRdG5rYU9kS0haNU5lcGFLSnRSUmRkWm5SZWNYLWx1T0w3RXp3eXA0TVN1bEo4UjI3THpLc2c?oc=5",
+      "publishedAt": "2026-08-11T07:20:11+00:00"
     },
     {
-      "title": "$Ripple (XRP.CC)$",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yWkFjMlJVS0tSQXRNN3NaY2RtNmozM3FCNVFqLTYxMlRUcDJJaUlyYUZmODJQNENwanE4TzRDd0hIZnBSdFdTaVE0ZHFDUGVxSTQyV3lEUWVGWkROZlZZOThZNEQ4N3FXdUNuSnVXZWlobE9qS2c?oc=5",
-      "publishedAt": "2026-08-09T04:54:46+00:00"
+      "title": "Ripple: XRP Tests Critical $1 Floor; $0.8 Downside Target in Play",
+      "source": "FXLeaders",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbTdia2I2VURhQ240NHBDOWRrTlctRzBYODRKNEpDQVMwZUNiWWczbjZNV2NsQTcyTFBiX1VjSTZYaWQ0d0psaE0xWGFQREdrVndaSzBrblNhMW04bVF4N05oQVZTSEUyVlVNZHZRRk5kaEhQa1dsbldpX3hka3BFRG9VZnlKV2hXMF9Mb2ozQ0cyd1dpVks3RGNJSWVIUENmbXNwa0dXSQ?oc=5",
+      "publishedAt": "2026-08-11T07:19:31+00:00"
     },
     {
-      "title": "The DTCC Just Invited XRP To The BIG Leagues $$$! BOOooom!\ud83d\udca5 Tesla Stock Price (bSrShIiura)",
-      "source": "Mshale",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SUXptaFZfV3BkRURTbGtLbkpLY0Y4V2JLSWFiX3dVd0pkYVVaTy1LQzM1UW5kbUJFV1dzdExYUjl1S3NlMV85eFh4ZC0wYk9qckNNMXhrQUVjdjQ?oc=5",
-      "publishedAt": "2026-08-09T04:48:31+00:00"
+      "title": "Bitcoin price loses $64K as Ether and XRP lead losses",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CTTBSRTR6YmtoNWJXa1puSmloLTVTUE1OZVF4eDZwNGIzTWRSc19jNW5XelpQaEQyU25aQ3Z1N0JhbHg0eWI1VldPbG1BMmRkSHItaUZZcTl3VjNCYWJsV1psQTM4eWpTYUVuZ0c5QVNWMlVrRlh6em1ZMllGdw?oc=5",
+      "publishedAt": "2026-08-11T07:11:12+00:00"
     },
     {
-      "title": "We Asked ChatGPT: Is XRP Doomed to Fall Below $1 After the CLARITY Act Delay?",
-      "source": "CryptoPotato",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX0tJLWg3Zkc5SzhYak9ocDBQYm1VYzljSlcyYkhxTXl3WEFjdUVDa2RCMV9DbkJHZVkzdGdvR1FoZVBuMzY0RUtZc0Y1ek1JTjZ2RWlMTTgzZWU5S21UMFNSOGtIS09YSTVLdDhQSE9zX3JZVkotQy10U2UxSnRwWkp6NmFiRkhnUjBwSVdrd055d3VGNm10Zy00c0NjbFc0b2c?oc=5",
-      "publishedAt": "2026-08-09T04:04:00+00:00"
-    },
-    {
-      "title": "XRP likely to retest $1 level in August amid be...",
+      "title": "XRP ETF inflows plunge 93% amid $1 support test, while whales accumulate and regulatory vote looms.",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMm51bkUtN202OXFqTzRiQUFUQm40cTlFNHp3UVZqZTVyeHVpTm9vU1dhZGZPQ2hxUnVtRl8weVJsZ25pMkI2QmdGbml0MkFuenREWm40cGNndUVWdC1sUXJRbkdCSnlYVnVNUzdpR1VoZWNwQnhYZ1E1dE1rNlNFQXVBX1F6Nm1oSm94OER3?oc=5",
-      "publishedAt": "2026-08-09T03:25:53+00:00"
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnNvSHAyMFBGY0MtQXZtTFdEQmw1LXA3bGdZQ05qVEpZQU5JaUJTSi01ckxqTUdGc2FCX21DTGp3WE9HZlhiMnNHcGExRG5hVjBmR3ctRmpyOGRnSVJxRUszaWxiYnZrcFpVbG42RHBfVGtzay1qRzNuTl8tQ21fNlVwcw?oc=5",
+      "publishedAt": "2026-08-11T07:06:56+00:00"
     },
     {
-      "title": "THE MAJOR XRP SHIFT IS INCOMING!? (HUGE ANNOUNCEMENTS) Widows Bay (pUdSSq7CFG)",
-      "source": "Mshale",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OOWFMRHdROVd2YTdMME5xZURYRE4yT29xOF9ncEF3SEM4d3o4bXlpWDlpVFpXNE5iOE1FS044ZFBOeVM3QlhuUG5GMGNkeU5JNFMyRF9NenhUbVE?oc=5",
-      "publishedAt": "2026-08-09T03:23:36+00:00"
+      "title": "XRP Price Today \u2013 August 11th",
+      "source": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05OHhRUUVZQUFEYkNya1R1d1hqZThSVFlLSjdCNXRpZlhQM3lhZzlTX3VUVWI3aldNclU2MlhxVkxDZ1ZXdTdfRnp0eVJza2hydFgyR3ZXaU1PaFZoWjRnOExhVTIwZXI2WVA4bG9YWVczZDk0dHhBT0lGb9IBe0FVX3lxTE05OHhRUUVZQUFEYkNya1R1d1hqZThSVFlLSjdCNXRpZlhQM3lhZzlTX3VUVWI3aldNclU2MlhxVkxDZ1ZXdTdfRnp0eVJza2hydFgyR3ZXaU1PaFZoWjRnOExhVTIwZXI2WVA4bG9YWVczZDk0dHhBT0lGbw?oc=5",
+      "publishedAt": "2026-08-11T06:48:46+00:00"
     },
     {
-      "title": "XRP Hack: Its All Falling Apart... Lebron James (ykatRFh6CE)",
-      "source": "Mshale",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrV0l1QmlZV3p5NERINnVNc1R2ZmFtRVFyMFNzSjlIc1VydUthN2lnXzltTmR3bWFkMXo3aWs3al85Um1VN0hXZEtXWlAzb0NaOVk3SmdsbFhtWVk?oc=5",
-      "publishedAt": "2026-08-09T03:03:57+00:00"
+      "title": "Three things that have to happen for XRP to recover in 2026",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HY2Qzak5EVWUyR0xadVgtUFc0SVQ3d2Rjb3BvbHQzRUFGVHlkNEZCUkxBc2c3Y01lOThObUJQM3VjRDh0d2ZUU1NnYURwdXpkMjBqN3J3MWpiSGxuSWZ1UUprYWRHQQ?oc=5",
+      "publishedAt": "2026-08-11T06:37:00+00:00"
     },
     {
-      "title": "\"Ripple Is ABANDONING XRP\u2026\" Are YOU Their EXIT LIQUIDITY!? (INSANE) Angela Rayner (x0fQafnj0Q)",
-      "source": "Mshale",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vY1V4bUxnTDdibzU2Q3lQRnNjMEp3VFB2dkd1T195LWJUOWR3a3luQk0xSmQtNExFQi15aXdUVEpUYkZDOUpXNWhFYkVxQzVYeGduckhtbUVJRTA?oc=5",
-      "publishedAt": "2026-08-09T02:23:39+00:00"
+      "title": "XRP (XRPUSD) Is down 1.00% on Aug 11: Why It Happened",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTWlJTEt1MzVDZmpic0czU0ZrQU1tUldJNHh6QWtRN0Y0eVllRnBSaWtsS09Zdng4ZHNLQk5JV0hrTEtRdjBseU5ueTEwaGxrUjYwN2o3OGFQWnZZYy00Umt0dnRMbV9DS2l5Q2s2Z0FnNTdXMXp1R0h0ZmlVODFKSFh0NWVKazRyeEhCNE1B?oc=5",
+      "publishedAt": "2026-08-11T06:25:13+00:00"
+    },
+    {
+      "title": "XRP vs. SWIFT: Can Ripple Realistically Disrupt Global Payments?",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GeWFZYzNOZW5QSHAxcnlxVExqc3BOUFdyN3BZRVhtNDE3VDJpMnpNSjJtSEY1Wmt4TFlETHRBb2xpVENkRWZvQXFicnFUVXktTEpDbWdudktWQklLSmlZb3BXaURWR1NXSHhqM3NoZVZ0aWxGMm80c0p3?oc=5",
+      "publishedAt": "2026-08-11T06:05:02+00:00"
     }
   ]
 }
