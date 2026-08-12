@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-11",
+  "asOf": "2026-08-12",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-11T07:39:41+00:00",
-    "xrpPrice": 1.004,
-    "xrpMarketCap": 62760163910,
-    "xrpVolume24h": 1022224337,
-    "rlusdOnXrpl": 829107126.2015436,
-    "rlusdTotalSupply": 1553993497.434811
+    "updatedAt": "2026-08-12T07:54:52+00:00",
+    "xrpPrice": 1.018,
+    "xrpMarketCap": 63830425997,
+    "xrpVolume24h": 1210206344,
+    "rlusdOnXrpl": 816392602.371534,
+    "rlusdTotalSupply": 1573600158.604803
   },
   "news": [
     {
-      "title": "XRP price at Aug 11, 2026 at 4am EDT? Crypto Prediction Market",
-      "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0trR0JzYjUxOE9pZXdiV0I0VF80czBvLVRkekd2QjJ2MmNhTTlDRFNjZnpQeVd1OVFURC1DWl84WUxlOXBwdEdSdmNjbzFvWXB6TzU3UWR6aS1PN3c4RHFVRTRIdFZiOEVXNlFObVVzZUU4M3pFc2FRdG5rYU9kS0haNU5lcGFLSnRSUmRkWm5SZWNYLWx1T0w3RXp3eXA0TVN1bEo4UjI3THpLc2c?oc=5",
-      "publishedAt": "2026-08-11T07:20:11+00:00"
+      "title": "Attacker Drains Nearly 200,000 XRP From Coreum Bridge After Fake Deposit Trick: 11 outlets compared",
+      "source": "NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWk5jaC01TXlZZlA4S2hETzYxcmxpQXREaHVSM2xuYVZXRlkzU1lMZHZNODF6Qk9vVVFxcmViWTBxRGRDVzVPZUlzV19kdkZTWGJjSjFoQXhFcUhhTnk3S2hIaThrMEIyWHRzeVFiem9zS3liTEMtMHJ1LXNGOW9VWTNGUXFRdk1OWEl1R2cxWUREN0xZWEtOY1NSbHpYWlJiSWhUT3R6S3E3aXdGa0VKQU9lM2M1SUoxNUdRWi04WFFGUjMzVHpKcHhjRzN6czFpbkV5YzJjQTBNWWx1N2E5YXhiOE93QQ?oc=5",
+      "publishedAt": "2026-08-12T06:56:56+00:00"
     },
     {
-      "title": "Ripple: XRP Tests Critical $1 Floor; $0.8 Downside Target in Play",
-      "source": "FXLeaders",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbTdia2I2VURhQ240NHBDOWRrTlctRzBYODRKNEpDQVMwZUNiWWczbjZNV2NsQTcyTFBiX1VjSTZYaWQ0d0psaE0xWGFQREdrVndaSzBrblNhMW04bVF4N05oQVZTSEUyVlVNZHZRRk5kaEhQa1dsbldpX3hka3BFRG9VZnlKV2hXMF9Mb2ozQ0cyd1dpVks3RGNJSWVIUENmbXNwa0dXSQ?oc=5",
-      "publishedAt": "2026-08-11T07:19:31+00:00"
-    },
-    {
-      "title": "Bitcoin price loses $64K as Ether and XRP lead losses",
+      "title": "Ripple extends NYU Abu Dhabi blockchain research to 2027",
       "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CTTBSRTR6YmtoNWJXa1puSmloLTVTUE1OZVF4eDZwNGIzTWRSc19jNW5XelpQaEQyU25aQ3Z1N0JhbHg0eWI1VldPbG1BMmRkSHItaUZZcTl3VjNCYWJsV1psQTM4eWpTYUVuZ0c5QVNWMlVrRlh6em1ZMllGdw?oc=5",
-      "publishedAt": "2026-08-11T07:11:12+00:00"
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQd1o3TllTQWxJb0tvZGw4VnBkMWgxTlduTkJqM2FhR21wRDJvRk5hUWVacEhvTFZCLV9pN3BkWGxYLXBzZFhHd3VJV1ZheGJObGZwTUd6WHNwNGZYMGNjM1FqRHpjWDBNeGJGY2h5SjV4blRDSnNvTA?oc=5",
+      "publishedAt": "2026-08-12T06:29:00+00:00"
     },
     {
-      "title": "XRP ETF inflows plunge 93% amid $1 support test, while whales accumulate and regulatory vote looms.",
+      "title": "Attacker Drains 200K XRP From Bridge Using Fake Deposit",
+      "source": "cryptopotato.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX25nZWFfdWFscFRlNFpFVC1RR1FVeUZiSTJCZTNkUmZOY2c2SnNJVGxkSjNPVHM2RFc0NGp5bS15WjhmeFMyWnBoOFlSN3NFQWVna2ZLeTJvam5weHhSdk5GTXhkWHVLQWVxSXU3XzUwbHYzLS1hcldWeDZEdWdVb1VMRXVGTkdi?oc=5",
+      "publishedAt": "2026-08-12T06:22:00+00:00"
+    },
+    {
+      "title": "DeFi | Another Crypto Bridge Gets Compromised \u2013 This time, XRP",
+      "source": "BitKE",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MNjViOGVrVHBwWWQwZk5nR1ZIS3VmMTNyaUNhcU5yQzJ5M0ItbUdkUXV0M2dtNkY2cnhMcHFNLWE3SEV5ckNTNnFwNmpJQUZxcWx1U01aZ3dsUk5Gcnc2eXhLRWs0dw?oc=5",
+      "publishedAt": "2026-08-12T05:22:26+00:00"
+    },
+    {
+      "title": "Million-XRP Wallet Cohort Grows 32 Addresses While Market Cap Sheds 29%",
+      "source": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QV2pKWFBQQi1DQWNtU2pBaWtMdWk3ZWszSDEzdk9YdDlzZUZfUUJiT2x4SUxVUmhzWlM4dzV4UGlpUWhDOC1zTDFsMzVyYnlCb25LWWo0ekczUQ?oc=5",
+      "publishedAt": "2026-08-12T05:13:12+00:00"
+    },
+    {
+      "title": "XRP Price Prediction For August 12",
+      "source": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CR3dUOTZpSFR6dUxIYUZLOTNoYUtGNjRwbTZkZERKeU9vOUxzS0MwS3pxTHM2TlpfZEhJWDg3M1hYdkZodHdkZ3dmZzA2Z0l3QW0xaXJpLXg3eG8?oc=5",
+      "publishedAt": "2026-08-12T05:12:52+00:00"
+    },
+    {
+      "title": "$200,000 worth of XRP stolen via software flaw in bridge linking XRP Ledger to tx blockchain",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnNvSHAyMFBGY0MtQXZtTFdEQmw1LXA3bGdZQ05qVEpZQU5JaUJTSi01ckxqTUdGc2FCX21DTGp3WE9HZlhiMnNHcGExRG5hVjBmR3ctRmpyOGRnSVJxRUszaWxiYnZrcFpVbG42RHBfVGtzay1qRzNuTl8tQ21fNlVwcw?oc=5",
-      "publishedAt": "2026-08-11T07:06:56+00:00"
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbnBHNUhia2RoOHRsRmpXM0pCVzkzbUJaRXB4M3ZZZGdBZmZ1Qk5GZURuVjR3eVJMZXUwejlWQUJpRFVfNHZaUm9pNXFCWXkyUllQd0dWcE4yR3A3WUF2NXZBaFg1Z0twdTI4bHBUdmlhbTI4ZlBkV1p1aUVIRXNLV1REamhNelJCY0M2RHdObDZQU2ZOa3dV?oc=5",
+      "publishedAt": "2026-08-12T04:44:11+00:00"
     },
     {
-      "title": "XRP Price Today \u2013 August 11th",
-      "source": "Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05OHhRUUVZQUFEYkNya1R1d1hqZThSVFlLSjdCNXRpZlhQM3lhZzlTX3VUVWI3aldNclU2MlhxVkxDZ1ZXdTdfRnp0eVJza2hydFgyR3ZXaU1PaFZoWjRnOExhVTIwZXI2WVA4bG9YWVczZDk0dHhBT0lGb9IBe0FVX3lxTE05OHhRUUVZQUFEYkNya1R1d1hqZThSVFlLSjdCNXRpZlhQM3lhZzlTX3VUVWI3aldNclU2MlhxVkxDZ1ZXdTdfRnp0eVJza2hydFgyR3ZXaU1PaFZoWjRnOExhVTIwZXI2WVA4bG9YWVczZDk0dHhBT0lGbw?oc=5",
-      "publishedAt": "2026-08-11T06:48:46+00:00"
-    },
-    {
-      "title": "Three things that have to happen for XRP to recover in 2026",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1HY2Qzak5EVWUyR0xadVgtUFc0SVQ3d2Rjb3BvbHQzRUFGVHlkNEZCUkxBc2c3Y01lOThObUJQM3VjRDh0d2ZUU1NnYURwdXpkMjBqN3J3MWpiSGxuSWZ1UUprYWRHQQ?oc=5",
-      "publishedAt": "2026-08-11T06:37:00+00:00"
-    },
-    {
-      "title": "XRP (XRPUSD) Is down 1.00% on Aug 11: Why It Happened",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTWlJTEt1MzVDZmpic0czU0ZrQU1tUldJNHh6QWtRN0Y0eVllRnBSaWtsS09Zdng4ZHNLQk5JV0hrTEtRdjBseU5ueTEwaGxrUjYwN2o3OGFQWnZZYy00Umt0dnRMbV9DS2l5Q2s2Z0FnNTdXMXp1R0h0ZmlVODFKSFh0NWVKazRyeEhCNE1B?oc=5",
-      "publishedAt": "2026-08-11T06:25:13+00:00"
-    },
-    {
-      "title": "XRP vs. SWIFT: Can Ripple Realistically Disrupt Global Payments?",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GeWFZYzNOZW5QSHAxcnlxVExqc3BOUFdyN3BZRVhtNDE3VDJpMnpNSjJtSEY1Wmt4TFlETHRBb2xpVENkRWZvQXFicnFUVXktTEpDbWdudktWQklLSmlZb3BXaURWR1NXSHhqM3NoZVZ0aWxGMm80c0p3?oc=5",
-      "publishedAt": "2026-08-11T06:05:02+00:00"
+      "title": "XRP bridge drained for $200,000 after software mistook fake deposits for real ones",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMkVPd2pYWlU0eDRnbmpLd0d1bl8wZ2d2QS1ZMVV2Wl82NTc1SEhZNVlZT1dabzhIcmJmYmtSLUxwT2RvNWFxUWFpbnMwSjVCWTU2Ym9sNTd0anVPeTQ3QlYtVnNkVlBMNzh5RkY5dkJ6YnFGLVV2anZQX1dKU1VSOTRndUpZMXZOSkFQQVNXSko3bWxEUkdBVThEbzV3MEZ2dkNPQ3luaEJLWHJ1NWJxMGtQdHliU0hHUU1KZ0t6SldOOUk?oc=5",
+      "publishedAt": "2026-08-12T04:33:25+00:00"
     }
   ]
 }
