@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-12T07:54:52+00:00",
-    "xrpPrice": 1.018,
-    "xrpMarketCap": 63830425997,
-    "xrpVolume24h": 1210206344,
-    "rlusdOnXrpl": 816392602.371534,
-    "rlusdTotalSupply": 1573600158.604803
+    "updatedAt": "2026-08-13T07:55:58+00:00",
+    "xrpPrice": 1.013,
+    "xrpMarketCap": 63470586921,
+    "xrpVolume24h": 896625157,
+    "rlusdOnXrpl": 814281465.3715268,
+    "rlusdTotalSupply": 1575443499.604795
   },
   "news": [
     {
-      "title": "Attacker Drains Nearly 200,000 XRP From Coreum Bridge After Fake Deposit Trick: 11 outlets compared",
-      "source": "NewsCord",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWk5jaC01TXlZZlA4S2hETzYxcmxpQXREaHVSM2xuYVZXRlkzU1lMZHZNODF6Qk9vVVFxcmViWTBxRGRDVzVPZUlzV19kdkZTWGJjSjFoQXhFcUhhTnk3S2hIaThrMEIyWHRzeVFiem9zS3liTEMtMHJ1LXNGOW9VWTNGUXFRdk1OWEl1R2cxWUREN0xZWEtOY1NSbHpYWlJiSWhUT3R6S3E3aXdGa0VKQU9lM2M1SUoxNUdRWi04WFFGUjMzVHpKcHhjRzN6czFpbkV5YzJjQTBNWWx1N2E5YXhiOE93QQ?oc=5",
-      "publishedAt": "2026-08-12T06:56:56+00:00"
-    },
-    {
-      "title": "Ripple extends NYU Abu Dhabi blockchain research to 2027",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQd1o3TllTQWxJb0tvZGw4VnBkMWgxTlduTkJqM2FhR21wRDJvRk5hUWVacEhvTFZCLV9pN3BkWGxYLXBzZFhHd3VJV1ZheGJObGZwTUd6WHNwNGZYMGNjM1FqRHpjWDBNeGJGY2h5SjV4blRDSnNvTA?oc=5",
-      "publishedAt": "2026-08-12T06:29:00+00:00"
-    },
-    {
-      "title": "Attacker Drains 200K XRP From Bridge Using Fake Deposit",
-      "source": "cryptopotato.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX25nZWFfdWFscFRlNFpFVC1RR1FVeUZiSTJCZTNkUmZOY2c2SnNJVGxkSjNPVHM2RFc0NGp5bS15WjhmeFMyWnBoOFlSN3NFQWVna2ZLeTJvam5weHhSdk5GTXhkWHVLQWVxSXU3XzUwbHYzLS1hcldWeDZEdWdVb1VMRXVGTkdi?oc=5",
-      "publishedAt": "2026-08-12T06:22:00+00:00"
-    },
-    {
-      "title": "DeFi | Another Crypto Bridge Gets Compromised \u2013 This time, XRP",
-      "source": "BitKE",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MNjViOGVrVHBwWWQwZk5nR1ZIS3VmMTNyaUNhcU5yQzJ5M0ItbUdkUXV0M2dtNkY2cnhMcHFNLWE3SEV5ckNTNnFwNmpJQUZxcWx1U01aZ3dsUk5Gcnc2eXhLRWs0dw?oc=5",
-      "publishedAt": "2026-08-12T05:22:26+00:00"
-    },
-    {
-      "title": "Million-XRP Wallet Cohort Grows 32 Addresses While Market Cap Sheds 29%",
-      "source": "Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QV2pKWFBQQi1DQWNtU2pBaWtMdWk3ZWszSDEzdk9YdDlzZUZfUUJiT2x4SUxVUmhzWlM4dzV4UGlpUWhDOC1zTDFsMzVyYnlCb25LWWo0ekczUQ?oc=5",
-      "publishedAt": "2026-08-12T05:13:12+00:00"
-    },
-    {
-      "title": "XRP Price Prediction For August 12",
-      "source": "Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CR3dUOTZpSFR6dUxIYUZLOTNoYUtGNjRwbTZkZERKeU9vOUxzS0MwS3pxTHM2TlpfZEhJWDg3M1hYdkZodHdkZ3dmZzA2Z0l3QW0xaXJpLXg3eG8?oc=5",
-      "publishedAt": "2026-08-12T05:12:52+00:00"
-    },
-    {
-      "title": "$200,000 worth of XRP stolen via software flaw in bridge linking XRP Ledger to tx blockchain",
+      "title": "XRP holds near $1.02 despite Coreum Bridge hack and inflation data shifting Fed rate outlook.",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbnBHNUhia2RoOHRsRmpXM0pCVzkzbUJaRXB4M3ZZZGdBZmZ1Qk5GZURuVjR3eVJMZXUwejlWQUJpRFVfNHZaUm9pNXFCWXkyUllQd0dWcE4yR3A3WUF2NXZBaFg1Z0twdTI4bHBUdmlhbTI4ZlBkV1p1aUVIRXNLV1REamhNelJCY0M2RHdObDZQU2ZOa3dV?oc=5",
-      "publishedAt": "2026-08-12T04:44:11+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ3dLWnNyWWhvZWRDRi1jZlp4X2pfX1ZQLU5idTFvLTljdEFpc0pEczhVbDB3NUtHRWtpVS1mNW15UHVCZThuUEFuQ1Y1aF90bldXUGx1N2RhQUNZMmxaT1hGTEs1WnVPU29OZ3dyRWZiOURHdF8yN2d1YkVmZElMYkNfUTB0eVlVaTRSRWpGMTVzQTVLSk1WcEN2U0puUjVVVHRqd1lJRmhadHpxUnc?oc=5",
+      "publishedAt": "2026-08-13T07:00:42+00:00"
     },
     {
-      "title": "XRP bridge drained for $200,000 after software mistook fake deposits for real ones",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMkVPd2pYWlU0eDRnbmpLd0d1bl8wZ2d2QS1ZMVV2Wl82NTc1SEhZNVlZT1dabzhIcmJmYmtSLUxwT2RvNWFxUWFpbnMwSjVCWTU2Ym9sNTd0anVPeTQ3QlYtVnNkVlBMNzh5RkY5dkJ6YnFGLVV2anZQX1dKU1VSOTRndUpZMXZOSkFQQVNXSko3bWxEUkdBVThEbzV3MEZ2dkNPQ3luaEJLWHJ1NWJxMGtQdHliU0hHUU1KZ0t6SldOOUk?oc=5",
-      "publishedAt": "2026-08-12T04:33:25+00:00"
+      "title": "$Ripple (XRP.CC)$",
+      "source": "moomoo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95bHh1VGVMT0FQajFzaXhNRC1vRDEydmxBQjVDLWhnOE45OWFZbC1rYmZvdnQwNWtwcWx6MDZHYU1GblRBUU5qc05NSHFFVXdrVjMtZVU5QlhBQVBGQlY3V0JMZF9sc3ZfbUpUSGZ2UE16T0lPTUE?oc=5",
+      "publishedAt": "2026-08-13T06:04:44+00:00"
+    },
+    {
+      "title": "Cryptocurrencies Price Prediction: Monero, Ripple & Bitcoin \u2013 Asian Wrap 13 August",
+      "source": "fxstreet.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGZzNk04UVBQR3lSbmlGZmYwS2lNMDZRN09QM2hVb0RGNFdfWDBVeFpnVmpIeTdmVXJ2YThTMUpSLVI4OTl1RlRfdDV6S09JWjh0WUNwN01pZjAzN2pjb1ZOT2NYZGhuSGwzbU9ieG04dVZSVGc0aWFmQ2MzZ0s1azVUVV9heERQQjFGWHlFYzQ2cG85aEpvQVljMTcwUkZNTEZ6X2FnYWMzYmpzZzR3STFlaERmcURzdUFrdGFaeEtPU2ZnV21ZWm1XMmVZSHBNdGc?oc=5",
+      "publishedAt": "2026-08-13T05:27:46+00:00"
+    },
+    {
+      "title": "Large XRP holders increase by 32 as BlackRock-backed tokenization expands",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83Z05sR0JsZXprR09mbW9LMlR1RkFudm85YVhRdjlwOFpBeTM3LWZvb3RoNDVDZnE4U2FVdHJXbnFHNkVYMlUwaHNvRzRsbFpaVWhhVzA2R0RtWEFZQUVHNkx6a9IBY0FVX3lxTE83Z05sR0JsZXprR09mbW9LMlR1RkFudm85YVhRdjlwOFpBeTM3LWZvb3RoNDVDZnE4U2FVdHJXbnFHNkVYMlUwaHNvRzRsbFpaVWhhVzA2R0RtWEFZQUVHNkx6aw?oc=5",
+      "publishedAt": "2026-08-13T04:25:35+00:00"
+    },
+    {
+      "title": "XRP and XLM outlook: Will Ripple and Stellar recover or extend deeper correction?",
+      "source": "fxstreet.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmZLXzBhT3BObFN0YnN3aldKRHlNLTFhT2FkSzlfNFJTOGt6eE5pSndSRGhoZzVBSWF3bnhfcVkwQjUyc1R2Zko2cjdDOEdhQnJaTDB6ZXhoUE5vYnQzMlY4ankzajBxTFZXZUc5NlZPNWFuMDI2LXhoaUZxQ0pYNlZlRzBTXy1wSVpnVjc2ZXVWU1BtUUZtVmZtejdrZHhGT2diVHVnRUxQa3BoR0F3VTgtN3ZXV3hMNjdPMUxaWGF6N3ZLYmw2UEZJLVBoQnBq?oc=5",
+      "publishedAt": "2026-08-13T04:09:50+00:00"
+    },
+    {
+      "title": "XRP price at Aug 13, 2026 at 1am EDT? Prediction Market",
+      "source": "Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTVZ4by1FeXRDMGF6czhUX0xlRG1rRFRBUkdWdkoxTV9iQ0VMek9XTXNXRXdWakNUZXRZcUZSQ1pHZXNJV2NsX29uRXcwb2RSd1dycnAxa1EyLWp0X3EwY0VuWDFvcWI4ai11N3Y2eUJibHlPbnItY1FET21TQ0VmcEVFWnVTQXFuTFJJUG9hTkZscUcyYWdOU3hGaW1kSFJfT29zaEtxSi11c3Ftenc?oc=5",
+      "publishedAt": "2026-08-13T04:05:22+00:00"
+    },
+    {
+      "title": "XRP Rally Dreams Hit Wall As SuperTrend Indicator Turns Bearish",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdVlfRzU2WFZvcU9yX1VpQ0VqMjhJRHVGcDgzZjVzc1djanFqc2FoYi16Y2diYlVzdTBaZktPeW45SHFhZFA3X255WUxpa2pEMG0tckx6X0Z1eUw0eTFyMFpPOVJRdEV0LXZvUXFOLVcxanotQTRNME1TdkRDME1KVWJnU3pUTDBzemRoaVppWVlUcU94SXhvdWNfenIyR1djZGdONw?oc=5",
+      "publishedAt": "2026-08-13T03:59:32+00:00"
+    },
+    {
+      "title": "Mastercard Pilots Ripple's RLUSD For Card Settlement With Gemini",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcENwcThSQVR5RElCMmxWTTc1bjVwdlB4dGlhQjY2SWUxSzZQZHJDekFkVy1CSVFNcVdVbHE3QV9zZ3UxSWdYanQzYkRHbUR5SEl1WkQyOWFRR2ZlOXZ5MjBBeUItM2VlOGw2eFJsVlk1MmFBUktZYndxN1g4emtxRVZGZ3JqVVZPN2Rn?oc=5",
+      "publishedAt": "2026-08-13T03:45:00+00:00"
     }
   ]
 }
