@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-14",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-13T07:55:58+00:00",
-    "xrpPrice": 1.013,
-    "xrpMarketCap": 63470586921,
-    "xrpVolume24h": 896625157,
-    "rlusdOnXrpl": 814281465.3715268,
-    "rlusdTotalSupply": 1575443499.604795
+    "updatedAt": "2026-08-14T07:52:33+00:00",
+    "xrpPrice": 1.004,
+    "xrpMarketCap": 62917051982,
+    "xrpVolume24h": 744779312,
+    "rlusdOnXrpl": 815020025.2315181,
+    "rlusdTotalSupply": 1576784808.464787
   },
   "news": [
     {
-      "title": "XRP holds near $1.02 despite Coreum Bridge hack and inflation data shifting Fed rate outlook.",
+      "title": "XRP holds $1.00 as whales accumulate 72M tokens amid steady ETF inflows and rising wallet activity.",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ3dLWnNyWWhvZWRDRi1jZlp4X2pfX1ZQLU5idTFvLTljdEFpc0pEczhVbDB3NUtHRWtpVS1mNW15UHVCZThuUEFuQ1Y1aF90bldXUGx1N2RhQUNZMmxaT1hGTEs1WnVPU29OZ3dyRWZiOURHdF8yN2d1YkVmZElMYkNfUTB0eVlVaTRSRWpGMTVzQTVLSk1WcEN2U0puUjVVVHRqd1lJRmhadHpxUnc?oc=5",
-      "publishedAt": "2026-08-13T07:00:42+00:00"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVU10QW5qOUdEY3g5WklUdmVLNmNBbmgzTjBiSDF2cEl1LUxuY2loNFNrTlFSSGROQXBNMDNQeGRlbkNhekJZTHAwQ3dDQlR1WkN2eG9rOHlXRkMzS0lvRG5VV3NSN0RuYV9KWkNiYVpVRnExY0otV3ozRHkwa2FhNzVnVGdwSlY0T3pBdnQ2MTdDd3k3NmZCYnJpb0Q4TmQ3aU5uMQ?oc=5",
+      "publishedAt": "2026-08-14T07:47:44+00:00"
     },
     {
-      "title": "$Ripple (XRP.CC)$",
-      "source": "moomoo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE95bHh1VGVMT0FQajFzaXhNRC1vRDEydmxBQjVDLWhnOE45OWFZbC1rYmZvdnQwNWtwcWx6MDZHYU1GblRBUU5qc05NSHFFVXdrVjMtZVU5QlhBQVBGQlY3V0JMZF9sc3ZfbUpUSGZ2UE16T0lPTUE?oc=5",
-      "publishedAt": "2026-08-13T06:04:44+00:00"
+      "title": "Bitcoin and XRP face pressure amid regulatory d...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGJXaTdZbGdNeVBqWXJBREh6cmVLVjhfVFhKNDNDTFdYS3hveC1HQ29MVkZDZGlEb3R6UDhTYkFvbmhjQkRYUURfM2lXQWl0czA3YV9xd3RLNk5YZ2FBdzVKZ1hxR19DUGRTWHZXd01vTUw4M2VCMGhGVEhLX1VfU21TaGZGLXVWajQ0SUJrTFFkblVHelVr?oc=5",
+      "publishedAt": "2026-08-14T07:27:00+00:00"
     },
     {
-      "title": "Cryptocurrencies Price Prediction: Monero, Ripple & Bitcoin \u2013 Asian Wrap 13 August",
-      "source": "fxstreet.com",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGZzNk04UVBQR3lSbmlGZmYwS2lNMDZRN09QM2hVb0RGNFdfWDBVeFpnVmpIeTdmVXJ2YThTMUpSLVI4OTl1RlRfdDV6S09JWjh0WUNwN01pZjAzN2pjb1ZOT2NYZGhuSGwzbU9ieG04dVZSVGc0aWFmQ2MzZ0s1azVUVV9heERQQjFGWHlFYzQ2cG85aEpvQVljMTcwUkZNTEZ6X2FnYWMzYmpzZzR3STFlaERmcURzdUFrdGFaeEtPU2ZnV21ZWm1XMmVZSHBNdGc?oc=5",
-      "publishedAt": "2026-08-13T05:27:46+00:00"
+      "title": "XRP price: Cluster of headwinds gang up on bitcoin and wider crypto market",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeXE3YjBlSXVsUmtJTld2a0VYeXltTXYtRGZmb29LdWlIcXMxLUdHZmFvMDVQTjk3M2NsY1FDQ0dsWUs2YWdIUDFyLWpFNFRwV0VfNTBtcHI3UnJCRFY2S3RpX2J1X3NKc1BiWE9UMnRRdm5raFR1ZFRqSzl4aWhkcmxZZUJ6VjFsdmhmYkxCamotNThHRUJJQ1JuLUVIREIxYXdxanFn?oc=5",
+      "publishedAt": "2026-08-14T07:18:50+00:00"
     },
     {
-      "title": "Large XRP holders increase by 32 as BlackRock-backed tokenization expands",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83Z05sR0JsZXprR09mbW9LMlR1RkFudm85YVhRdjlwOFpBeTM3LWZvb3RoNDVDZnE4U2FVdHJXbnFHNkVYMlUwaHNvRzRsbFpaVWhhVzA2R0RtWEFZQUVHNkx6a9IBY0FVX3lxTE83Z05sR0JsZXprR09mbW9LMlR1RkFudm85YVhRdjlwOFpBeTM3LWZvb3RoNDVDZnE4U2FVdHJXbnFHNkVYMlUwaHNvRzRsbFpaVWhhVzA2R0RtWEFZQUVHNkx6aw?oc=5",
-      "publishedAt": "2026-08-13T04:25:35+00:00"
-    },
-    {
-      "title": "XRP and XLM outlook: Will Ripple and Stellar recover or extend deeper correction?",
-      "source": "fxstreet.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmZLXzBhT3BObFN0YnN3aldKRHlNLTFhT2FkSzlfNFJTOGt6eE5pSndSRGhoZzVBSWF3bnhfcVkwQjUyc1R2Zko2cjdDOEdhQnJaTDB6ZXhoUE5vYnQzMlY4ankzajBxTFZXZUc5NlZPNWFuMDI2LXhoaUZxQ0pYNlZlRzBTXy1wSVpnVjc2ZXVWU1BtUUZtVmZtejdrZHhGT2diVHVnRUxQa3BoR0F3VTgtN3ZXV3hMNjdPMUxaWGF6N3ZLYmw2UEZJLVBoQnBq?oc=5",
-      "publishedAt": "2026-08-13T04:09:50+00:00"
-    },
-    {
-      "title": "XRP price at Aug 13, 2026 at 1am EDT? Prediction Market",
+      "title": "XRP price at Aug 14, 2026 at 4am EDT? Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTVZ4by1FeXRDMGF6czhUX0xlRG1rRFRBUkdWdkoxTV9iQ0VMek9XTXNXRXdWakNUZXRZcUZSQ1pHZXNJV2NsX29uRXcwb2RSd1dycnAxa1EyLWp0X3EwY0VuWDFvcWI4ai11N3Y2eUJibHlPbnItY1FET21TQ0VmcEVFWnVTQXFuTFJJUG9hTkZscUcyYWdOU3hGaW1kSFJfT29zaEtxSi11c3Ftenc?oc=5",
-      "publishedAt": "2026-08-13T04:05:22+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMHJGbDZSQ0szTlQ3b0ZIc3BEeGNKRmtOOHpnc0NrYVZLTG9pS3hoVjR5NW5XdzJ5blNhRUZ2bEdxYWM1Vld4X2dZWkxXQ3JFNE82RlJHLVNuTkIwUDNvNUFwa3g5YldnVlN3bzhUSUowY3hHMWstS2t3OHMyak0zbHJUM3Vva0g5QkdHdXRtNHlmZmpkQTVLQ3N2R1M5XzJ1LUU0aDlNQ3dSN3A3Ync?oc=5",
+      "publishedAt": "2026-08-14T07:10:27+00:00"
     },
     {
-      "title": "XRP Rally Dreams Hit Wall As SuperTrend Indicator Turns Bearish",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdVlfRzU2WFZvcU9yX1VpQ0VqMjhJRHVGcDgzZjVzc1djanFqc2FoYi16Y2diYlVzdTBaZktPeW45SHFhZFA3X255WUxpa2pEMG0tckx6X0Z1eUw0eTFyMFpPOVJRdEV0LXZvUXFOLVcxanotQTRNME1TdkRDME1KVWJnU3pUTDBzemRoaVppWVlUcU94SXhvdWNfenIyR1djZGdONw?oc=5",
-      "publishedAt": "2026-08-13T03:59:32+00:00"
+      "title": "SEC Crypto Rules Delayed: What It Means for XRP, HBAR and XLM",
+      "source": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcjVLRkNSZHRNR2hKQzB4NU5USVdCa0pEMWUxalFqQ3hrT2Nvdk4zU1NuNEZ2Z0dMQmFGMkRNbmRBZzkwUkdYWDlETDNISjJLRm51VmtneGFSVzNkcHh1clo3TERHQndLNFVERmQzem0weC1kZUp2dmN1c2xaTEZ3bjZtMTVFRnFtY3k4UnRiUzjSAZYBQVVfeXFMTmo4N0pvNHdHNHd6eVhlTUdFYm1lU3JiSVhaaXE1Sl9NWE9PVXJVWnZLLXVYZFU2M0VKWmpRQWFtWUJSOEtub1U0eXRvLW4yMGtDczhmVkpOVjE2STNUUU1PRTE2SjNqUXQ2VHVzVXZuWS10d2M1QlNwMmZmenEtTTNsTHVITVFCZTlWa2E2cHE4Y1IzRWtB?oc=5",
+      "publishedAt": "2026-08-14T06:57:12+00:00"
     },
     {
-      "title": "Mastercard Pilots Ripple's RLUSD For Card Settlement With Gemini",
+      "title": "Cryptocurrencies Price Prediction: BSV, Ripple & Bitcoin \u2013 Asian Wrap 14 August",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ1FLUVlQTmpZbm1MOHJ2ZldTWEJhYmpyVkptb1V3Q0NlOTVHWm04aEpfOXV5YVRYX2NPc2dxM2o2ZlZRemI5QUw0elpPLVJjMUVqX0tOUjFQZkJORkxuNXdQcFZnYTZHaUY2VnZMZGhOR2NtRVd2S3V2eWRGb3FhakhvUW5PSVJXWkVWMmhXUWVHbV9ISC02MFlUX3NWcS16d1NkdkpPYVBoSmZXOHduUGJlSHduSEttcVdJWG1jZE0tNW5vZ3ZzVVZMUG8xQQ?oc=5",
+      "publishedAt": "2026-08-14T06:43:23+00:00"
+    },
+    {
+      "title": "Evernorth Amends Nasdaq Terms to Reflect XRP Treasury Value",
+      "source": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQnJBUy1DaUhuR3N3b1RfOEhZaVU1TVkzMWl4RDdtbFBTQjhnYkpvWEVtZGJjd3Qtc1JfbVNPcHZQc0hWWG50eWFtQ2gxaFMyeFNfZnJnMmNiOTd3WDUtbHY4UE9GMkotVEZsQ0xDSEdDMnUxa0hMQndVYjB4ZThlNDdhdldFaVhjbklIVGo0ZFBZRVlBQVBaQ0haQ2pGNF9lYlZPTE5n0gGmAUFVX3lxTFBCckFTLUNpSG5Hc3dvVF84SFlpVTVNWTMxaXhEN21sUFNCOGdiSm9YRW1kYmN3dC1zUl9tU09wdlBzSFZYbnR5YW1DaDFoUzJ4U19mcmcyY2I5N3dYNS1sdjhQT0YySi1URmxDTENIR0MydTFrSExCd1ViMHhlOGU0N2F2V0VpWGNuSUhUajRkUFlFWUFBUFpDSFpDakY0X2ViVk9MTmc?oc=5",
+      "publishedAt": "2026-08-14T06:41:54+00:00"
+    },
+    {
+      "title": "Doppler Finance Joins XRP Seoul 2026 as Platinum Sponsor",
       "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcENwcThSQVR5RElCMmxWTTc1bjVwdlB4dGlhQjY2SWUxSzZQZHJDekFkVy1CSVFNcVdVbHE3QV9zZ3UxSWdYanQzYkRHbUR5SEl1WkQyOWFRR2ZlOXZ5MjBBeUItM2VlOGw2eFJsVlk1MmFBUktZYndxN1g4emtxRVZGZ3JqVVZPN2Rn?oc=5",
-      "publishedAt": "2026-08-13T03:45:00+00:00"
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd3RJUWljREp0UU9FdnZzX3ZUazFmRnpWRnVSTW9hdzFVdGdDVXA4QUU1SjNCTEthTjg2M1FnOFktYWxyTEt4a3Y0XzRvYzlSclJFVVhZQ1NlYWwxZ0E5bjcyVlFjMXFBSk14dnNzTmxsZFRXNTRackd4emJWMUNnNThackZ2LVFTYXFaakdRTDVSWUs4?oc=5",
+      "publishedAt": "2026-08-14T06:33:07+00:00"
     }
   ]
 }
