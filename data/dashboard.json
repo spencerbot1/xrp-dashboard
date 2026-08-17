@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-16",
+  "asOf": "2026-08-17",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-16T07:01:28+00:00",
-    "xrpPrice": 0.999622,
-    "xrpMarketCap": 62657818414,
-    "xrpVolume24h": 393277899,
-    "rlusdOnXrpl": 849499398.2315153,
-    "rlusdTotalSupply": 1716264181.464783
+    "updatedAt": "2026-08-17T07:18:13+00:00",
+    "xrpPrice": 1.005,
+    "xrpMarketCap": 62968429227,
+    "xrpVolume24h": 646407532,
+    "rlusdOnXrpl": 859499398.231515,
+    "rlusdTotalSupply": 1711264181.464783
   },
   "news": [
     {
-      "title": "XRP risks falling below $1 amid weak buying and rising leverage, with potential drop to $0.60.",
+      "title": "XRP price at Aug 17, 2026 at 4am EDT? Crypto Prediction Market",
+      "source": "Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdDhlNHh2NXRaa25GbUdXaHZpUFE3aTlNRHZ5QXpyRlBtMUxWTE9xRE45TE9RZndxRXplM05kZkpyYkktSmJDQ20ybm5JVFljTC15bkFHYUNjX1Z1SGwta3ZDa1dVQlMyUE91OE04WkxJNFBIODNlZWM3U0VOckFZbzE3RnJBUERKZjFKMnh0d1BYWUVwWF9xNG9WaGZGS1ZucC1aUXkyTE1rb2JBcUE?oc=5",
+      "publishedAt": "2026-08-17T07:05:09+00:00"
+    },
+    {
+      "title": "XRP Ledger adds opt-in privacy for token balances and transfers, boosting institutional appeal.",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdWVtVFpEemxzTEVnRTYxV2JaNUljSFBITVpWM2l0YWliUTVqQU1GYXBndS1xMU9RZWhuS2s4TURoQUkzNjdzWHh3NUV1MGNZY05XZnVyc0d2ZkRZNWR0U0IxZnlteUhiYTI1X2JaaDRnaWtyV3E5dV9UcGNYREpORDRoZlBiM2hCY04yaHd0U19lN1ZFNzkwNTdoNUd2SVpvMWF4RENNc1Bqdw?oc=5",
-      "publishedAt": "2026-08-16T06:34:12+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXI0YU1GNDJzeUNlZjBlVTRLa09ZamJKSGF1OUxHZjhvR09fWnJySVRMZUh2akpWM2lCbGdDSjkydGt3SVE1ZjBxTS03Sk44REw0MnZIdTNhd2ZwM2U1R0V6Q0JDd2FwaGRzbEJyMFNPMVphOWMxdnJjRTdKc3JpRVFmMjNqV0Zk?oc=5",
+      "publishedAt": "2026-08-17T06:21:36+00:00"
     },
     {
-      "title": "Will XRP\u2019s price drop below $0.60? Here\u2019s what KEY metrics suggest",
-      "source": "AMBCrypto",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRkRDZWk1ZVpubWQ5TW1NelFWY1Yxd3Bra0pRU09pcjZjektnQzVHRkI1Z09JYkVGWTdZbEZVaHBtNW1zeElIRzNCXzhGRTIza3N0b3RLdG9ZbGc2RXpVNHhKY1IxbjNkRzV4ZUJaOEs3X2g0UzZkajkxY0ZxeG4xeHVXR0tSeEFIN3lHeEVR?oc=5",
-      "publishedAt": "2026-08-16T06:00:49+00:00"
-    },
-    {
-      "title": "XRP Faces Fork in the Road with Market Doubts and Regulatory Demands",
+      "title": "XRP and the CLARITY Act Unraveling the Unpredictable Regulatory Terrain",
       "source": "OneSafe.io",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14R2c4UDFZYi1JUG5xLS1qNnNCU0U2QWxwSi1pX3gzUEt3YTFVeFFKQ0N2blVXRmtQY2FoZ1BZTlFVQmRTVmVHLTRBbHJ1ZVIySGFBX1ljSHE0b05PRV9RMVRLcG5xYnNlZklaNnlLbFJrbXM5YVE?oc=5",
-      "publishedAt": "2026-08-16T05:22:39+00:00"
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DLUxBclRvWnRHdHdBcV9tT0lBLVBpd09DRnY5Nlo0VlZRVnZ6UUdhOUM1cHQxRHBQTGR5X1pHeTJCdVBBZU5EZmZ3OVBxTERYZ3ZNNEZ6aHRkWTJrM201SEF3QWpTTHFYSjdsWlZMTTVjaTA?oc=5",
+      "publishedAt": "2026-08-17T06:21:01+00:00"
     },
     {
-      "title": "XRP Holds $1 Amid Bearish Sentiment and Whale Accumulation Ahead of Key Regulatory Events",
-      "source": "InteractiveCrypto",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcVdwR0JzQlE5NzhLX1Q2Mng3cEtIVF9KUzNJUnE5aHNUb2lOMWJiS0pncjdCdTlxQ3VUYmRkRGVkc2FOVnloMVAyMC1yVnFNdjhRTm5JVjd4ck9CODluNWVTQmoyN3FBQ0JCT1hhb2s2UzdhenpjODNXclh4VVhkbGc3UjlEOU9FUnp3ak9GeHZvWXo3NGltU3RINDY2c0pONUNVUnVOUWt6VDY4bkF1TTFCSFpKd1BvNWJvSUhEMjNXQ1JkTmxfTnp3?oc=5",
-      "publishedAt": "2026-08-16T05:07:39+00:00"
+      "title": "XRP Rebound Bets Build Despite Slump Near $1 as Futures Longs Rise",
+      "source": "bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwU3NNWVJRQkQ0ZkpLTUVxUTF3bzRid1lCckNvUy14SzRLQ0oyOUZIQ2c4NXRfSHR6ckJGSHBCT1ZTYkRFbWM4ZzNZV2FfcWtuWXZzOA?oc=5",
+      "publishedAt": "2026-08-17T05:41:44+00:00"
     },
     {
-      "title": "XRP News: Ecosystem Combats Negativity As White House Alliance Signals Hope",
-      "source": "The Coin Republic",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQWRfcmRtQnZDZlhUdXU2WE9aT1QtLXhxM2ktNS1IeUNpU1UtREtKN09pUmR1RHcxZzUtYzVtbmE0Y2JVUEVFSno5YzlYajBnTTVEYTd5cDRsWlRnNUkyTF82aEZrRWVxZUdwME5WeDlSLVZNdWlKMjFoSXNHVHNYUG03dlp2YlhvSGtLQ19KLW43VndFYWJGX2k0cDlCYUJhQ05LeU91eVBJM1FpbUUyM2FNS2w5bVNTMkw0ZHVBZ9IBvwFBVV95cUxPQWRfcmRtQnZDZlhUdXU2WE9aT1QtLXhxM2ktNS1IeUNpU1UtREtKN09pUmR1RHcxZzUtYzVtbmE0Y2JVUEVFSno5YzlYajBnTTVEYTd5cDRsWlRnNUkyTF82aEZrRWVxZUdwME5WeDlSLVZNdWlKMjFoSXNHVHNYUG03dlp2YlhvSGtLQ19KLW43VndFYWJGX2k0cDlCYUJhQ05LeU91eVBJM1FpbUUyM2FNS2w5bVNTMkw0ZHVBZw?oc=5",
-      "publishedAt": "2026-08-16T04:41:52+00:00"
-    },
-    {
-      "title": "XRP social sentiment drops to a three-month low, while daily active addresses on the XRP Ledger reach a record high",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vakcyQThwOGhVTXNsQ3g1M2lyUHp1bGRRcWV6bWZIMHBMOWo2NkMyeGNVd1ppU2dITkxQRUJXUlNWSGFkY2FSM2ZFT09USTZYeDhPdGQ4emtlYWZSV0ROTzJ4TdIBY0FVX3lxTE9vakcyQThwOGhVTXNsQ3g1M2lyUHp1bGRRcWV6bWZIMHBMOWo2NkMyeGNVd1ppU2dITkxQRUJXUlNWSGFkY2FSM2ZFT09USTZYeDhPdGQ4emtlYWZSV0ROTzJ4TQ?oc=5",
-      "publishedAt": "2026-08-16T04:18:36+00:00"
-    },
-    {
-      "title": "PCT: XRP Escrow Effect On Price v3.0 :",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWmtaV0p6RWs1aVVhNGhYVGFKeWlhejNacDR5ckhNdGI2M3JLdGJHeDFxYzR3bkdoXzBKR2p3MUVQb01id2VKQVlqZF9HV09DWUVUYlBXdDJucnljcjMyWFYzaGNkOGtzYmctTm0xMFBpbDdZTDZNdjlVYkMzOGtuNGVhSTZTd3Bobkg4VldCYldlTHc?oc=5",
-      "publishedAt": "2026-08-16T03:47:55+00:00"
-    },
-    {
-      "title": "XRP active addresses hit 2-month high despite b...",
+      "title": "XRP traders bet on rebound as price nears $1 de...",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcU1hWHV3M2h4UEVvd192X0draTdtZ2FDa1NoUU55WmhCNmhDUmpBUm9sOWZnN0V5OVVmQUdJczF3eUlDTW9IVXpxR3N1QWduVVpqdzNxaGZqR2MtYWFEaGFYTEJGSDhvYlc2N3ozRU00TFp6M0dPa1QzZWliNm5heTV0NkwwWXVnaXpuemh0RDhGb0JyWHB3TTNUaVRuMHFIN2JVOGdB?oc=5",
-      "publishedAt": "2026-08-16T01:47:45+00:00"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSEVNXzhPbWRrSXZBUWU3RGR5MmFFUTVnSHBZa1VrbzBTT1NNX2lveGpIbGJfa0Y0Z25QQloyQ05OSDRfLUVzekNwbFdzTmlsRm9CZG9OVFNRVm52VTA5Z2pPZ0lyNTVMUm1JRGNyZXB1cnlxRVM3RE5tdXVKVGh4US1rOWhaay1rUGF1RXVKXzdoVFFFZHk0M3IwRUhjUUN4QVh5cGN1VUdXaTZUb0VicGln?oc=5",
+      "publishedAt": "2026-08-17T05:15:09+00:00"
+    },
+    {
+      "title": "XRP price analysis: What next for Ripple-linked token as bearish chatter rises",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS3lwbmdSbHp4aTNoTXVKeG00VWxpRTh0dUxBZ1dfM21aVmNmeTBXRS02c2Z3cXlBS2VmX2RLZFl6VjdRb0pjQUVPOFpjeklJNVdheXFVc2loQU9DTkh1VVl5cHZQUlJ4NmdJcWdGSjg0dzhJb0d0ZnZFZmFQb0JMcTliOUtiVWlfTkJ5VlMzaHJpbkZYLTBmRnMxX3hoVFVOYmxvNGZPMkJUUFBKOGRjOXZIbFlqREZtVS11dkcxSQ?oc=5",
+      "publishedAt": "2026-08-17T04:43:03+00:00"
+    },
+    {
+      "title": "XRP spot ETF saw net inflows of $2.25 million last week",
+      "source": "odaily.news",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hQkFoNUhrMWUtY0RkTHM0ZThPSmxKSEs2ZWxHZzk4RWJPRWFwbWc0cTdUWmRQMURwcU1mRjVObVZWR1k4WnFTLXRDWFJPa0o5LS1iTXN3?oc=5",
+      "publishedAt": "2026-08-17T04:21:13+00:00"
+    },
+    {
+      "title": "XRP holds key trendline as SBI Shinsei Bank launches retail rewards program",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91U0hlRHYzTVVpbUlybm1OWTlyS2hPNUpyT0ZuUld3Q3FFUUVGaUFTb24yM1h6UlRCODk2WGRwaHl6ektBempjVEJkOF9QXzRIUWN2QW01anBsX19CNnF0M3A2RdIBY0FVX3lxTE91U0hlRHYzTVVpbUlybm1OWTlyS2hPNUpyT0ZuUld3Q3FFUUVGaUFTb24yM1h6UlRCODk2WGRwaHl6ektBempjVEJkOF9QXzRIUWN2QW01anBsX19CNnF0M3A2RQ?oc=5",
+      "publishedAt": "2026-08-17T04:16:16+00:00"
     }
   ]
 }
