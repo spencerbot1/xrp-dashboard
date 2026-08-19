@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-18",
+  "asOf": "2026-08-19",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-18T07:06:21+00:00",
-    "xrpPrice": 0.997681,
-    "xrpMarketCap": 62531094608,
-    "xrpVolume24h": 877745800,
-    "rlusdOnXrpl": 898677028.4715155,
-    "rlusdTotalSupply": 1773215433.704783
+    "updatedAt": "2026-08-19T07:08:05+00:00",
+    "xrpPrice": 1.003,
+    "xrpMarketCap": 62845944985,
+    "xrpVolume24h": 771241521,
+    "rlusdOnXrpl": 880691508.4715154,
+    "rlusdTotalSupply": 1760365202.704783
   },
   "news": [
     {
-      "title": "Important Ripple (XRP) Partnership Targets Cross-Border Remittances",
-      "source": "CryptoPotato",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcFY3YjRvWGEwbkNCWTVURENrel9PdXl2YUxaNVY2ZkhfMTZsYzN1Z0M0QTBydkpPMzFKd1hQeGpzaVRNUjJqZm9YajlCaXUzblFKVk1ZcTRIM3NOTUJhdWNESUQtM2NNQU1mb2VRNEFycnFfLU8wX1RzWVk1TWRSWmlVTlRqNjlPSGg2VlNBanJVUzdTemc?oc=5",
-      "publishedAt": "2026-08-18T06:40:00+00:00"
+      "title": "Bitcoin Holds MA; ETH and XRP Face Resistance",
+      "source": "TradingPedia",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWxuN2EzRWhUTG1ZUW93dTlESnV3VzFKVG5IZEZ4MS1fMzRxSkltdDdvZkFYaVdkdXM1b0tfZFRTSnZjVmVQaHMtT1lJZW52T2hBOVdqZllJd2lpLVcycFZVMVRiYjZ4WkFTdmVYMlhvT0NFZmZ3OFE5eEU0N2RjV1JJajFrTk9kdDNmQlRn?oc=5",
+      "publishedAt": "2026-08-19T06:26:12+00:00"
     },
     {
-      "title": "Ripple Signs First Korean Regional Bank Deal With Jeonbuk Bank",
-      "source": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPMlVmcmVadVBCUHVhY05JYkZhcTE2WTFrVmo4bDFMM2dmTWdQdVRyR19LSEJ3SXN2aXY3RHFybWNibDdjb1o2anZUR3hYcnU3LTV4eTk3MURpZXhFOTMxd3VnZ3BkYnp0dkptM0wxcUQyN2M4R3c?oc=5",
-      "publishedAt": "2026-08-18T06:35:00+00:00"
+      "title": "Ripple\u2019s Brokerage Arm Raises $275 Million: Why Doesn\u2019t XRP Care?",
+      "source": "BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NbXJ5RGp0dk9Yc1FuTnJ4eTlXVmlXS2RNVW1BM2duQU9obVRZOU94TUxMX2JkRjE5NUFLOTV5QnpqamlGbHQ1QkFEbnFyS0ZBNVhJYXlEQ2w3TmwxWnB1cm5pUnlnWlRnWXNWSUhtdWRrZw?oc=5",
+      "publishedAt": "2026-08-19T06:15:00+00:00"
     },
     {
-      "title": "Ripple partners with South Korea's Jeonbuk Bank for cross-border payments",
-      "source": "The Block",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX1UxTlBUTWFzd3k2Tk9lWkduQWNOYk1pYllBZUhHSFNyYWpHODFIbm5QQmFPVHJ1YkxhTzBaN3JVUzc4eWhpYjVoWlJfQVE3ZWZqa3dRcXBGT3BTYkZxeWZERS10Sk5SaDNtcnBrVnpNdk1HXzZSeEtiS05XSy1yTThQR1ZXODBMUVdrQ3Q4bnU?oc=5",
-      "publishedAt": "2026-08-18T06:17:53+00:00"
+      "title": "XRP Price Outlook Ahead of Today\u2019s White House Crypto Meeting \u2014 What\u2019s Next?",
+      "source": "CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbnBET3ZQSlpuYVdFa1NBTFJUZnR1QmJtbU9rTXQwbU1nUU1EVktFdUdNV29kR1VWQTA0emh0VlozaWtKb0xlaklNa2FYM3lmYUp5eFhBWDU1Vk5maUtvS3VMSkxLZHNnVGp3OTJOOU13dWl3SFAtbEZOWEs3OHl2Y2t0NnNndEo4cmpxR08weUhMQjJOa0djbkxyRjBvQU85eGJv?oc=5",
+      "publishedAt": "2026-08-19T05:49:03+00:00"
     },
     {
-      "title": "XRP price at Aug 18, 2026 at 3am EDT? Prediction Market",
+      "title": "Ripple Prime $275M funding lands investment-grade rating for US push",
+      "source": "The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43dkljUEFfNFZkb3lzbUJJejAtNXIzZi1YQ2x5QzZsdVRXNFBxRzV4dkZUSGNqREFsdklKODIzVGQtQ210eEt3ZC1aYmhrWlBOS1JVUWZLSWY4Yy1uN3RKWDROa1VzNkJyMVNZaXdlYl9WQQ?oc=5",
+      "publishedAt": "2026-08-19T05:27:35+00:00"
+    },
+    {
+      "title": "XRP price at Aug 19, 2026 at 2am EDT? Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOekZrLWJlRGN4RHlKbjlVcmgxNzVMNWs2T1BHUjVZQmk5STBObnQtY2t2Q25hZnNyWWMzUk9NaDJjcXJwalY2RWJjbm9aTDUxeHdNTjB2WExjTTBYdHNDNXRULXBybVZiOWZmd3V5VlQ0V0ExOVcwR1gycGxTcGhmM1hPY2JCY0tkQWp4OTFLS0dFN3pvSFF1MVN1XzVGT1VvMXJCU0EySUt3Qm5XV2c?oc=5",
-      "publishedAt": "2026-08-18T06:07:22+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaURhOVpZZHZBQ1ktZi1aSmtZaVhjRFBnMHZEVUFpdFd6MjhnOTFYMGE0MjlCZDUxNml0WmlFTmpheEVJTUpTeXAxTmZuZ0hZYnhfQ19sQTFYWVBRRHV4cmVqRVdHRW1qZ3ZaUTZmRHZXcFZmbkVjR0lUV1BOd2FOaG5XT05ab1pjYlFJWDlJUHRUZFJVd2loWVltWF8xSUlJbnhIbWVwNENqTlV3UUE?oc=5",
+      "publishedAt": "2026-08-19T05:07:00+00:00"
     },
     {
-      "title": "XRP News Today : Ripple and Jeonbuk Bank Partner To Bring Faster Payments to Korea",
-      "source": "Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQXR5c3pob0Frc3JiRElnUFJJUG9RRDEtcUpMbWpqUi0wb2xzRE1LY1RyT1Zsa3A5N19QWkdWVEptUm12dU53cktkemNtWG91YjNRODZqVGpqSjBXdF83NF9NcnhXbHZxakdONDB1eXFwUlhVS0h0UlpYY1FSaGppMFRHUldNQ3pqM28yaWhEZzhfb1MydWwxYWdkdnJsaXJWRUh5cldwUzBhd9IBrwFBVV95cUxPcW9Kc1lfS0tCcXNTVmJhaGlKQk45U3QxOVRRNmlQTFVra2NmS3huQ1p1YXFtVjJCMWRMTUZVYjhtWmxHMEFCTVAyOTRwZG43WExUZjk2Q3hVX2ZjcHBNY016aFQ3MWFWNFdqS1NIdjZ0NmlKdll1QUYxTjNlYWxSRHl6akRCNVRkVm51UVY0QnU2YU12TVF4VlMxNGJkOEx5aFgxall0VTVZeTVDU0dR?oc=5",
-      "publishedAt": "2026-08-18T06:06:27+00:00"
+      "title": "Ripple former CTO David Schwartz says he has about 2 million XRP left",
+      "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeTUyUVEza1JkeGVyZlI2ZEh0UVp2SFppRGxpbHdkMHFqdjM0enJrbkx0ZFlQQV9PZXNoajgyX3RFdThQb1hiekcyR2RERUlIRTNxbm5wcXVPeEI5dThYUVVTeHgzUElZdG1kQTd2Ykx6X2RTcXE4cVV2WUNRNWZ6TW9KN25uTW9mbkVETVpUZlRKMHRTUGQzQVd0aTkycTBOSlI4WkFTOFREX3NLNVFtSTdTTDA?oc=5",
+      "publishedAt": "2026-08-19T04:55:43+00:00"
     },
     {
-      "title": "XRP holds $1 support amid whale activity surge and SEC blockchain equity talks",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRXpCWkJFaW1MV3NXQXZoWklzSGRNS0JjV0JHSDlMS3FhaHpfTjdOZUdWTGtQa29UcndBOFN1MXd4MEUzeDJtZHVlRGdBcldLbWgxU2plOHpfNFZfSm1tYzlSSHZXUWdDazl1eHhzcDA3bzNLQXZ3d2dzU3hfczBqV2RJUXFpOThJODZ0eE1oSjZJY2VLVGcxYW9panA0dFdIMmJ4WU1PeDJMSGtfT3E4?oc=5",
-      "publishedAt": "2026-08-18T06:04:29+00:00"
+      "title": "Ripple partners Jeonbuk Bank on cross-border remittances",
+      "source": "IT Brief Asia",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbGJuUDNOLXVVdnotZlgyS2RxdHN3NHNQdjFCdlNReFJPM2ZNa2ZDTVRUWEdDQ2YzNHlUdEZiWWFfaTlrT0VZbFRNM0hqTnVvRWFfNE84aUd4US02SEQwVWdFaV9oeGJqaFZXdDg4b2VOTFV6T0Y4RWdxajlYdUpZZTVWTFdrcF9wVTJr?oc=5",
+      "publishedAt": "2026-08-19T03:48:00+00:00"
     },
     {
-      "title": "South Korea's Jeonbuk Bank adopts Ripple for ne...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcWt0QXJLSC1sd1dLMmN0TUR1d2V2XzN3VkdYQTh1MzBudTlTenppSVZWVG1jbWZNOWRvS0NTQkllTm9MUDRKejlROVJvbFY4aFBNZl9GV1JyenBrQ1R3d0ozYlBCNlRBbUs1OWhhalcxcXJWYkUzdldZM0ZfZ0FzWVVLN1FCQVd1X2w1V2gxVjRhOXNwYXE5RXplRC1BclMyZHp5Ukl3NEV3cjEw?oc=5",
-      "publishedAt": "2026-08-18T06:04:29+00:00"
-    },
-    {
-      "title": "Cryptocurrencies Price Prediction: Chainlink, Ripple & Bitcoin \u2013 Asian Wrap 18 August",
+      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC breaks 50-day EMA, ETH near critical resistance, XRP hints mild recovery",
       "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObk5XWWVuUTcxZlVSaGlJWXh3MldKcHhWS2NHZlA3ajlfN3VFM3lUbUhHTEZWbENBcUwxMTFjemhxdDhlOHp4QTdtT3RiY3pTSk5OREJlMkRNa0NuYzgwakdTQ043SlhLNmZWT0FUVVVtYkxlMWZrVVpud0tvbHFfb0tMRjRsRmdPa3V5VWczZVNNeTJZVGRPUjdnb2FpOFpYQ0JkLUNDdGVRT3NTdW8xM21tVVZMQUpVeUxRdW0zOGIzTVVvOFVybE9meHRIc19LcEY1QzB3?oc=5",
-      "publishedAt": "2026-08-18T05:58:10+00:00"
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxObVNDc0oxN2YwaE1XUTJoc3FNOXlPaDR0YVJqUWRwVmdzZFpyTU41c2pISWRBNFE0VHRPaWtqZllMYzZpbnpGWDRBeXBzdjlZZncxaVFJU29xVl9fZEZ4cEo4SkxYX2Y1ZUw0YlpzVGtlU011dktRTEtMZE03dUlmcndRbVktOWRQYWNSY3dGS3RjeTBxODBUTVBOdUxON0c0b2YzNW1GTFN4NmkwTkxSRUFYd1FLWG5kYXFuWkZic2JNX2hxcWwxeUF3aUk0cXdiR2J5a0ZwRDQteVZzM2FfeTlpWVlLaGZHamtVWWVvb29TdlpfaGtfZW9RNjFrcWlvWjU2dzBEVFJod3RUUXc?oc=5",
+      "publishedAt": "2026-08-19T03:13:22+00:00"
     }
   ]
 }
