@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-19T07:08:05+00:00",
-    "xrpPrice": 1.003,
-    "xrpMarketCap": 62845944985,
-    "xrpVolume24h": 771241521,
-    "rlusdOnXrpl": 880691508.4715154,
-    "rlusdTotalSupply": 1760365202.704783
+    "updatedAt": "2026-08-20T07:08:41+00:00",
+    "xrpPrice": 1.11,
+    "xrpMarketCap": 69594638985,
+    "xrpVolume24h": 3214992005,
+    "rlusdOnXrpl": 924697106.431515,
+    "rlusdTotalSupply": 1835473073.704782
   },
   "news": [
     {
-      "title": "Bitcoin Holds MA; ETH and XRP Face Resistance",
-      "source": "TradingPedia",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVWxuN2EzRWhUTG1ZUW93dTlESnV3VzFKVG5IZEZ4MS1fMzRxSkltdDdvZkFYaVdkdXM1b0tfZFRTSnZjVmVQaHMtT1lJZW52T2hBOVdqZllJd2lpLVcycFZVMVRiYjZ4WkFTdmVYMlhvT0NFZmZ3OFE5eEU0N2RjV1JJajFrTk9kdDNmQlRn?oc=5",
-      "publishedAt": "2026-08-19T06:26:12+00:00"
+      "title": "XRP (XRPUSD) Volatility Intensified on Aug 20: What You Should Know",
+      "source": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa0JFYl91TXpEY2dkTFpLREVUaWpheFJOYnVyX3pPSzhUaHhwYVByZjRRUUNSZmJPUG1mRE5MOGhmT25lUXBXX24yYlpnN2lCMXhGSkJMZi00RzJqX1VRUmlYbUlSNDRqMmZubUhZS1BqVkJicVdSbmlaQS1TTjZudTdpeWtaSi1LaGZ1SWdB?oc=5",
+      "publishedAt": "2026-08-20T07:00:21+00:00"
     },
     {
-      "title": "Ripple\u2019s Brokerage Arm Raises $275 Million: Why Doesn\u2019t XRP Care?",
-      "source": "BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NbXJ5RGp0dk9Yc1FuTnJ4eTlXVmlXS2RNVW1BM2duQU9obVRZOU94TUxMX2JkRjE5NUFLOTV5QnpqamlGbHQ1QkFEbnFyS0ZBNVhJYXlEQ2w3TmwxWnB1cm5pUnlnWlRnWXNWSUhtdWRrZw?oc=5",
-      "publishedAt": "2026-08-19T06:15:00+00:00"
+      "title": "XRP\u2019s $50 Debate and HYPE\u2019s SEC Push Set the Stage for Apeing, the Upcoming Crypto Coin Making Waves Ahead of Its Presale",
+      "source": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQQURNZEFWWEV3ZjY0aVJpbXpzSTRFU0tCclJibDlTS3NPNWR3dko5Wlk0dW1ZZ2x0M21BUHJXN1BQWFF6MXpJSktoWWZPU0Vyc3NwRlRFNXRSTkNNYjhUU2lGZ1hjSDRUaHBXSF9hSHpOaGhIX2xfOTJqU09CZDZoc0U4NUcteEJScFRZNXBlLXRFM24zMnhDLWd1Ymo4QlZEYTl1TnJCM0xlZEN0ZUh6VUt0Z0xibXVPM1A1X3F2dWhraXZzVXpxcTVQWjl1SzVVZTI0NjdiNW9TNzhoWFQ1dDJVb2FOV25XOFhOdk83Q2NWdFpoZFd2bXFZQ1BFMnV3QWZMcUZDU0R5Y1BLRG5hX1RlN3ltRFY4NzRUYVh3aU51ODVGZFg0X2pMOEtZeVJV?oc=5",
+      "publishedAt": "2026-08-20T05:32:16+00:00"
     },
     {
-      "title": "XRP Price Outlook Ahead of Today\u2019s White House Crypto Meeting \u2014 What\u2019s Next?",
-      "source": "CoinGape",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbnBET3ZQSlpuYVdFa1NBTFJUZnR1QmJtbU9rTXQwbU1nUU1EVktFdUdNV29kR1VWQTA0emh0VlozaWtKb0xlaklNa2FYM3lmYUp5eFhBWDU1Vk5maUtvS3VMSkxLZHNnVGp3OTJOOU13dWl3SFAtbEZOWEs3OHl2Y2t0NnNndEo4cmpxR08weUhMQjJOa0djbkxyRjBvQU85eGJv?oc=5",
-      "publishedAt": "2026-08-19T05:49:03+00:00"
-    },
-    {
-      "title": "Ripple Prime $275M funding lands investment-grade rating for US push",
-      "source": "The Cryptonomist",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43dkljUEFfNFZkb3lzbUJJejAtNXIzZi1YQ2x5QzZsdVRXNFBxRzV4dkZUSGNqREFsdklKODIzVGQtQ210eEt3ZC1aYmhrWlBOS1JVUWZLSWY4Yy1uN3RKWDROa1VzNkJyMVNZaXdlYl9WQQ?oc=5",
-      "publishedAt": "2026-08-19T05:27:35+00:00"
-    },
-    {
-      "title": "XRP price at Aug 19, 2026 at 2am EDT? Crypto Prediction Market",
-      "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaURhOVpZZHZBQ1ktZi1aSmtZaVhjRFBnMHZEVUFpdFd6MjhnOTFYMGE0MjlCZDUxNml0WmlFTmpheEVJTUpTeXAxTmZuZ0hZYnhfQ19sQTFYWVBRRHV4cmVqRVdHRW1qZ3ZaUTZmRHZXcFZmbkVjR0lUV1BOd2FOaG5XT05ab1pjYlFJWDlJUHRUZFJVd2loWVltWF8xSUlJbnhIbWVwNENqTlV3UUE?oc=5",
-      "publishedAt": "2026-08-19T05:07:00+00:00"
-    },
-    {
-      "title": "Ripple former CTO David Schwartz says he has about 2 million XRP left",
-      "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeTUyUVEza1JkeGVyZlI2ZEh0UVp2SFppRGxpbHdkMHFqdjM0enJrbkx0ZFlQQV9PZXNoajgyX3RFdThQb1hiekcyR2RERUlIRTNxbm5wcXVPeEI5dThYUVVTeHgzUElZdG1kQTd2Ykx6X2RTcXE4cVV2WUNRNWZ6TW9KN25uTW9mbkVETVpUZlRKMHRTUGQzQVd0aTkycTBOSlI4WkFTOFREX3NLNVFtSTdTTDA?oc=5",
-      "publishedAt": "2026-08-19T04:55:43+00:00"
-    },
-    {
-      "title": "Ripple partners Jeonbuk Bank on cross-border remittances",
-      "source": "IT Brief Asia",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbGJuUDNOLXVVdnotZlgyS2RxdHN3NHNQdjFCdlNReFJPM2ZNa2ZDTVRUWEdDQ2YzNHlUdEZiWWFfaTlrT0VZbFRNM0hqTnVvRWFfNE84aUd4US02SEQwVWdFaV9oeGJqaFZXdDg4b2VOTFV6T0Y4RWdxajlYdUpZZTVWTFdrcF9wVTJr?oc=5",
-      "publishedAt": "2026-08-19T03:48:00+00:00"
-    },
-    {
-      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple \u2013 BTC breaks 50-day EMA, ETH near critical resistance, XRP hints mild recovery",
+      "title": "Cryptocurrencies Price Prediction: Solana, Ripple & Bitcoin \u2013 Asian Wrap 20 August",
       "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxObVNDc0oxN2YwaE1XUTJoc3FNOXlPaDR0YVJqUWRwVmdzZFpyTU41c2pISWRBNFE0VHRPaWtqZllMYzZpbnpGWDRBeXBzdjlZZncxaVFJU29xVl9fZEZ4cEo4SkxYX2Y1ZUw0YlpzVGtlU011dktRTEtMZE03dUlmcndRbVktOWRQYWNSY3dGS3RjeTBxODBUTVBOdUxON0c0b2YzNW1GTFN4NmkwTkxSRUFYd1FLWG5kYXFuWkZic2JNX2hxcWwxeUF3aUk0cXdiR2J5a0ZwRDQteVZzM2FfeTlpWVlLaGZHamtVWWVvb29TdlpfaGtfZW9RNjFrcWlvWjU2dzBEVFJod3RUUXc?oc=5",
-      "publishedAt": "2026-08-19T03:13:22+00:00"
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQODZyQ2hSY1J6MWZ3dXhoUndCMFplUE5hRnozaDRPa1Z3TVIzS2Y2d3pqRWtaU3RzVndyNXlidzNHdEtmUkNLVDhsNklaYjVXSXB4TzE4MUxtZFdvUl9TZUlMWGVNZmRRS2ZOR3ZXWE5TcUVhQ1huTGJrMVBFc1FPS1EyU1JHSlZnNU95Y2NTVXBzN3ZaLWF6bmNVZVA1endxMUxmekJ2TjF0MnRHRUN6YWR0NEZaS25hOHZOU09CNnpsUlF2ZjRJc0lPOFI3Tnk0b1E?oc=5",
+      "publishedAt": "2026-08-20T05:27:32+00:00"
+    },
+    {
+      "title": "$Ripple (XRP.CC)$",
+      "source": "moomoo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NZTdVakhZbzU5VUpxamprc08xbUpDNW5HUWsxNkJNbUJzbExLWm83Ym9mRkQ3TUtsS05zdHByVnZKWHJXYVJ1MmJkV21OT0RDV3NOSHRUZEtFUGstRnlpb0NDUFpGUWljNWFDRVVoeDBWWE83RWc?oc=5",
+      "publishedAt": "2026-08-20T05:21:17+00:00"
+    },
+    {
+      "title": "240 Million XRP Pulled From Major Exchanges Since Early Summer: Why It Matters",
+      "source": "Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHcUZ6YjcyUDA1NVhqd3d2TXBCRXVmc1JadnpiM09LTzJQMVk1OFNQaG9nNHpUWWZHdzM0Sk1Gd1hTdXp4NHJFbzY5dkZXTjZId1hUbzFCYw?oc=5",
+      "publishedAt": "2026-08-20T04:25:37+00:00"
+    },
+    {
+      "title": "XRP and XLM outlook: Why are Ripple and Stellar rallying?",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQczlrd1NtcDJvT2toMUJSU19RYmJjUUw1VFhBcHU1MUxDYVNHa09RYnpKRC11RERvcGF6eFpob2l5ZF8zREtvLWFsTlN3ZGEtNXFpWDBRMHlnVXVLMFEtMkVGRUtiX0VFQW11bUhPTkZ3WnY1SDFkdVE3U0xXWk1QQTU3aTBnUHpEUGZXSHhGSUNXZEUtbXN5a21VNGFUQjh1UWJnTTdJYTQ2OWFTSHJwa04zYTlOX196QkhRSkpwM2tjTDFmNVlwbDR6SVJ1UWJnWHdFbjVIbnNVcHJSNkloMXYwUEFYU2NDVU05NFRicC1pNFE?oc=5",
+      "publishedAt": "2026-08-20T04:19:45+00:00"
+    },
+    {
+      "title": "XRP price at Aug 20, 2026 at 1am EDT? Crypto Prediction Market",
+      "source": "Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR1NVdWNDZDhuTGF4a282bWo5MjR2VlB2WjJ3aEFfODVjdlVEOWtfc1hHMVR1NTJ1TUpxbU1tLW9ROEJidXYydXAyZllOa3FuOWZCcmF1S2NDa0o1S0t2VkhXODE1WWlDUjVEVm5yczlScTlIUUpRaGstVHZtQXFMeXIzSm1Ic0NNUVNNZkNYTm00SldpTkZWT29vczNJMzAyWTFSMFczVklDa0xnbUE?oc=5",
+      "publishedAt": "2026-08-20T04:11:41+00:00"
+    },
+    {
+      "title": "XRP Army Reacts as Trump Officially Introduces Ripple CEO At White House",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MckV2M1BOOUdUclhRa092bHJ6SW1aWGFfQ0h4R1FRd195S2hJY20wdE9FZXFJclJ0NHRMZG4wa2FTXzlORXpzeXBNM2hMSW83RDV5SG53LXczamVLRUd4MHQ1b9IBY0FVX3lxTE1MckV2M1BOOUdUclhRa092bHJ6SW1aWGFfQ0h4R1FRd195S2hJY20wdE9FZXFJclJ0NHRMZG4wa2FTXzlORXpzeXBNM2hMSW83RDV5SG53LXczamVLRUd4MHQ1bw?oc=5",
+      "publishedAt": "2026-08-20T04:08:18+00:00"
     }
   ]
 }
