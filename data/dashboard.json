@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-20T07:08:41+00:00",
-    "xrpPrice": 1.11,
-    "xrpMarketCap": 69594638985,
-    "xrpVolume24h": 3214992005,
-    "rlusdOnXrpl": 924697106.431515,
-    "rlusdTotalSupply": 1835473073.704782
+    "updatedAt": "2026-08-21T07:09:36+00:00",
+    "xrpPrice": 1.31,
+    "xrpMarketCap": 81832324121,
+    "xrpVolume24h": 8084057906,
+    "rlusdOnXrpl": 945360711.4315131,
+    "rlusdTotalSupply": 1898473142.704782
   },
   "news": [
     {
-      "title": "XRP (XRPUSD) Volatility Intensified on Aug 20: What You Should Know",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa0JFYl91TXpEY2dkTFpLREVUaWpheFJOYnVyX3pPSzhUaHhwYVByZjRRUUNSZmJPUG1mRE5MOGhmT25lUXBXX24yYlpnN2lCMXhGSkJMZi00RzJqX1VRUmlYbUlSNDRqMmZubUhZS1BqVkJicVdSbmlaQS1TTjZudTdpeWtaSi1LaGZ1SWdB?oc=5",
-      "publishedAt": "2026-08-20T07:00:21+00:00"
-    },
-    {
-      "title": "XRP\u2019s $50 Debate and HYPE\u2019s SEC Push Set the Stage for Apeing, the Upcoming Crypto Coin Making Waves Ahead of Its Presale",
-      "source": "StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQQURNZEFWWEV3ZjY0aVJpbXpzSTRFU0tCclJibDlTS3NPNWR3dko5Wlk0dW1ZZ2x0M21BUHJXN1BQWFF6MXpJSktoWWZPU0Vyc3NwRlRFNXRSTkNNYjhUU2lGZ1hjSDRUaHBXSF9hSHpOaGhIX2xfOTJqU09CZDZoc0U4NUcteEJScFRZNXBlLXRFM24zMnhDLWd1Ymo4QlZEYTl1TnJCM0xlZEN0ZUh6VUt0Z0xibXVPM1A1X3F2dWhraXZzVXpxcTVQWjl1SzVVZTI0NjdiNW9TNzhoWFQ1dDJVb2FOV25XOFhOdk83Q2NWdFpoZFd2bXFZQ1BFMnV3QWZMcUZDU0R5Y1BLRG5hX1RlN3ltRFY4NzRUYVh3aU51ODVGZFg0X2pMOEtZeVJV?oc=5",
-      "publishedAt": "2026-08-20T05:32:16+00:00"
-    },
-    {
-      "title": "Cryptocurrencies Price Prediction: Solana, Ripple & Bitcoin \u2013 Asian Wrap 20 August",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQODZyQ2hSY1J6MWZ3dXhoUndCMFplUE5hRnozaDRPa1Z3TVIzS2Y2d3pqRWtaU3RzVndyNXlidzNHdEtmUkNLVDhsNklaYjVXSXB4TzE4MUxtZFdvUl9TZUlMWGVNZmRRS2ZOR3ZXWE5TcUVhQ1huTGJrMVBFc1FPS1EyU1JHSlZnNU95Y2NTVXBzN3ZaLWF6bmNVZVA1endxMUxmekJ2TjF0MnRHRUN6YWR0NEZaS25hOHZOU09CNnpsUlF2ZjRJc0lPOFI3Tnk0b1E?oc=5",
-      "publishedAt": "2026-08-20T05:27:32+00:00"
-    },
-    {
-      "title": "$Ripple (XRP.CC)$",
-      "source": "moomoo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9NZTdVakhZbzU5VUpxamprc08xbUpDNW5HUWsxNkJNbUJzbExLWm83Ym9mRkQ3TUtsS05zdHByVnZKWHJXYVJ1MmJkV21OT0RDV3NOSHRUZEtFUGstRnlpb0NDUFpGUWljNWFDRVVoeDBWWE83RWc?oc=5",
-      "publishedAt": "2026-08-20T05:21:17+00:00"
-    },
-    {
-      "title": "240 Million XRP Pulled From Major Exchanges Since Early Summer: Why It Matters",
-      "source": "Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHcUZ6YjcyUDA1NVhqd3d2TXBCRXVmc1JadnpiM09LTzJQMVk1OFNQaG9nNHpUWWZHdzM0Sk1Gd1hTdXp4NHJFbzY5dkZXTjZId1hUbzFCYw?oc=5",
-      "publishedAt": "2026-08-20T04:25:37+00:00"
-    },
-    {
-      "title": "XRP and XLM outlook: Why are Ripple and Stellar rallying?",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQczlrd1NtcDJvT2toMUJSU19RYmJjUUw1VFhBcHU1MUxDYVNHa09RYnpKRC11RERvcGF6eFpob2l5ZF8zREtvLWFsTlN3ZGEtNXFpWDBRMHlnVXVLMFEtMkVGRUtiX0VFQW11bUhPTkZ3WnY1SDFkdVE3U0xXWk1QQTU3aTBnUHpEUGZXSHhGSUNXZEUtbXN5a21VNGFUQjh1UWJnTTdJYTQ2OWFTSHJwa04zYTlOX196QkhRSkpwM2tjTDFmNVlwbDR6SVJ1UWJnWHdFbjVIbnNVcHJSNkloMXYwUEFYU2NDVU05NFRicC1pNFE?oc=5",
-      "publishedAt": "2026-08-20T04:19:45+00:00"
-    },
-    {
-      "title": "XRP price at Aug 20, 2026 at 1am EDT? Crypto Prediction Market",
+      "title": "XRP price at Aug 21, 2026 at 4am EDT? Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR1NVdWNDZDhuTGF4a282bWo5MjR2VlB2WjJ3aEFfODVjdlVEOWtfc1hHMVR1NTJ1TUpxbU1tLW9ROEJidXYydXAyZllOa3FuOWZCcmF1S2NDa0o1S0t2VkhXODE1WWlDUjVEVm5yczlScTlIUUpRaGstVHZtQXFMeXIzSm1Ic0NNUVNNZkNYTm00SldpTkZWT29vczNJMzAyWTFSMFczVklDa0xnbUE?oc=5",
-      "publishedAt": "2026-08-20T04:11:41+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdmdpcVdySUxrVkpMY1J5RGhzc3dxSVlpalZVUUxlTExBamVJZVFxOUlWMHdlNWJLUDlZM0JVUDd5dE1BaHpBQnlfRVN5azNjTktrOXgtVFVaeE5iQ1NKOWc4emowUEtUMTJvU3hkalh6elloQW9YZ2VFYTNjcW1qb0I0YkMyS0hBNHBmWXdMYW9jV2xlYm0xZ2tBOTUzSUdfOWFRUFlGbEFqdTdfRXc?oc=5",
+      "publishedAt": "2026-08-21T07:06:49+00:00"
     },
     {
-      "title": "XRP Army Reacts as Trump Officially Introduces Ripple CEO At White House",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MckV2M1BOOUdUclhRa092bHJ6SW1aWGFfQ0h4R1FRd195S2hJY20wdE9FZXFJclJ0NHRMZG4wa2FTXzlORXpzeXBNM2hMSW83RDV5SG53LXczamVLRUd4MHQ1b9IBY0FVX3lxTE1MckV2M1BOOUdUclhRa092bHJ6SW1aWGFfQ0h4R1FRd195S2hJY20wdE9FZXFJclJ0NHRMZG4wa2FTXzlORXpzeXBNM2hMSW83RDV5SG53LXczamVLRUd4MHQ1bw?oc=5",
-      "publishedAt": "2026-08-20T04:08:18+00:00"
+      "title": "Ripple's XRP jumps over 20% amid crypto rally a...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ0xKVC1NbmdUcmQxYmhsd2daYVBqWVRJQnYyU2UwYWRBWmhWN3dKNEFUZHRuR2EyTTI1bGI3dWNDQ0tsdUlqM3k3ODQ4U2hCc0hXUWtTSXpMMjdHaVdCUW8xcXlOQjVhQUVWeVVaQkxFeVhpTU1IdGFWdU9QcWdFbVpIcGV1cGIxLU5TMmFDLWNqd2VJSHZ6MERJXzdGMzdGWHFN?oc=5",
+      "publishedAt": "2026-08-21T07:04:10+00:00"
+    },
+    {
+      "title": "Ripple SEC Lawsuit and the Case for Crypto Rules",
+      "source": "Cryptonews",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yZl9iTVVwOXYxdUR4dFhHTUlMYnFmMGxCLWtEeVZtTGxmNGtKWmFZcEVUZkQ3Y1E1cFhPYTB2SDNKWmxTaU9MUmh6cVFFbUtDZTVHN2VQOGwyT1IySUhLMnVsUWF0cWY2cTc5V1VtM0Z4ZXM?oc=5",
+      "publishedAt": "2026-08-21T07:02:57+00:00"
+    },
+    {
+      "title": "Ripple Backs RLUSD-Based Credit Fund to Lend to Fintech Firms on XRP Ledger",
+      "source": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BXzJQOGhpOVJ6UE1VLTV5cDBOQ01zQXg2OGxVSDBjVUdBVWN2SHRyUjBTSWc0bmxybTdMR203LXpIcWRWTmI2NzNuZHloRXZsT05xMXhLellPVTM0MnNXWGpUdVpvdWJ2MGd3algtRS02dTd1ZXc?oc=5",
+      "publishedAt": "2026-08-21T06:25:00+00:00"
+    },
+    {
+      "title": "XRP Soars 19% On Regulatory Tailwinds, Ripple Partnership Update",
+      "source": "MarketForces Africa",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR1oxLXNYTnVzMENhRnp0TTdmS2RZeURzQXhGWXdPVnZ0QVNhelFydnoxOWhIVDFfaTR2WElmSWlGLXJQekRoc3BHXy1ZY09nYW9CMU93M3QwTFMycl9DNmxKYXNUNUhBcnZ2U2RZMFB0dGF1RVRYNGtzNk9oX3IxVVAtWXVrQzBaS1pJWjUxUXRVYlU?oc=5",
+      "publishedAt": "2026-08-21T06:07:04+00:00"
+    },
+    {
+      "title": "Ripple Invests in RLUSD-Backed Institutional Credit Fund for Fintech Loans on XRP Ledger",
+      "source": "bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Rc2RnSkJyOHN3VGJSdkxBWEZPdm5KTXJSUENqSnlNR2pGUTljeFdtcFRBTFNFdUt2Q2wyU0tTMUI1ZFU2VFV5akNRNHdqV0phdGJnNw?oc=5",
+      "publishedAt": "2026-08-21T05:56:17+00:00"
+    },
+    {
+      "title": "XRP price news: Up 30% on the week as Ripple backs an RLUSD credit fund",
+      "source": "CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTFpOY1o1TGFLLTVuRlZvdjE3Z0NiaDFtZlBJTGtkY0hPTTBHTjVobEE5UHBvQ0F1N3czZUotYlBuVkhEanpkS3BfZE9MdG5vMEx6Y2hEbUxVTWgzcTA4bERfcUVncEZoYUo5OFBIWWlzeFFZb1FQeXhFWnc5UzFWOEFnemN5SXJpYjhkVHJCNmhWemJyWGJ3TU9MUFhNdXpJcE9KTTZHcEpWWkRk?oc=5",
+      "publishedAt": "2026-08-21T05:29:48+00:00"
+    },
+    {
+      "title": "XRP price climbs back to $1.10 as traders eye p...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm9MSURnTWJTTDlJeWlCenF6Z3NScEhuNTBZMG1aelBiVGNFRFUxZXMwM1RZZ09ic3BfbGxRNUYzcEVvU0J0alVIR2ZfX3BPaHZGRVpST005eEQ3Q0F3ME5xWURKNGY2RTIyQjBfeTYtZmFqMGxTcGJBYVNjd25rcHBVSEpheTBVZWQ4NUY3UVB0WkNzSC16UjN1R3VlRnEyWVh0eG1UT1UzZlM4?oc=5",
+      "publishedAt": "2026-08-21T05:15:48+00:00"
     }
   ]
 }
