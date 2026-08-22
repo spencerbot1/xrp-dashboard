@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-21",
+  "asOf": "2026-08-22",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-21T07:09:36+00:00",
-    "xrpPrice": 1.31,
-    "xrpMarketCap": 81832324121,
-    "xrpVolume24h": 8084057906,
-    "rlusdOnXrpl": 945360711.4315131,
-    "rlusdTotalSupply": 1898473142.704782
+    "updatedAt": "2026-08-22T07:01:13+00:00",
+    "xrpPrice": 1.58,
+    "xrpMarketCap": 98829955720,
+    "xrpVolume24h": 15192709943,
+    "rlusdOnXrpl": 988360918.4314727,
+    "rlusdTotalSupply": 2073385225.10474
   },
   "news": [
     {
-      "title": "XRP price at Aug 21, 2026 at 4am EDT? Crypto Prediction Market",
+      "title": "XRP jumps 14% closing above key moving averages amid Bitcoin-driven rally, but golden cross not confirmed yet",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNE41ZmhGVzIzS0VBaEV0aWdueVFmdkdJbUo2Mm00QWlhT3FENUhQTi0yR3FnbFVOdGF2dHczektfOWZpWC1IS0JMeEJFRjQ0YjFCS05HUmxiaWVGdldrT0pBM2sxcXhtTnczTzdmWkVqaV9pcEpfLXZCeXZXVEEwa0xDejVIY1d4cXF4MnNSMFIyNmh0SXc?oc=5",
+      "publishedAt": "2026-08-22T06:27:09+00:00"
+    },
+    {
+      "title": "XRP price at Aug 22, 2026 at 3am EDT? Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdmdpcVdySUxrVkpMY1J5RGhzc3dxSVlpalZVUUxlTExBamVJZVFxOUlWMHdlNWJLUDlZM0JVUDd5dE1BaHpBQnlfRVN5azNjTktrOXgtVFVaeE5iQ1NKOWc4emowUEtUMTJvU3hkalh6elloQW9YZ2VFYTNjcW1qb0I0YkMyS0hBNHBmWXdMYW9jV2xlYm0xZ2tBOTUzSUdfOWFRUFlGbEFqdTdfRXc?oc=5",
-      "publishedAt": "2026-08-21T07:06:49+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWS1SSGxYZmllM3pyUGV0eW12UkpwUHJfQThLcWwzNlNRbUZ0MWtvbExMaDBVRWlyRnRCMVV0eWhqSUlCalVqRDhfNmFyYVpnT3JCRVNUSVR1MVByblFEM1lPbjc4bnJTU0lvWmNMRnU5YjN5Y2pDRzFwNHNFUG1OUGdmWEVLcmlySzVZU3Znc0ZxSWlBaHBwRHRIM09mS1dPY2p4VGc1Q2ludzhQbUE?oc=5",
+      "publishedAt": "2026-08-22T06:04:45+00:00"
     },
     {
-      "title": "Ripple's XRP jumps over 20% amid crypto rally a...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ0xKVC1NbmdUcmQxYmhsd2daYVBqWVRJQnYyU2UwYWRBWmhWN3dKNEFUZHRuR2EyTTI1bGI3dWNDQ0tsdUlqM3k3ODQ4U2hCc0hXUWtTSXpMMjdHaVdCUW8xcXlOQjVhQUVWeVVaQkxFeVhpTU1IdGFWdU9QcWdFbVpIcGV1cGIxLU5TMmFDLWNqd2VJSHZ6MERJXzdGMzdGWHFN?oc=5",
-      "publishedAt": "2026-08-21T07:04:10+00:00"
+      "title": "XRP erased its death cross. That does not mean what most headlines are claiming.",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdkxjd2RiZG9yVmtqNXhmMzQxMzNPQ1pXRllYN0xJQkU0c0pmc2hCb0wyaDVObDVOSUhKSjZRMVR5TTNmMDVVSjR6T3BFRnR6ZWdHSWdPY3ZlWURLWkpkRnBzeDVKOW5WeDVSMVd4cFJZMDBRMXAzX0liZHZMNzhuTA?oc=5",
+      "publishedAt": "2026-08-22T05:39:00+00:00"
     },
     {
-      "title": "Ripple SEC Lawsuit and the Case for Crypto Rules",
-      "source": "Cryptonews",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yZl9iTVVwOXYxdUR4dFhHTUlMYnFmMGxCLWtEeVZtTGxmNGtKWmFZcEVUZkQ3Y1E1cFhPYTB2SDNKWmxTaU9MUmh6cVFFbUtDZTVHN2VQOGwyT1IySUhLMnVsUWF0cWY2cTc5V1VtM0Z4ZXM?oc=5",
-      "publishedAt": "2026-08-21T07:02:57+00:00"
-    },
-    {
-      "title": "Ripple Backs RLUSD-Based Credit Fund to Lend to Fintech Firms on XRP Ledger",
-      "source": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BXzJQOGhpOVJ6UE1VLTV5cDBOQ01zQXg2OGxVSDBjVUdBVWN2SHRyUjBTSWc0bmxybTdMR203LXpIcWRWTmI2NzNuZHloRXZsT05xMXhLellPVTM0MnNXWGpUdVpvdWJ2MGd3algtRS02dTd1ZXc?oc=5",
-      "publishedAt": "2026-08-21T06:25:00+00:00"
-    },
-    {
-      "title": "XRP Soars 19% On Regulatory Tailwinds, Ripple Partnership Update",
-      "source": "MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR1oxLXNYTnVzMENhRnp0TTdmS2RZeURzQXhGWXdPVnZ0QVNhelFydnoxOWhIVDFfaTR2WElmSWlGLXJQekRoc3BHXy1ZY09nYW9CMU93M3QwTFMycl9DNmxKYXNUNUhBcnZ2U2RZMFB0dGF1RVRYNGtzNk9oX3IxVVAtWXVrQzBaS1pJWjUxUXRVYlU?oc=5",
-      "publishedAt": "2026-08-21T06:07:04+00:00"
-    },
-    {
-      "title": "Ripple Invests in RLUSD-Backed Institutional Credit Fund for Fintech Loans on XRP Ledger",
+      "title": "XRP/USDT Slides 2.13% in One Minute on Binance",
       "source": "bloomingbit",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Rc2RnSkJyOHN3VGJSdkxBWEZPdm5KTXJSUENqSnlNR2pGUTljeFdtcFRBTFNFdUt2Q2wyU0tTMUI1ZFU2VFV5akNRNHdqV0phdGJnNw?oc=5",
-      "publishedAt": "2026-08-21T05:56:17+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zdzlhaFFRSDFkZGtRampkS0FDSE1rX1p1YW9SUG1vQ0JYOUw4MkNYNzRXZnFuVW51ZFVOdVJVWTRlR1VpTkk3N0ZZTTBGLWxFYUhpQg?oc=5",
+      "publishedAt": "2026-08-22T05:08:36+00:00"
     },
     {
-      "title": "XRP price news: Up 30% on the week as Ripple backs an RLUSD credit fund",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTFpOY1o1TGFLLTVuRlZvdjE3Z0NiaDFtZlBJTGtkY0hPTTBHTjVobEE5UHBvQ0F1N3czZUotYlBuVkhEanpkS3BfZE9MdG5vMEx6Y2hEbUxVTWgzcTA4bERfcUVncEZoYUo5OFBIWWlzeFFZb1FQeXhFWnc5UzFWOEFnemN5SXJpYjhkVHJCNmhWemJyWGJ3TU9MUFhNdXpJcE9KTTZHcEpWWkRk?oc=5",
-      "publishedAt": "2026-08-21T05:29:48+00:00"
+      "title": "XRP Explodes 65% and Flips BNB as Altcoins Steal the Show: Weekend Watch",
+      "source": "CryptoPotato",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWkJhQ3FrQ2hWZ3NvaVVVSjY4WW9sYWNtZTA4QkgzRDdlWm55aV9hbXItQlUtbmp0MTBRU3NYSlhFUXJwMHRBZzhtR3ZMTU1xOXRoUkpKV1RUalhHYm13bUVlNmJtQlNSVmxsQmpqU3EyZlpEMklPU1d4NDhxT2JVT2pHaGRfNkFDTUxSaWZwLTl2dFZWaUVSNTdmS24?oc=5",
+      "publishedAt": "2026-08-22T05:08:00+00:00"
     },
     {
-      "title": "XRP price climbs back to $1.10 as traders eye p...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm9MSURnTWJTTDlJeWlCenF6Z3NScEhuNTBZMG1aelBiVGNFRFUxZXMwM1RZZ09ic3BfbGxRNUYzcEVvU0J0alVIR2ZfX3BPaHZGRVpST005eEQ3Q0F3ME5xWURKNGY2RTIyQjBfeTYtZmFqMGxTcGJBYVNjd25rcHBVSEpheTBVZWQ4NUY3UVB0WkNzSC16UjN1R3VlRnEyWVh0eG1UT1UzZlM4?oc=5",
-      "publishedAt": "2026-08-21T05:15:48+00:00"
+      "title": "XRP Surges 67% in a Week, Breaking Above $1.60",
+      "source": "finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zU2FIWjRyclA4aHpuLUtKNklSUFkxRVpFZWpnaW5RV3V0T1JjQ0JEZW4zOXpFYl9IU1dqM2ppVkxPOE5NWGRoVEp3dWpFTU16STlLdE5fSmFWNE5mbHdtUnluc1lVbGJGTEZ3ZzNOdW4yVWFXdFE?oc=5",
+      "publishedAt": "2026-08-22T05:05:00+00:00"
+    },
+    {
+      "title": "XRP Jumps 67% in a Week, Surges Past $1.60",
+      "source": "bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UaXlNQUNxYmtiQ1BGWGplSkdWampSNUZ4VDVyYk9taU9DZms3S28wYzgyOGpJc0pMTWxDMGk0MnY2MVZBbWtZMUVjdi13a2pqT0huUw?oc=5",
+      "publishedAt": "2026-08-22T04:54:41+00:00"
+    },
+    {
+      "title": "Pundit Says No One Is Ready for XRP\u2019s Next Move. Here\u2019s why",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tNXlIbTZFYkx6dG5hZy1FR25vU1dRN0IzWVFTRGZYWHZNSy1FdnNReGFMX1N6X1FSaXlKU1FaWUttUWRyNm1GOU5SS0REeXFwc2tqeUdHeUlrdVBVYnZmX2JzUdIBY0FVX3lxTE5tNXlIbTZFYkx6dG5hZy1FR25vU1dRN0IzWVFTRGZYWHZNSy1FdnNReGFMX1N6X1FSaXlKU1FaWUttUWRyNm1GOU5SS0REeXFwc2tqeUdHeUlrdVBVYnZmX2JzUQ?oc=5",
+      "publishedAt": "2026-08-22T04:07:35+00:00"
     }
   ]
 }
