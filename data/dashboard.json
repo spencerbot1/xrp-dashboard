@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-23",
+  "asOf": "2026-08-24",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-23T07:03:30+00:00",
-    "xrpPrice": 1.44,
-    "xrpMarketCap": 90458017516,
-    "xrpVolume24h": 7227061761,
-    "rlusdOnXrpl": 988360918.431472,
-    "rlusdTotalSupply": 2073385225.104739
+    "updatedAt": "2026-08-24T07:30:43+00:00",
+    "xrpPrice": 1.49,
+    "xrpMarketCap": 93336045616,
+    "xrpVolume24h": 4821540175,
+    "rlusdOnXrpl": 988408608.751515,
+    "rlusdTotalSupply": 2077385331.104782
   },
   "news": [
     {
-      "title": "XRP price at Aug 23, 2026 at 3am EDT? Prediction Market",
+      "title": "Regulatory Tailwinds Spark 50% XRP Surge as Ripple Sees a Turning Point",
+      "source": "FXLeaders",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUE52clR5X0VGdUxPSWp1YnpUMTBacHNtd1lkOFc3X1RTV0xPZ3lOWlExWDJPczVnWmx2aVhhQWl2Z0RnTzRtMVJNM2ZLS2dBaUNfLXYzcDZCM0NrUXgtU19xd0dwbElEUVBVY0did254SF96bkRyR3kwYnAwZVdxZ3M2dzVQWEZ3YVFhQWw5YmdCMmVGOGsyem5haFJNc2FOSnJnV1NPMWE0LVhtc3VHVEpwTQ?oc=5",
+      "publishedAt": "2026-08-24T07:16:35+00:00"
+    },
+    {
+      "title": "XRP price at Aug 24, 2026 at 4am EDT? Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaTE4VnkyMDB3aWFSdFlLbHJMWFpWVWJQTGwtSlc1RTFzQVpZeWlNUTR4c0o3UDFuajVPUG5aZGxMMDktMklQbDBKN3pVUUFDSG1wc3o5S0dCbmE1QjQzdzdROVBUSF9KODJiWXZDNlBWOXZXckZXZDROaDlIYnl5cjczeTlwUnZSa001UDdUY1MxaVVEU1J4bkFmazczNTZXTVJrVXRIM2w4bXJZRnc?oc=5",
-      "publishedAt": "2026-08-23T06:06:34+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON0hNY2NUZWt4NEU4a1A4TnFXamVBTFVTdDVXZ0FGdllGckVnM2xhdFpHaVVuaTFncGFWdXF6ODF2bU1ZakxpODZhdWM4VnZPSmwyR3pxbzF1Nl9SakwtZmxVcmsxblFxSklfRGoweVZSMEFjVDlIaDFqbThCQ3RhOXBDMUNiVGVtWm5CWHM1akZ2V1FNcmE3bmRVdEdsMWVvXzRLTnFjaWQ3NkN1M0E?oc=5",
+      "publishedAt": "2026-08-24T07:06:15+00:00"
     },
     {
-      "title": "XRP Falls 11% In Bearish Trade",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbG9xLWhjLWFjVm1yTHl3UlZHZGI3YVFZUndybXdlemxPVjhDSVdiNFRRb2ZvVDlkbTkycXRNNXBySVJFNlJxbTZWd1NGcFVBTjV3WVFTTm00TEgzdDl2Y0lpNnhMR2dOdUE5Vm45LXZMU2xPaG4tNlBXX0pJWHp2Q0FySTU4Rm5XTlN5V09WcGNsQQ?oc=5",
-      "publishedAt": "2026-08-23T04:46:41+00:00"
+      "title": "XRP\u2019s 50% weekly surge: the biggest rally since the SEC settlement and what is driving it",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vVGkwdkdOLTBuU0lJNWZSb0RhR1NIZUpuSnB3ZjdhYkk0bm1iU2NyT3psdE9HdkFWMmxZU2ZDem91Ml9iSHNGOEZSbWdzRURiMXpmVm9nVThsdnhab3NwbEZhSTZrSVNOTHlNakU2cE45NTdDZ3J4aA?oc=5",
+      "publishedAt": "2026-08-24T06:59:00+00:00"
     },
     {
-      "title": "$Ripple (XRP.CC)$",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PV1M4XzRWS0M1Q0hRbjJLVTYzUEo2NkYway1MT05uN2NvMFhNUVFGN1NSQVBCN2dqQndoTEp6bV9zVkZIM3NieVBEYVVsd0JldXFsYkVLQTNZNFRXM282Vl9SQlA5VWVNWnJzNzJLOV9fWjUwcVE?oc=5",
-      "publishedAt": "2026-08-23T04:15:06+00:00"
+      "title": "XRP Surges 50% as Treasury Buybacks Fuel Liquidity Hopes",
+      "source": "Altcoin Buzz",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jU2VoODVBQmw0M0xoS1UwZzZ6bHVJd1dXMlpONkZwdEtPZDBpUEJXNFA3eTQ2d0NPR0RpTHhmSlFlMmR5RHJmM3V5YmJFZHUzVHN6SWp3?oc=5",
+      "publishedAt": "2026-08-24T05:53:03+00:00"
     },
     {
-      "title": "XRP price hits $1.51 as whale opens $3 million long position with 20x leverage",
+      "title": "Bitcoin, Ethereum, Ripple Price Outlook: Overbought Signals Halt Rally After Massive Gains",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbUE4WG1DeEw5LVNfUVl0Y0V3STF5dEx0UENlN3dwX1BDLTRtU0RGV25xQUV3ODE1SHBvOThfQm9TTkNBUEUyNVQ5VHNTVE45bURibGxKQmtSejJadmV5cklZRl90Q0hsaWxVOXh6aVIyU2xSSHJBRHNTOEJnWnpJRDRib3d3Mm1HRnc?oc=5",
+      "publishedAt": "2026-08-24T05:42:09+00:00"
+    },
+    {
+      "title": "Ripple CEO says U.S. crypto regulatory clarity within reach, much has changed in 10 years",
+      "source": "\ub514\uc9c0\ud138\ud22c\ub370\uc774",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUTJZRXlHT3RaVndaSW5TMzU0RGMzajFJN09hQ0ttT1U3UkJMb2VUelgteDQ3dkJIQW9SRmxvdUhsUlVQZDRKTkRKaVZvY3dKWnp0ZnFnTjd2S2JacTRVY2wybWVUYlA1d2xPUUVKSnF2U0RVcTIyM2RZWVV0TE1QVkF5SlQwYlNxbnhybXJnaEJadGhaWkxxa3VQS09iMlI4SUc4VHhQMnh1S3VRUkltNDVSZlFfRnotRHczQnZzRmRSdTZq?oc=5",
+      "publishedAt": "2026-08-24T05:40:37+00:00"
+    },
+    {
+      "title": "Altcoins Add $215 Billion: Top Picks This Week Include Zcash and XRP",
+      "source": "Coinpedia",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTUhxcDhUcXpLMTNUSHVfT3RPM2djbm5sTkZ0Q0ZFZGctOFljd0ZET0dLdUFIT1M0NHdDVS1zSUNDa29RejJDYmMwXzM4NkRzdThuLWh4TnFMZ3pmSm11b3hibDczdl9PVG5TbU5HamhwRUI1VG9qRzZMSi1ieGNlalhVdlNsU25TSDdvZV94SmJBeW1GTm9qU05B0gGfAUFVX3lxTFA1emI3VFJfWGpGOFFiSm9zRGdtTE1yLWNkQldzaTEwajhJQjZLbkFRSW5MczdSdU5henZtYjA0LTEweG5JXy03bDJBVDlhY1VBZGlLdjI5MmRNR2xGekpPR1JYQ2VCeDNrdWFpTmJLQWF4aGo3b0VZeGdQUU93TjVBUnpsbHhzcDhkcFZCdzV5V2V0WUNpTXhuSVRiM0JyYw?oc=5",
+      "publishedAt": "2026-08-24T04:04:57+00:00"
+    },
+    {
+      "title": "XRP Rallied 50% In 65 Hours. Finance Expert Explains What Comes Next",
       "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFSVRRUVZESHNUMklGUDVLNEI1RTl5b3dQV0U2cThBSXV2bjZzcHVFbTNFRHVOdDRjeXhjSklZZkRXcm5xMXgyOVlZclhOQzZHbmZhVFBQaS1ENTZ5aVYxNXhha9IBY0FVX3lxTFBFSVRRUVZESHNUMklGUDVLNEI1RTl5b3dQV0U2cThBSXV2bjZzcHVFbTNFRHVOdDRjeXhjSklZZkRXcm5xMXgyOVlZclhOQzZHbmZhVFBQaS1ENTZ5aVYxNXhhaw?oc=5",
-      "publishedAt": "2026-08-23T04:07:27+00:00"
-    },
-    {
-      "title": "Analyst: This Ripple CEO Statement Could Drag XRP Price Above $30,000, XRP Army Reacts",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yY3l5a0lBYVR1MVZuazdyUjdRTEZnM0sxd1RFS1lWcnNUNEdKWmhrRlp6N01rY3lRdjBZNFFxd2NwUWF5blI3cXZBZHM4bFF2UVdQckRwa2UxamRIRDdxN2NlRdIBY0FVX3lxTE0yY3l5a0lBYVR1MVZuazdyUjdRTEZnM0sxd1RFS1lWcnNUNEdKWmhrRlp6N01rY3lRdjBZNFFxd2NwUWF5blI3cXZBZHM4bFF2UVdQckRwa2UxamRIRDdxN2NlRQ?oc=5",
-      "publishedAt": "2026-08-23T04:07:26+00:00"
-    },
-    {
-      "title": "XRP Falls 11.28% In Bearish Trade By Investing.com",
-      "source": "Investing.com UK",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1YzSjZ6bWR1VVdZR0JMSTdDU0ZuZjJOZXFsdzAzbjY5X0FuOVNzNWpiS2J5cG1jcFBKQ2tjNjRON1FfYXV0MXZfLXZKSEw5WFlFSmhqbnpzTmVxNk41VDdqclhJSVVkb1JsUndqc0wtSXRNVDBnZklBOE1Tc0ZnNjZYWVhEWjNzQk1JUmE0enRCenc?oc=5",
-      "publishedAt": "2026-08-23T04:01:00+00:00"
-    },
-    {
-      "title": "XRP (XRPUSD) Is down 1.80% on Aug 23: Key Drivers to Watch",
-      "source": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVFwYXoxYklySU9xME5QZVRRTmVRd0NzUjgteWxWSC1EZ1hRY0hMdWxab3JEaEpsdzdXbDBvVmxDdy1lLUd6UHJDTGhUMjhpTWNKaTk1Y01WRTZCOGhfRkpUWGdKeEVZUHNZSnFNcTBUbXRxSDlwemJUYlpPdFRmRkdyTjl3OEd6aTlZYzdB?oc=5",
-      "publishedAt": "2026-08-23T04:00:12+00:00"
-    },
-    {
-      "title": "XRP ETFs attract nearly $40M amid a 20% price s...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTFFqRFZzbU4wS1R2dWRiNDc5cThRcVFuQ3FhR0VZdXQxV1JYUlg4UGZVbGlRVzZLMXl2Rlk2ZUFpQl9XTDNpdlE2NWxlNk9XVzJhS3BPdzRxd1hhVjBRTFFRY1kwYVRkN2o0S2lDMThkV1lxbkI5LUxmU2xSZ25yeWxweWpDcXV3eUJ2M2IycGJTcUhDaUE?oc=5",
-      "publishedAt": "2026-08-23T00:44:09+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11bHNkS3dkazZNel9DUHA5dzQycXo3R3J6VXpSYnhHTjF1ZzYzTlI5UklybjJqNUNlUnpGTFQwVTFlMnBadWpnN3dsV0RsdEgzX0lkZE5hZ2Q0czRPRGl0TFdkUdIBY0FVX3lxTE11bHNkS3dkazZNel9DUHA5dzQycXo3R3J6VXpSYnhHTjF1ZzYzTlI5UklybjJqNUNlUnpGTFQwVTFlMnBadWpnN3dsV0RsdEgzX0lkZE5hZ2Q0czRPRGl0TFdkUQ?oc=5",
+      "publishedAt": "2026-08-24T04:01:39+00:00"
     }
   ]
 }
