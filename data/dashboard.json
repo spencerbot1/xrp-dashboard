@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-26",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-25T07:10:34+00:00",
-    "xrpPrice": 1.51,
-    "xrpMarketCap": 94609501739,
-    "xrpVolume24h": 5900167675,
-    "rlusdOnXrpl": 962776882.7515148,
-    "rlusdTotalSupply": 2073136260.104782
+    "updatedAt": "2026-08-26T07:10:48+00:00",
+    "xrpPrice": 1.44,
+    "xrpMarketCap": 90339410660,
+    "xrpVolume24h": 3786412130,
+    "rlusdOnXrpl": 956677095.7515152,
+    "rlusdTotalSupply": 2080699262.104783
   },
   "news": [
     {
-      "title": "Gemini Co-Founder Tyler Winklevoss Announces \"Big News\" for XRP Community",
-      "source": "CoinGape",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQck9SRkp0U3VzVkQwMVk0Q01BN1NFaXpQR0dwX0dLME1oZzRYNkVBRmtZcWlHak1GTnVUdWhSMk5xN0tmYlBFYVVrWlBYRFFQRkhMTklVRy01TmE0VlpZZXBvZ3F1TWxmaktWd0JQVEp5ZmU1WFdWOUQ3cW9SbDB0US0wemZyU0JhU1UxSUprOTlMUGNrSlAxTQ?oc=5",
-      "publishedAt": "2026-08-25T06:54:42+00:00"
-    },
-    {
-      "title": "Gemini enables XRP transfers via XRPL in Singapore",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hR3doUlYwVXZ2QWFLVmJUaGRSLXFxRzdMZmFRRDRLYl9tRGU5WHozbGNVQndsdnRSLTlDZDhuLURXWlFya1AtWHlCV283eW1hTjdGeGpKSThLVlFzUWxqdDhNbm9pM01EeFFEX0R6cC1wLXZMVkVPaVpQWQ?oc=5",
-      "publishedAt": "2026-08-25T06:50:00+00:00"
-    },
-    {
-      "title": "Gemini now allows XRP deposits and withdrawals via XRPL in Singapore.",
+      "title": "Bitcoin dips to $79K as XRP leads crypto market pullback after strong rally.",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92TkZhekRjQmJHaVN0YnNSZ195MDh4aW40LTFmdkJlTS1tamJJNzYxTENDTl9vS3gwRlBZbmNsUmQ2bVdWTGVHQjJTZFNEMjJpVEJ5b0VhT1IyaGM5VWQ2b1pfTWFNOHN6Ny1BX3FxNzFOcno5aVlEV0RR?oc=5",
-      "publishedAt": "2026-08-25T06:43:54+00:00"
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVTQ4bWdDRWVjVGl1aWhUTEk0TWdsTi1DM2VsdElndkdxODJyWWlzcGFQTm8weWY2S2R6US1BQi1xZXpSQkU5cWRlNWo2Y2k1b1hqaTA3b1F3OXNWM1FiZ3dycHhmMnU1OWotV3ByY0w1X1lVYlpxVW9adDM5UDZVc0tteG45OW01OTlBbzkzSERTRWNTNTAw?oc=5",
+      "publishedAt": "2026-08-26T06:51:40+00:00"
     },
     {
-      "title": "Why are Ripple, Cardano, and Solana price rallying?",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORGhGNWhMVzdmMi10UVJwdmhTb29ycUp4ZnhKUG42Q01jbEZJS1pCM0ZhTk5zV016akRyQzdkdkNBWTJtQUt0VFNQZ0dsUzdyYlZIaVpfVDlGX1htZGptU3BDRVlPZ1Y2ak82WE5lZ3lvVmlLLWtodjZHd2Y4UnA2c3ZOUWVZX1hRZkdzUHF3VnVCelR0Nno3cVpEaFhDRndxSU1OclRTc0lVS1pZSldvLXZGQlNKU2FibGxQbDg1amgyb3U3SjBJR0h4QjN0aE43N25QM1VObzltLWNQSFl1SzRySHI?oc=5",
-      "publishedAt": "2026-08-25T06:18:47+00:00"
+      "title": "XRP price drops 5.36% after a strong 44% weekly rally, with high leverage and ETF activity signaling volatility ahead.",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPakxnM2JKYVpva2pmM1AxRG41N0JSUWg1RGNhNDdXalFXZTZ0TU00WDFIY3JDSWwxdURnZFQ3a0xvWk5ZbDNuMzlLZk1sMk42REtGOEpwMmptVkNjSDhwVldYaWEyOUZJRnI1RDI0UzZ4ZnNmNjd2R0FPYTJ6a2hfaTNuZnJHbW1PWFE?oc=5",
+      "publishedAt": "2026-08-26T06:49:41+00:00"
     },
     {
-      "title": "XRP price at Aug 25, 2026 at 3am EDT? Prediction Market",
+      "title": "XRP ETFs see 9th straight day of net inflows, t...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUGI5Mk5LejBUNS1aMUJ4UDhZdlJja0YtZkYxUjdaYlF3eVRIaWVrbHVpc1VuQ1U3V1BlVFpkemhheE5UajZMVTBOMnB5VWw0dklpYW53V1c3VFdQZW1JSmlTeFNfSkhuN2c2cG1IQXBNNl81c19xLWxocUMzMXVlc2lsekFkUQ?oc=5",
+      "publishedAt": "2026-08-26T06:47:40+00:00"
+    },
+    {
+      "title": "XRP price falls 5% as leverage hits seven-month high",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LODNiWnl3Y3VvbEVfLVU3c3JMZXZRMm9OUl9QdllVWnM0ZmdTcFc3eEdkenYzTjQ2a2Z5Z05ZNWdpUml0bllsSmZlYTVIdzg0eXg0WkVxLTd1RVpMWTZTem04bVhpeWNJTlVtZzJRZ0pQak1QRDRMMzBtdnk?oc=5",
+      "publishedAt": "2026-08-26T06:17:00+00:00"
+    },
+    {
+      "title": "XRP Price Forecast: $1.43 Holds as ETF Demand Fuels Next Breakout",
+      "source": "FXLeaders",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORUNWb20xOXpsYnQ4TGZVN01DNUZUUTB0cE91N0pGZThrdHZsNnRsTEh6d25iX3B4VkhmMzRPcE5hbXVicnBhNC1yOHpLOHJseWptWEVaNlZWMDNVcVNTWXBEZmZ2Nmk5cEhzbUdpWDBBb1RBN1ZIQXd4X0ZBMVlycjJIZkUtN3ZMcDRwUHdRM3RBc25ib284cUpYOW9FSGotLUxzdg?oc=5",
+      "publishedAt": "2026-08-26T06:15:33+00:00"
+    },
+    {
+      "title": "XRP price at Aug 26, 2026 at 3am EDT? Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONUUxc051QjdyYzAxeUNyXzhEd2ltVGNtcnY5YnJqYUhRMDNTcWxtYW1mUVVCSkx5WDVWNGlOcmt5NGNwVENzczNCVkhHZElxY3N5OVFNSVBVeGVMaDdTSVd0aWhxRy1SdzBGT2puQXgwRVlSUDRhdHJiTzkyN0FYbFF3NWdva0dTQUZxc3JLM0V4Q29kV1dtM1NJNTRuWDNQVm9zMTNPandMeWg4b2c?oc=5",
-      "publishedAt": "2026-08-25T06:13:18+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQXzNxVHZuQ3lDcy1kY0JDandwSGJWRzNFUi1nMXdjMHdtX2hzc3BBMjBqcGFQWGlWX0doX2tuQl9BaTI3RVd1dlpQcGktdnVhREpPbHlxZ2RHM3RoUFd6eU1PMUY1UTJuVEhiZ0tEcXZXU3RHSWFJUnFVbl9vTzRvOWp1QV9FWW42ZlFfb0tkRFVVUUxWMzZiSy1IcUpXRHJrY0Q3MFdHR2g4M0x5a1E?oc=5",
+      "publishedAt": "2026-08-26T06:04:50+00:00"
     },
     {
-      "title": "XRP surges 56% in a week amid whale buying, ETF inflows, and regulatory clarity lifting institutional demand.",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1MwN0EzVndCNl9mdVJ0dGs1X01Td0hTVXZTa2t0THJndWdTTFhqMlZiQ0xaZnc4UnAzY2pQdHhMa1VoWmJvaFhSOHVSTTVVSUZlVFpLazdFLUx6RjREN1d6M0xSYm8ybXpsNDM2Sk1CTEVwV01kM2xCbDNseDNzejdMcDF5YnNneDIxVHAwc24tVHBGMEc1d2tUQkluX2dER1dJ?oc=5",
-      "publishedAt": "2026-08-25T06:05:46+00:00"
+      "title": "Are XRP traders betting on a bigger rally after Futures volume hits $11.37 billion?",
+      "source": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcERURjBGbVk1bFZ4ODBMcW5CWHU1Wnltbmk2TVR1a3BrTG9oRUVHelMyaVF2N3ZFSV8yX2dTTFlCbllrQXdUeW5SVTNkeDdFWFJRQ1JCN0lLSEZJSE5QVldIbWlwU0hLLUZhN0gteXE2dEpXem5iaVlxWVZkaTJUOVlqd0sybTZ0LUVoM01FbktObFJzNkxxR25XR3NZaU1YdmdCdGNlSQ?oc=5",
+      "publishedAt": "2026-08-26T06:00:56+00:00"
     },
     {
-      "title": "Ripple co-founder Chris Larsen faces Flock protest",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wMUI5UFFQSnpQYVAteG42MXpNQy05US1laEdDZFhScERCVzBRaHBVMENSV3g4cWNTUUFwNlM1MEJqeGJJVzMtWW9CVXBiZ3RoYzVOdDQ5b1dQZHJXMzJHSXhwd1NuVTdlQ0pZUVdrQm41TWN0WW1pa2JDdw?oc=5",
-      "publishedAt": "2026-08-25T06:05:00+00:00"
-    },
-    {
-      "title": "Cryptocurrencies Price Prediction: Dogecoin, Bitcoin & Ripple \u2013 Asian Wrap 25 August",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORkdTTFFqcEU1VHpnQmxZVUR4QXZacWs5NF9xVHlNbWVfV3E4WWI4Z200Z1ZMRk9QUnBMa0FtMXh6T3g3bnppVHhMd3dTMFJEdVVyQjE2ejMyV1FpcjVvT0dzWk5yQ05MRXZJRmtPakVjaW15c1h2R2hDOWoydTJGYTdQdHZFcnZmZ1VOaTFWaGdyVFloYndBZG1Lek9CcXpjT0F5bGVTeVFzN2lZSzlmQUJNZ1VnNnRVdktjZGs0QXlZcENjdjZGR1hlMGVsRXJOOVRBZw?oc=5",
-      "publishedAt": "2026-08-25T06:02:55+00:00"
+      "title": "XRP falls 2.2% after strong rally as JPMorgan and SWIFT reshape bank payments",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yc05sYUo5UVBCaHVQQk0tOEFoMF9WSjhuV1dUcFFESlVpaEFGZHplaVAwVmcxM1ltZzZYMTdoRGxmODJuVE9NODJSdXRibk1nSC1DcEJKYW5udHdMVlM0Y0hIMNIBY0FVX3lxTE5yc05sYUo5UVBCaHVQQk0tOEFoMF9WSjhuV1dUcFFESlVpaEFGZHplaVAwVmcxM1ltZzZYMTdoRGxmODJuVE9NODJSdXRibk1nSC1DcEJKYW5udHdMVlM0Y0hIMA?oc=5",
+      "publishedAt": "2026-08-26T05:35:22+00:00"
     }
   ]
 }
