@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28",
+  "asOf": "2026-08-29",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-28T18:45:53+00:00",
-    "xrpPrice": 1.37,
-    "xrpMarketCap": 85911829815,
-    "xrpVolume24h": 3040716625,
-    "rlusdOnXrpl": 1036086333.751108,
-    "rlusdTotalSupply": 2329040358.357179
+    "updatedAt": "2026-08-29T12:42:54+00:00",
+    "xrpPrice": 1.38,
+    "xrpMarketCap": 86798681798,
+    "xrpVolume24h": 2359107805,
+    "rlusdOnXrpl": 1040586333.751149,
+    "rlusdTotalSupply": 2334540358.357211
   },
   "news": [
     {
-      "title": "Mastercard Signs On as Sponsor of New York XRP Ledger Hackathon Ahead of Swell",
-      "source": "eGamers.io",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOWZxa1hvb3FoWVVQaFQxQU1jQy1rOE5aYlVGMnRYS0o1amhNU1R3d0lNMVl5NGp0ZWVuSkU4aV80bGIybE9zYmpzNnZmZ05HTWNKZ0I5eXpxaWhNY1dyRHZVbUowVUl1SHlka0twTzZHWkJWQ0l2UXdhSHRSVUxSQWZ0U0c2VkJPTHZrc21PZEVsX1JwQWphUWpBYzdTRGc?oc=5",
-      "publishedAt": "2026-08-28T18:37:55+00:00"
-    },
-    {
-      "title": "Ripple's RLUSD stablecoin supply on XRP Ledger surpasses $1 billion, marking strong network growth.",
+      "title": "Ripple hires LME treasury exec to boost tokeniz...",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZmdUTHJFMVdBRGdMZ1UzRV80a2trMnpGV3Fob2NtNVFRNzlISDR5OWpjcnc2RlFraUY3ZTA1N0JqNFV4TTRITnNvdnFIOHdvdkVubzJXZ2hBY3BJcDc5eGxrMHRrcXlBQzNmVVY2d1dxakN3Y053czRHSnNJSl9fQkU4X0o4bVBLT3lpbnZCTQ?oc=5",
-      "publishedAt": "2026-08-28T18:33:13+00:00"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZjN1ZVZULUpVRlpoS0g2WEQzNnBxTjc4NVZxWGZwcmNxcnpxNnJ5aHRrNlZnVENwa0dJekRXV1ZuY0ZDcHlhcExWM2VlU2RxLS1tN1RQb1dpUzJ0WDREOFptMUpwMlZYa2JyckxWWGVTM2tkaFJkYmk2QTlXSHpZRXBmT05EX2VaMVBXdU5XQUVXSVh6RWsxTHVoOEc?oc=5",
+      "publishedAt": "2026-08-29T12:33:18+00:00"
     },
     {
-      "title": "XRP Ledger Activity Surges 187% as XRP Holds Key Support",
-      "source": "Altcoin Buzz",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92WHNROFpBWTFkQ3JJRDk5LXI4YkdCdjVkT2RUcjBuSGttVk5uN1hJV1JLaG1WX1pNU2FOMEVVaWRWdDkzbVU2NVF0dThucUNnendyLS1wRGt3Q2lEdkhaa1hkVkY5LWs3d2N6R3ZhbjFhX3c?oc=5",
-      "publishedAt": "2026-08-28T18:31:21+00:00"
+      "title": "XRP ETFs Set New Monthly Volume Record of $723M in August 2026",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFFhQW8xU1p3RkRPU240cUZjcFNIZzVkSWxOS1JpRFpBdy1vOEtGcDlraWhPclpjUWRYZWs1aFVVX3NaNTJzOEktelhNNU1jZXZEQURrOE9HUkdDcTBKcUJTb1o0ZHJfVUcwT3VTRU5jRU90RldBLUdqVUoyeFJ1cmdQbG13eW5XTDk2SU9KMGRTSVNiT3BpMXFvSQ?oc=5",
+      "publishedAt": "2026-08-29T12:22:59+00:00"
     },
     {
-      "title": "Ripple-Backed Evernorth Is One Vote Away From Nasdaq. Its Business Is Built Around Holding And Growing XRP.",
-      "source": "International Business Times",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOVRvX0lUVFgxUmw0dmZ1NU5fSllQVmNOQWVHb0FjbWlMX2tqVHB4S2pnVTVtWTJzSzhmX2E2N0UwZGRsWk9HRHFRckFsLUVOZ2VBdVA3MU13cFV0TXN0OGc2MkpoU092a29MclJ6Y0p6cHVETmlnRUJjNTM2MXhZNFFEeThpSEx1RHZlX01wTWoyaFdrT2NWbkRQYjJBellQZ2xqc2ExMGQzSUt0WEtBZ1M3YzVUamhBaEo3cGJ5RQ?oc=5",
-      "publishedAt": "2026-08-28T18:30:29+00:00"
+      "title": "First-ever spot XRP ETF crashes 45%",
+      "source": "Finbold",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vRW5LQV9IUW5qWTdfeUZuUlBqblhEMThnS3V6RTZBOVlycV8yd2JySmZzOU5vU0FaalVrUlFGTkJya2dZSHdOQ2g1anZySTEtX3BxZkNGRXJPZEdzSGw1OFhRLUhSUQ?oc=5",
+      "publishedAt": "2026-08-29T12:21:57+00:00"
     },
     {
-      "title": "XRP Price Prediction August 29: Important Levels After 5% Crash",
-      "source": "Coinpedia",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZC1KQUJkS3d6cDRBWmYza0YtZ1NfUWhpMkZReFJvUEd6dHA4cDg5a2YzWVdHRXpnSDVQWG5XUkV5aGR1SHRnR1o3NmR0a25OdmxBNHBFN3AzWi1mT2h2V1pLMTBrVldKQTVqR01qMkI1ZE1qeDVoTmlhUlF1YVJuT21oS3JIRFJkY2NfUkx6a1hWRXfSAZgBQVVfeXFMTkY2SUp6NEtXYTZyUWZnekktcmFPQ3E4T28wNXJMam5KbVN4a0ticm1YS0xqWW9YeE9nbWNXOEpMMlNtTlVrLTYweFRzTExnR0VTZC1rV3JNXzU3b3NDVzhic0VCbjZKc2JGcWVIekdJUVUzZi13YnNaMFNHM3pGN09lZ0tHYjZWSkcxQy1QZkNQekdvSGkyVFk?oc=5",
-      "publishedAt": "2026-08-28T18:19:41+00:00"
-    },
-    {
-      "title": "XRP price at Aug 28, 2026 at 3pm EDT? Crypto Prediction Market",
+      "title": "XRP price at Aug 29, 2026 at 9am EDT? Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2dRV2UwcDNabk9pUHpub0tySWdJNGJRRnV4U0x2ZjdqdDhpMi1oSFdONTRxVWMzOXozQnpGSFRRbFB4a0xGUnZla1hudUgyenZFeVJpc0JuanJTb3FYU3ZGbXVHeElHU1Bkd0NpZFpBR25ZYkJjLU11Q1FHQ0FQcWhRVFZXbTFrWVloSklUYlRWS2Q3TkdwUUlpRzlxZmt2N0NOekVfNExPcnhxWUE?oc=5",
-      "publishedAt": "2026-08-28T18:06:21+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcGY4N2liRTEtM0ZzMTJoSW91WWFhRDR1T0M2blA2RUwzYkQ4dTExZ01xMWdVZGphaThwY3ZvdlUyREdnT19BWG1fejdzUWRrdnFzZ2t5RVVFeTRndTFPdmdMRE5JX3JSUlVWdE5MVWxzQjdaSXBjYzg5MEFndUVWQTlKbXY1R09sbWFKRUdGcmNhLUNNd3ZZQndqRk04UmJSa0dEQXRDa3d1RElsZGc?oc=5",
+      "publishedAt": "2026-08-29T12:04:39+00:00"
     },
     {
-      "title": "Ripple moves to shrink XRP Ledger attack surface as AI audit tests lending push",
-      "source": "CryptoSlate",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNDdwSWd5LTJMVElNTTdYcHpxVFR4R0h1UlZtWi1ieTA3enUzWTNoR2JkWjUyQmQ5R2R5cVh0WkxEbGhpX0xlcTJvcUpJY0h4TVhMRFctSEVpcnNDOTduZTlnVms3NlVUdE1IbVZ4V0gwNFlfTHExVmtwN2p2T2dtVFNuNkpWSzVYcFNwUUtvRjRuSVBraG5VcTBQcGEtNTFETmxqeVRSRQ?oc=5",
-      "publishedAt": "2026-08-28T17:45:49+00:00"
+      "title": "ProShares registers two XRP ETFs, net inflows hit $1.55 billion",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91ZnFrZXJOMThjVFFic3Q1NlczUHpsSmMxVkVSc1ctVGJnRTFqd2pxNkVTX1YzdVpRT1RBZndFOG92ZTZNUzRrQWc0SENvcEVjRnFOM0JVX3N0ZWFfMlE4cjh4MNIBY0FVX3lxTE91ZnFrZXJOMThjVFFic3Q1NlczUHpsSmMxVkVSc1ctVGJnRTFqd2pxNkVTX1YzdVpRT1RBZndFOG92ZTZNUzRrQWc0SENvcEVjRnFOM0JVX3N0ZWFfMlE4cjh4MA?oc=5",
+      "publishedAt": "2026-08-29T11:53:18+00:00"
     },
     {
-      "title": "Cryptocurrencies price prediction: XRP, Dogecoin & Bitcoin \u2013 American Wrap 28 August",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQ25aVkphUXl3NE52dTRkOWRteVZXZjZ6YjFUVEk4Vm5oZnQ1RkI3OTNEc1hDZHlBOTRiSUJZYWhTYjIxbWpkU0ZSa0JNSWxUNjd1RnJfS0J1X2RkNTNpeFZoay10VkFNRGpCcEpKYm1FZ3hGOVY0NkdZNnJ4ZjZkd2tBQmFGODFpVVdZMzlia2xacHVPcGZKcEJmTkhlTUxGelFPdERER05mRFZCdGNDYTcxSm5LcjdjdDljUXlwRXU3Rm0wU2VhV1VlNHNpOXJMMWhBMw?oc=5",
-      "publishedAt": "2026-08-28T17:27:03+00:00"
+      "title": "Ripple unveils four-stage plan to protect XRP Ledger from quantum threats by 2028",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13X0tUU1BjVDJfZjFPdUVzVHZXaGowME11UmMzZElLMllOYUxhNHUybFIyenNRejdnUllHaG11Sm9lVl80Y1hVM0RRZS1mZER6QXo2OGtmS2Q2MlRGMUI3MlA0UdIBY0FVX3lxTE13X0tUU1BjVDJfZjFPdUVzVHZXaGowME11UmMzZElLMllOYUxhNHUybFIyenNRejdnUllHaG11Sm9lVl80Y1hVM0RRZS1mZER6QXo2OGtmS2Q2MlRGMUI3MlA0UQ?oc=5",
+      "publishedAt": "2026-08-29T11:40:57+00:00"
+    },
+    {
+      "title": "Three new XRP-linked ETFs filed in the U.S. hig...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUFRTdUQ5Z1FIQXlpaTZ6RmM4VGlDcU56TjFWQTVkRm5IWm1IMnhUYUVzYjdLRWN0d2VQNnZjSmU3M0x0Q1YwMUNwQlpXLTFGa3lSZ1F1SzE3OEtaVHRGSkMxZXcxVTQyaG1IaS0xVHBsMW14SEdoNHM4X3ZfZmNWZA?oc=5",
+      "publishedAt": "2026-08-29T11:29:48+00:00"
+    },
+    {
+      "title": "XRP ETFs gain ground in two US fund filings",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KSkJlZ001UU9NS1g1eDNGcjUydzUyRXFYOVNQM0FBaC0wOWczbk12WDNjYnZ2eHlNdUh1bzdDSnMwQ0Ewbm1OZ2NCZElNMDlzVzR1VVZ6VzNwa3N3QXktZnpXVkpOUGk3c0J3VlhTV1RTQQ?oc=5",
+      "publishedAt": "2026-08-29T11:06:05+00:00"
     }
   ]
 }
