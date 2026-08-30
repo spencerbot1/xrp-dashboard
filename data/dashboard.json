@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29",
+  "asOf": "2026-08-30",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-08-29T12:42:54+00:00",
-    "xrpPrice": 1.38,
-    "xrpMarketCap": 86798681798,
-    "xrpVolume24h": 2359107805,
-    "rlusdOnXrpl": 1040586333.751149,
-    "rlusdTotalSupply": 2334540358.357211
+    "updatedAt": "2026-08-30T11:57:44+00:00",
+    "xrpPrice": 1.39,
+    "xrpMarketCap": 87252281297,
+    "xrpVolume24h": 1082758770,
+    "rlusdOnXrpl": 1040586333.751152,
+    "rlusdTotalSupply": 2361740585.357208
   },
   "news": [
     {
-      "title": "Ripple hires LME treasury exec to boost tokeniz...",
+      "title": "XRP likely to trade between $1.30-$1.50 on Sept 1, with $1.40 as expected price amid steady market outlook.",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZjN1ZVZULUpVRlpoS0g2WEQzNnBxTjc4NVZxWGZwcmNxcnpxNnJ5aHRrNlZnVENwa0dJekRXV1ZuY0ZDcHlhcExWM2VlU2RxLS1tN1RQb1dpUzJ0WDREOFptMUpwMlZYa2JyckxWWGVTM2tkaFJkYmk2QTlXSHpZRXBmT05EX2VaMVBXdU5XQUVXSVh6RWsxTHVoOEc?oc=5",
-      "publishedAt": "2026-08-29T12:33:18+00:00"
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdkY5X0FRaDlvTnpSYkZnRzhaeEV5bUthX2ZxNk1hOV9kdW13SHJTTVJCNWp5WU9TcGlzQURKczd4TFNrQTFublk5Ty1rZEtnSzlNdEtrQm5GaXZyNTNwTUpSNXNpaW45NVg3S2NrVnZIZ1lSM2tyakphSmE1WTRyN1JEdw?oc=5",
+      "publishedAt": "2026-08-30T11:51:05+00:00"
     },
     {
-      "title": "XRP ETFs Set New Monthly Volume Record of $723M in August 2026",
-      "source": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFFhQW8xU1p3RkRPU240cUZjcFNIZzVkSWxOS1JpRFpBdy1vOEtGcDlraWhPclpjUWRYZWs1aFVVX3NaNTJzOEktelhNNU1jZXZEQURrOE9HUkdDcTBKcUJTb1o0ZHJfVUcwT3VTRU5jRU90RldBLUdqVUoyeFJ1cmdQbG13eW5XTDk2SU9KMGRTSVNiT3BpMXFvSQ?oc=5",
-      "publishedAt": "2026-08-29T12:22:59+00:00"
-    },
-    {
-      "title": "First-ever spot XRP ETF crashes 45%",
+      "title": "Crypto markets predict XRP to trade at this price on September 1",
       "source": "Finbold",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vRW5LQV9IUW5qWTdfeUZuUlBqblhEMThnS3V6RTZBOVlycV8yd2JySmZzOU5vU0FaalVrUlFGTkJya2dZSHdOQ2g1anZySTEtX3BxZkNGRXJPZEdzSGw1OFhRLUhSUQ?oc=5",
-      "publishedAt": "2026-08-29T12:21:57+00:00"
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOHFMdUdMWF8xcjIxQjBDYnU4T2dpbzVKbUpOZGdvMDNwYVhRZGU5X1pvRFlleHhDUGtvRUhmTGp2UjJDSE1raERnU0gxeGlwUEFKU3hYYkNIOGtsQmlPWUNWQkNmcTJ0UTVGWFZsN0o3Z1VSY1gya0JRWm9DUmVMb3ljb2lpVGpObEc0V0lR?oc=5",
+      "publishedAt": "2026-08-30T11:30:35+00:00"
     },
     {
-      "title": "XRP price at Aug 29, 2026 at 9am EDT? Crypto Prediction Market",
-      "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcGY4N2liRTEtM0ZzMTJoSW91WWFhRDR1T0M2blA2RUwzYkQ4dTExZ01xMWdVZGphaThwY3ZvdlUyREdnT19BWG1fejdzUWRrdnFzZ2t5RVVFeTRndTFPdmdMRE5JX3JSUlVWdE5MVWxzQjdaSXBjYzg5MEFndUVWQTlKbXY1R09sbWFKRUdGcmNhLUNNd3ZZQndqRk04UmJSa0dEQXRDa3d1RElsZGc?oc=5",
-      "publishedAt": "2026-08-29T12:04:39+00:00"
-    },
-    {
-      "title": "ProShares registers two XRP ETFs, net inflows hit $1.55 billion",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91ZnFrZXJOMThjVFFic3Q1NlczUHpsSmMxVkVSc1ctVGJnRTFqd2pxNkVTX1YzdVpRT1RBZndFOG92ZTZNUzRrQWc0SENvcEVjRnFOM0JVX3N0ZWFfMlE4cjh4MNIBY0FVX3lxTE91ZnFrZXJOMThjVFFic3Q1NlczUHpsSmMxVkVSc1ctVGJnRTFqd2pxNkVTX1YzdVpRT1RBZndFOG92ZTZNUzRrQWc0SENvcEVjRnFOM0JVX3N0ZWFfMlE4cjh4MA?oc=5",
-      "publishedAt": "2026-08-29T11:53:18+00:00"
-    },
-    {
-      "title": "Ripple unveils four-stage plan to protect XRP Ledger from quantum threats by 2028",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13X0tUU1BjVDJfZjFPdUVzVHZXaGowME11UmMzZElLMllOYUxhNHUybFIyenNRejdnUllHaG11Sm9lVl80Y1hVM0RRZS1mZER6QXo2OGtmS2Q2MlRGMUI3MlA0UdIBY0FVX3lxTE13X0tUU1BjVDJfZjFPdUVzVHZXaGowME11UmMzZElLMllOYUxhNHUybFIyenNRejdnUllHaG11Sm9lVl80Y1hVM0RRZS1mZER6QXo2OGtmS2Q2MlRGMUI3MlA0UQ?oc=5",
-      "publishedAt": "2026-08-29T11:40:57+00:00"
-    },
-    {
-      "title": "Three new XRP-linked ETFs filed in the U.S. hig...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUFRTdUQ5Z1FIQXlpaTZ6RmM4VGlDcU56TjFWQTVkRm5IWm1IMnhUYUVzYjdLRWN0d2VQNnZjSmU3M0x0Q1YwMUNwQlpXLTFGa3lSZ1F1SzE3OEtaVHRGSkMxZXcxVTQyaG1IaS0xVHBsMW14SEdoNHM4X3ZfZmNWZA?oc=5",
-      "publishedAt": "2026-08-29T11:29:48+00:00"
-    },
-    {
-      "title": "XRP ETFs gain ground in two US fund filings",
+      "title": "Ripple gives $300K to Nepal and Tibet flood relief",
       "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KSkJlZ001UU9NS1g1eDNGcjUydzUyRXFYOVNQM0FBaC0wOWczbk12WDNjYnZ2eHlNdUh1bzdDSnMwQ0Ewbm1OZ2NCZElNMDlzVzR1VVZ6VzNwa3N3QXktZnpXVkpOUGk3c0J3VlhTV1RTQQ?oc=5",
-      "publishedAt": "2026-08-29T11:06:05+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05QkEtZ1VOQWRCRklINDdacFdPZXh1NUpzYzNwcjlHaHlKRkt5OG1oeHhJWTkxWjNGaEhRNjJxVjBfWUY1WGh6RUp5aW5tUUp6bC0wUTJDZHBIaDBQRzlHYnRmZE9oZHhtcTN3c1FIelBQMzl0NDNRSDBn?oc=5",
+      "publishedAt": "2026-08-30T11:26:12+00:00"
+    },
+    {
+      "title": "ALGO and XRP Have Rallied, Now the Crypto Race Shifts to Apeing With 10 Days Left in its Upcoming Best Crypto Presale",
+      "source": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQd2NxaVJablJHWml1NTBxWU1nSUVrUzg3ZWJqT05jTjBEQmk5RzNnckhfalVBazgwMTBJcXl6MjJPcGFfb2IxWVl0ZG92MHo1QlhtR3BReTdVNFhRanBwbDNCY09SVExLR1dEbnFaOEEwVjlDZlVsRmdJTkRrd2k5Si1SRGJlMUNUOHhRLWVyMmdBZEVQZFZzQUdfVmxJN3J6YklINmdFTlFhSWdSNi1hMWZQTmFGaXNnY1ZvWUVqdkFjS1pGa1Nyc1pyLUwwLUZxUzVSUTNGWWlzNVdpUXp3RmpnTTZpcXdLRzdIMTctSHd1ajc5SzZXTkc2SXR5RElkWjJLUmtibzlhekl1bVk2czNaMA?oc=5",
+      "publishedAt": "2026-08-30T11:22:10+00:00"
+    },
+    {
+      "title": "XRP holds above key 200-day average, signaling a strong bullish trend despite cooling momentum.",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmVHNDcFBOWF96dU1xSHdWc2hIUjczaXo5ZHZPQ19oX0tzTGdnemhEUlJra3pTNlhBMkFHZFBjLTFaS3RMWUFqMHpjUzVVRy1YTmtyWGhVUkttMmU5UGZjN3hFT2ZBQXJPOXlMY295aktCWVhn?oc=5",
+      "publishedAt": "2026-08-30T11:18:55+00:00"
+    },
+    {
+      "title": "Ripple hires LME treasury chief Joseph Thompson to boost tokenization strategy.",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeWJ1YUluNnJBdzIxVHk2ZHZEVjNESDgxZ01RanhYSWFfS042c3FjQ3BzVG5ETDVmOEplSkdzUDhUbUZVcVBTd3NIWnM3aUNfc3ZIV0NpbExsMGVFUWpqZjVRc3NYSWJvV0ZYdW1KXy1Sb1BQck9RSlJxcGRXXzFMNWtiQ3lQV0NmS3dHczZZWko?oc=5",
+      "publishedAt": "2026-08-30T11:18:55+00:00"
+    },
+    {
+      "title": "XRP price at Aug 30, 2026 at 8am EDT? Crypto Prediction Market",
+      "source": "Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZGxiWXJHUGRab0NOLTFFbEg3cGlLcVBwSEhGVzJNUWRPM2N5NktQOFZHVUdKRjFWZ09GeVVzUnJQSzBFaEhTQm9KOS1idVRwQ25EUnRUTlBuS3RpOEtrc1BKVzM1TVJQak9iMkt3QlBobVZiQWViNG01cEgwQWRCZDhiejdNT2NKWVlxWW1jZXhKaDZCY1pVcERKYzFWNVBRX3lLemNfSXVXQ2x2MVE?oc=5",
+      "publishedAt": "2026-08-30T11:03:59+00:00"
+    },
+    {
+      "title": "Ripple hires LME treasury chief for tokenization push",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qM3lHQlM0T0dBZS02M1p3S0haX1VMdUMyN3A3U294cEY1TnZVTC03UGdSaUc1VlFEOWZRMUxyQTdiN25PbzlreWlYd2dOcFVZc1JVMWo5THBzOTdCZ2RDSUVHSjU3UGdKclpLbmRfUnlMVmFscUpvRk16dmMyWlU?oc=5",
+      "publishedAt": "2026-08-30T10:52:25+00:00"
     }
   ]
 }
