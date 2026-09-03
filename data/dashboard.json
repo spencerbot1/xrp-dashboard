@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-02T11:23:17+00:00",
-    "xrpPrice": 1.32,
-    "xrpMarketCap": 82617297920,
-    "xrpVolume24h": 2382013709,
-    "rlusdOnXrpl": 1048962444.54111,
-    "rlusdTotalSupply": 2402863315.937166
+    "updatedAt": "2026-09-03T11:19:31+00:00",
+    "xrpPrice": 1.37,
+    "xrpMarketCap": 85820124106,
+    "xrpVolume24h": 2374218433,
+    "rlusdOnXrpl": 1029838692.54115,
+    "rlusdTotalSupply": 2379715962.937202
   },
   "news": [
     {
-      "title": "XRP price at Sep 2, 2026 at 8am EDT? Crypto Prediction Market",
-      "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVU41X1gyTGVZUWU0Zmd3ZExBel9lXzNDcFdwb3pCd0F2cGlTa0FxTW9pMHM3UzREbERFNUwtSmhVRkZ4cWJCRHdMWmhRdjUtSVB3aVNVQ2MxTF9TbkIwbU9PbGpDTktRWUl4V3BILTFudkphRVJiYU1EUDVpejZMOURfbjMxWUNaOHNNRy03UEw1eHcydkhEbndsS19TYlBxQjR4bFg0bWMzbGxC?oc=5",
-      "publishedAt": "2026-09-02T11:03:46+00:00"
-    },
-    {
-      "title": "XRP Price Prediction Ahead of Clarity Act",
-      "source": "CoinGape",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WME10T1FZR1VmcXJ6TDR0NE9Pc2dCaEZpQlJyeDUzQXktejNCcmhxYnNFaTRxcTFRR05qMFZXdllZeWpSSlRFMFlhLWxXcmM3dWI2ODhrRmViQkwtZ2VUakphd0RFMjFETHZncGVzaWVpN0RKM1RmZXA2UQ?oc=5",
-      "publishedAt": "2026-09-02T10:57:55+00:00"
-    },
-    {
-      "title": "XRP Sheds 5% after Ripple Unlocks 1bn Tokens from Escrow",
-      "source": "MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdUNwNmxyQ0Vqb0xwNTlLaVkzazNzZzNEQkV0ZTR2bzZhYkZFaXFGaWFLX0F2cnM2TXpxbDd1NlVZRUc4eDZOWGZsR3hBZUxDdnUwMGJiN1dzTldkTXZaSDNMZ0hzLUl4VllhQjMtOHl6WS12aGlZc2o5S2o3WjlXWWIzWWRkcXEyRmc?oc=5",
-      "publishedAt": "2026-09-02T10:54:06+00:00"
-    },
-    {
-      "title": "AI predicts XRP price for September 30, 2026",
-      "source": "Finbold",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5oXy1aWUpNODhmSnc3STZTcFczNy1OWU1DbHc4RVJwbGVoWHYyM2poVXN3UHhaZXQyVXZHV19zX0RPcUhIRjB0TlVfSVYtVkxGUUlScjZCNmlVeDJTZ1g5QUYtYk81c1M4SWtnOXNBNkU3cXdK?oc=5",
-      "publishedAt": "2026-09-02T10:46:17+00:00"
-    },
-    {
-      "title": "XRP ETFs pull in $170 million over 11 days as Goldman tops institutional holders",
-      "source": "CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVjMxTEwwS2xqV0I0d003Ujh1dklQelBac2J0MERDN1hEQUt0Y1VLWXNyRDQ4REhiODFfX1dITy1rQVF4cmtLSFkwNTlXZGtIVGpVM1ZBU0NSUGhsUjM0dHlxTWtoX0x6b1lwS3JzelBfbmJpS0k0YmZEbGRSNERIZHRHRnZTclpsR1Q0Yk9teXVNZEFmdHJ1cUt5YjVMWEZybTZSVi1rRTBQQTZiUXQ3eDlfNmxnbHdRVnoxUGVGLVVSTFZkZ3Rj?oc=5",
-      "publishedAt": "2026-09-02T10:32:25+00:00"
-    },
-    {
-      "title": "Here's why Bitcoin, Ethereum and XRP are falling",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRzJ5X3JpMGI3VjhDQ3ZWQVJDMWZzSWFHWk1xaTFpZHc5dngxRWZtaVY5M2VOalEtNlg1ZDg4N3dzU3ZyUnp1aElqLTU5TlZrVTlWamdSV2lKOWVqOUZQN013ZFE4VFBZUjJIVnc3dGFIRFpkN0gxU0F6aF83d1RQNmdOZE9nME45ZGhCTXNiVUFjZDZMbmEtYkpsRnNucC03VVE4ZHRjODZjcEJCUUxFSWNRWXFPY1BmYm80QWF5WkduaWxKelpUNUtIMi1FT1YwUWpKXw?oc=5",
-      "publishedAt": "2026-09-02T10:14:01+00:00"
-    },
-    {
-      "title": "XRP Ledger hits 3 billion transactions as Ripple releases 1 billion XRP from escrow on schedule",
+      "title": "Bitcoin ETFs gain $100M as Ethereum, XRP, and S...",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbHVDQ05CeVNLU3lkTmtnVFNkWXZTc3I2Nm5RWFd5SjRuZ29YNnI3c3ZhVHRxTkRRcVhlaXFJUE9fdmJBUi1ldzc3WDBBSmdQU0dQTmFhaDJBamEwVEx4M1pUc2tBcVBwdlFsZi1obl9MLXQ1MHJBZEN4VDAyNUV1c0xNT3ppTU9ieFNDRkw3bThVMDFnU3dWU3pXSQ?oc=5",
-      "publishedAt": "2026-09-02T09:56:09+00:00"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFJuU19BQm5HdXBjYUYxT0F0WlQ0cUpyeUhWV0ttRGdsOWxUYl82MlVueUMxTTl3elM4TTR1ajBoR1NlNHZpaTVWQXp0WmJXc1BQV2pPYVNFRmlSVC1yeVI2dUxJN2JYa2lmZVBKdGdLMnJRRU44cDE5UXhPc2Z2NzNVTm5ydVRzTFEzbWt0QUQzb3BfYWM2WFBEeWo?oc=5",
+      "publishedAt": "2026-09-03T10:54:25+00:00"
     },
     {
-      "title": "Ripple opened a Wall Street equities desk and XRP is barely in the announcement",
+      "title": "XRP price at Sep 3, 2026 at 7am EDT? Crypto Prediction Market",
+      "source": "Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRElSRlc4cjk4VDZrZGg0N2pyMnhHcE1sNWkxTGdtYVBzMXJtcExLd3NWWXVBWXhqdUk5Zl90ZHVzR0VUc2s5cVdmQ2xWYXRYWkxPcmsyS1NVVnIwd0gxandpcXJpZ2FpSXo3RUdFOWktRmI0VnRYa3NsSnZXNzZ2N285UUhiQVN6c2h3czBYWDVwcGwxS3pMZndvWnMzOEtQMFdnZy04TVMzTUVO?oc=5",
+      "publishedAt": "2026-09-03T10:04:59+00:00"
+    },
+    {
+      "title": "Why Bitcoin, Ethereum and XRP are poised to extend subtle recovery",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQLWVEQlE5UHdjcmpvZ1oxYWU3ZkhRTUV0NTVESUNPMWhTTGg2ZEpTRGpGX05PbmwtRGI1UmxLc25Ya0V0RDluV1g1UDRWeXRFbTdQNG1kUWdyclJDM1dSQ1RMVGNjWGZSRUoxM0taNW1sYXV3djBuZXZTTzdQdUZwVmRMSDN5QWpGdWh5OVpnbmUxMFZkdGI1NFlKM2V5MU9PZWQ5N3Qxa29HOTRmX21NazluNUNic2ZtTGc4R042ZEVOVWtHbFVzX0dZTnRRNzBSUlh0dnVJREVmUQ?oc=5",
+      "publishedAt": "2026-09-03T10:00:00+00:00"
+    },
+    {
+      "title": "Trading platform confirms 'Earn on XRP' feature launching soon with 1.6 billion tokens under US regulation.",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdjBhYWJ2VTZWOW1mZ1o1UHUyZ2w4VVRuaXEtMXVUUS1nWFBROFUzUzZXQjdwcktBSzd6TXZoOXFoeFhPOXdza3o5YTFUYnZlRE5fYjg4Z29BM0I4SXMwT2ZpTU55RjNsdmNsakNSeE1NYTFRM2o4eHk1dFlBNlpTZ1BYdVNxRm92ZW14WENNMA?oc=5",
+      "publishedAt": "2026-09-03T09:39:44+00:00"
+    },
+    {
+      "title": "XRP Price Prediction: Ripple Retreats Despite $1.6B ETF Inflows",
+      "source": "99Bitcoins",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aYUtHVmI5cDZEdmEyY0xIbDUxX3o0NWRSemMza0dQLTNsLURXNngwWHB3RVgwVWxuUFdTQmM1dW50MldSUXZOUHFrTjRTWjBwRW11dU44am9ZRVdXTDRWV1I4aExUZ3MtUGFuLTg0VUl3bWNILXc3aUpR?oc=5",
+      "publishedAt": "2026-09-03T09:13:56+00:00"
+    },
+    {
+      "title": "XRP interest grows among wealth managers, Bitwise says",
       "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55MHF1QldTY2JsOGtqeDdSTTRkNVowMEI1dFFaVGZudnp0NXlfUGRkTmpDQTZvZUZFa2tDUWtZZktpbXdJVzkyVXhSS21BYTBWTUxuOHl5YWhYeGRacnp4a0xEcjJLUFFzNFhhbU1meXI?oc=5",
-      "publishedAt": "2026-09-02T09:41:03+00:00"
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfSzduZzhFd1licG4xaXAwN0xLX0hkV3diRGR1QmNNVV9qVFB0X2RrMldqQmt6OTVrNDBjclB3UUpROTdqcGxuWER1SnFNRnhHcERQTlF6WEptUXd2b210TDNkZ1JXd0txbUx1Ti13?oc=5",
+      "publishedAt": "2026-09-03T09:07:52+00:00"
+    },
+    {
+      "title": "XRP Ledger Gets BIS Test With 3-5 Second Data Publishing",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ESVFQcEo3UkVidHZvd1R2S0E0ZTFMTEZkZDh6ajV5aGRZWHdNRV9ZU2wwd1BONEl2RDQ0azFrSGxwZER0aENNTktQVFpOa1JuX21PTmdoMWNTQzRi?oc=5",
+      "publishedAt": "2026-09-03T09:03:13+00:00"
+    },
+    {
+      "title": "Bitcoin ETFs See Inflows as Ether and XRP ETFs End Streaks",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONUM0anEyWVBhV3ZURWdZZUN6Z3Y1QjUzS2FFREpZV09PUkYwNmZMejk0VUtKREQ5aE1GRVRUTkJySUpqU1JsVEpzOE9OUFQxWVdQWmVoN0h0aFpKQ05RamU4UmdGWC1qWUVveHd6ZFhONU8zcHFXcTlxZWNFdGZuTEY0Ri1BR1dpUEttQU85WVQyRWd1YjVn?oc=5",
+      "publishedAt": "2026-09-03T08:45:03+00:00"
     }
   ]
 }
