@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-04",
+  "asOf": "2026-09-05",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-04T11:22:55+00:00",
-    "xrpPrice": 1.45,
-    "xrpMarketCap": 90940716862,
-    "xrpVolume24h": 4164830842,
-    "rlusdOnXrpl": 1032862127.541152,
-    "rlusdTotalSupply": 2398880260.647202
+    "updatedAt": "2026-09-05T10:39:17+00:00",
+    "xrpPrice": 1.4,
+    "xrpMarketCap": 88127682411,
+    "xrpVolume24h": 2326921560,
+    "rlusdOnXrpl": 1030304053.541174,
+    "rlusdTotalSupply": 2407151384.647229
   },
   "news": [
     {
-      "title": "Bitcoin Is Down 7% This Year and XRP Is Down 21%. Which Recovers First?",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLUhTYmVRMndheUhxajhIYUtLbFVpQWJhV3JuVDBZOTBGckFyUkxZcEpDNzFpQVJmeE9RZFJ6LUlKT2JNVDZTQksxUUJJOFZFMFFSMGZrclVwaGZKellCVGxLelZiR2s4ZVlIR2NYb3hrcHZZdVp2NzJsUzFVc3d0MVNHU09rVHNfU01HdTJmeXNReHRCdnljeDdoMVdyU3JNWUNNNTZwWEVxWmV4WnB0Nzh3Nm51bGp4R2NtV2NQb0RFMFVH?oc=5",
-      "publishedAt": "2026-09-04T11:15:00+00:00"
+      "title": "[Analysis] XRP Could Climb to $60 if It Breaks Above $3.66, Analyst Says",
+      "source": "bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1hZTRhcEpaSENUNzZJY2FITmxnOGNGMS1CWi1KWTRoTVJFUW9PVlZwT0tLV0dQMjIxaC1sRFFYMlRHdEpFdmlLVXRGaU04d2NOYkdrMA?oc=5",
+      "publishedAt": "2026-09-05T10:26:23+00:00"
     },
     {
-      "title": "XRP price at Sep 4, 2026 at 8am EDT Crypto Prediction Market",
+      "title": "XRP Price Prediction as Ripple CEO Reveals Why Financial Giant BIS Tapped XRPL",
+      "source": "CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQXzh4SFFMX2Qzb0tmRVJjRV9KN2F2S3QtV25iR1JRUUVlOGZObUNOb3B6S1hfcGpUQ3RKU042N3luTmstNEVIa3hhZ1k3WkFDX1Nxb2kyNEl4Z2R0aF9vZEh5ZGxBNFd0R2V4SFdTWlB0LUlzNG9BVXVta2xrWkNFbDB5eDIyeTlwSVVNemx5VXd0amlnOXB6eXJJUmZfQWJyV2JNNVNmSGduS0h2?oc=5",
+      "publishedAt": "2026-09-05T10:14:31+00:00"
+    },
+    {
+      "title": "Florida Athletics Partners with Ripple to Feature XRP Logo at Ben Hill Griffin Stadium",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbGYxc3V4aEpPSW0xbm5DdTZ2elpGbXBMai1EYlZFamRZTU9pR0c5MTJjS0F6X1diWDZmZ0d2ZXNYWXg0ejZ1YVRXdjFzd05WWlJYbDREbndBWGttbmVlU3hRbjd2eTQ0a2M2WkRzRDVwTGZubnA2bHZmR011Z2hsdVZENVRBZ05FTS1VZzVIOGVYRDZYaWY1ZnZ4cl9jZm1KVDFnR2E0bFFwb2tjYjVvS1hITXN3TGxNZF9uMA?oc=5",
+      "publishedAt": "2026-09-05T10:14:17+00:00"
+    },
+    {
+      "title": "XRP price at Sep 5, 2026 at 7am EDT Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZWFLbmo4c05LX2tHaGdEOVdMbnFOZFhhQzNGTzdtM29HNWNlVGdvZm5BQ0Z3NFVYbUJHOWdtU0wtekcyMkNIazJ6dTcwaTRRZFJ3a2JucnZ1NVVhLW5kTDVSR0tuUF9mMl9PRWtvWDA5cEdrMlAtamlrb0doUjJPWmVOUFR2bnFrSVJmM0ZtdTFiZk91QTAxLU1hSUhsS3BCc2FRVDJ2eUNZNG9R?oc=5",
-      "publishedAt": "2026-09-04T11:09:23+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVXpSdTV6U25vd2VlQUNrQXk5NkxieGl6ZUtkT2J2dUNXdjlBN1RkMElTS2l0Y0RSekVNUnNJLWpQOVhVVUc4emJENVRvUzZucVMzREZTem1EamtnTTlRV1VYUFB4TmpIMXYxYWpoYkU3WTVwVDl5WWNtMlRleHhHd2FPWjNfTXZPc0FGandNXy1pOF9qVTBvOXNQN3BPUjdpaVNNSWpodG9TeG1t?oc=5",
+      "publishedAt": "2026-09-05T10:03:48+00:00"
     },
     {
-      "title": "XRP may sharply reprice as Ripple gains US poli...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORlg0U0VUdU9SUUVJZno5bTlmUGRUeE8zS1QwaWNZM1hUbWl3d18yOFZLcGNmWmZxakxORXhvQ0thaG1hdnkzdVdNLTcyeDR5X1JfVzhjSzIzS3V1OXVmckxoRWRxbkVocHY3TkNPd2NEM25fVlJpVHpXdHdVaTFNejBKQ1NERGpnNldCckRqcFRMdjIxX093NzVGUGVsVmd4cW51VQ?oc=5",
-      "publishedAt": "2026-09-04T11:04:54+00:00"
+      "title": "Ripple CEO Slams $11 Billion Gold Move: Can Crypto Do Better?",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQODE5Z05USV9rOUx3NEw5OEROVUFXRVRPNW1rYnQwYmQwNlQ1ZnVGMW9FaTkzM2JkRmtvZlFydFFSVEgyd1pMd0tmekJQZm9VTkdjR0ZnSVdZMUp0R1Vrd2o3WTY5M0RRdXlpVXFzbFNnM3VIWmhDRklJMjRWcE8wdXZMYVo0b1M0MHB6bGo1SG5rLVZyTkx3?oc=5",
+      "publishedAt": "2026-09-05T09:32:24+00:00"
     },
     {
-      "title": "Grayscale's XRP holdings in its Crypto 5 ETF dr...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDYtZDF0WjNCa0EyRzdKellQWlFPT0pEdXloN1A2bzVyV1p4VnNsSjF4emN5d3A4V3RTUzViZXlnQXlxemUzWm9YZFJSWXp2WW5jOC1FRkhKQnFFMnRTMHFGR1U4VEozSzZyX3BVSFljR2t3aHd2U0R2WG5tWXptYUdTSGZqV3FVNi1FY256M2dfeURvR2FPaTBGNkowNTBCdlhLLTFZYTdxZ0NBUU9fQw?oc=5",
-      "publishedAt": "2026-09-04T10:56:06+00:00"
+      "title": "US-listed XRP ETFs surged 17%, doubling XRP tok...",
+      "source": "pluang.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY280Sk95b01pMi1DSkFveHc4Zlo1UjREVWZjSlVSbUlnMFZUbk1nS3hEU21lWG9ERnFNd3hRMlNrUDdKOUg4UHFkQ3YxbUhsNksxMmhtM0xIOWhsaXA2dUdIU0I3ZUM5T2kxaGVwZk1jNUxMeTdFYXVWbFRYV2hUQnIxR3NWaTRwaFlfQQ?oc=5",
+      "publishedAt": "2026-09-05T08:54:58+00:00"
     },
     {
-      "title": "Waller Cooled Rate Hike Fears and Bitcoin Cleared $81,000. Does XRP Follow?",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVF8tYXRPR050bkhSUFpWV3FabE5VQ3kyeHo5RFBDY2dUSnFFQ0EwMVcwcF9xVnE2VEdQOVFCaEZfbmx4ZGFzY3dUX0FEOEVPeWEybE81MG00djBPZUV0cUdTQ2hlQjFoVnZMQzNzOFl6djdaa1dudnR6X0ptRnBpV3FZaWJfYmM3YUQwdUxkT3NhdmtHSXlJSjhPVnl0aGtkdnVscGVIQS1HUnM1NW5GeEhEX29Qb0JRdnk5VllUNEpQV05KR2NfN1RR?oc=5",
-      "publishedAt": "2026-09-04T10:51:00+00:00"
+      "title": "2 Major Ripple (XRP) News From The Past 24 Hours: Details",
+      "source": "cryptopotato.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNjczWVNBSmR3S3RTYUtSTTJGekpRZW4zdGs0ZjQwOTB0djF0RU9Jc1hfSGREVWl1T05iZGZfWlhvU0ZrZ3ZMZFJaVDdfX2pWak9GNlJiLWR3RXJCNVQzYTNIMzlzb2RwSVRYWG1SY1VSb01WTERFOEFfS3ZhTDg0UzRkN1lhbVk?oc=5",
+      "publishedAt": "2026-09-05T08:28:00+00:00"
     },
     {
-      "title": "XRP Repricing Call Leans On Washington & BIS Language",
-      "source": "DailyCoin",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNeGVrd1hseXVDRjVmblFsVW1uLUJRODc0YVF5UUdmb1p5MEEtazJQYkZOY1BaTVRYVENua2huNmtTQ1BnUFRlV0lPMWhNNkduSkJ3eExXc3RXU2R1TVNKbld6bzFkbE1XRmY3WFRtblJHMlZRd3pnRHRIczh4djg?oc=5",
-      "publishedAt": "2026-09-04T10:42:00+00:00"
-    },
-    {
-      "title": "Why are BTC, ETH and XRP poised to extend recovery?",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMmsxcGdMWWxNWTVCS1lCazFuZ2xyLU8zOFdPOXJrZDhQRHk0VlVkaTJVV0VZVTFLeEZLczZQaEg0TFBvNXRmR09GU0hwd29jdGMxSHJEQXV5SmdLMTRsTjVZWmdFbnFZLVdTbGhuWVBYNWpoRlF6cFNMclpJWWI5V3NSTnB2b2RlX0FfcXI1MFdHZWM1VmRhdGVDamE3Vm5wOGlKa0pzenFUMVFLWEFyVklHZmRVUWMwcjVDcENKdGRsVlE5Rk9fOWxTY2ZzcGdDcVg3Slo1cw?oc=5",
-      "publishedAt": "2026-09-04T10:13:39+00:00"
-    },
-    {
-      "title": "US aims to be global crypto hub as Ripple CEO b...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdUpXVVNSdDk5ZmpCYkIySkxqVXRfRW4wQmEwZEZwNVR1QWNDaElwU2pJY3dBeEFHVXNiM09UclkyZFp3ajBVUHg0RzVxQmlqZ0xyTU9SY3B5cjV5b0lXRjFwT21vZnJEbkxCUHZWN2tfRjNjM3dPX2hNcTJKZnMwejFpdkZYMXJ4OHMyR3NxblBqUFBL?oc=5",
-      "publishedAt": "2026-09-04T09:33:35+00:00"
+      "title": "Navigating the Crypto Maze with Ethereum, XRP, and Cardano",
+      "source": "OneSafe",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5HLUo3MmZtLWl4VE5MdHpDSm9ZX21QY0JNekVMSUQxOVhvVDlCTmNRZl9HVU5rcElUTEZvd2E1RG05U21sdzRteEJ0OUYyX3hGQVRSTVNMYkNNQWU0Zk5KNlJQUG1hYzhDVnYyVjV3aXNCS0FjMTU2VF9sOA?oc=5",
+      "publishedAt": "2026-09-05T07:37:46+00:00"
     }
   ]
 }
