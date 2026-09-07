@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06",
+  "asOf": "2026-09-07",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-06T11:01:31+00:00",
-    "xrpPrice": 1.42,
-    "xrpMarketCap": 89198283141,
-    "xrpVolume24h": 1561362612,
-    "rlusdOnXrpl": 1028940438.691171,
-    "rlusdTotalSupply": 2407151384.647232
+    "updatedAt": "2026-09-07T12:39:43+00:00",
+    "xrpPrice": 1.41,
+    "xrpMarketCap": 88176225530,
+    "xrpVolume24h": 1853649542,
+    "rlusdOnXrpl": 1028940438.691174,
+    "rlusdTotalSupply": 2407151384.647233
   },
   "news": [
     {
-      "title": "Prediction markets see 67% chance XRP hits $2 b...",
-      "source": "pluang.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM2Joa1gtQ0gwOEIzSURoQTZseEdaSFpUTG82ajl5ZXZhYlZFWUpwZXN0aHo4UkdXbzlGclNxUzJ1ZGJQNzZaazNKX3ZsMExLR3lqREZva3pVRHliTDJtd1lLZG9OUGNxSHVFMFpNeVpIOFphaE9seWl3UUZSZEVWV18yZ3BDTWl2d0tz?oc=5",
-      "publishedAt": "2026-09-06T10:41:38+00:00"
+      "title": "XRP futures volume hits $11.37B amid 57% price rebound before Sept. 15 CLARITY Act vote",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRFpfRVUzdS1pZW9UeUVoYzlPVHNxV1RSU1ZqMmpscGlZVTZvOG4zM0lHMlp1VllITFdVUUVxLXBHQlNXTkstSXNmZGkzU0lqME9zVkZma3lYdDBQckFCMm9ZcTdLb0JjSjZEME53OUI0aTNzMFdzV0oxYU1POExobTBCX2VQcUZYRHVjLThpeUhyQmRaVlRV?oc=5",
+      "publishedAt": "2026-09-07T12:32:37+00:00"
     },
     {
-      "title": "BIS Tests XRP Ledger for Verifiable Official Statistics",
-      "source": "KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVU1IUGg3S1lQMmJlZG5SZXNOWGYwMndTNnZBT2hpWEFTUU9xYXVsSUpENUdOWjVWT0hNWkl4b1RJYlpPNnBtc1dScVZqV01EdGV0RkZHYTlNVkxWVTE5U1dfVlFieTc0Q0xTTkVTOGZCb2RwM19DTDBBVTZUdi1Ba2F2ZnlSNXhDZThMX2tWWFNTcFE?oc=5",
-      "publishedAt": "2026-09-06T10:14:52+00:00"
+      "title": "Ripple shifts $1.36M RLUSD stablecoin supply fr...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWjB3T2d1N1p4WGdrOURXVUd2dzU3OE0yRmxKWWEzY29NLVdmN045cnRxQ2d5bk9odEF2NEZGNkUzYVl4ZE1LajJfY2k2QUtoZGppdXZfWUhvLVlPajhkNDFTLVhWNUhmWVAteEszazY0dXduLVZXVlhYX2o0SnVPdHVrdTRxYjVRaDU4?oc=5",
+      "publishedAt": "2026-09-07T12:24:12+00:00"
     },
     {
-      "title": "XRP price at Sep 6, 2026 at 7am EDT Crypto Prediction Market",
-      "source": "robinhood.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQUtGcDNtSkdhV2FkZHhkdi1pcko1Z0xsU0NaXzNZZFdMd3F1X0pSQlF5T3hPVTk0RkxMSGFqNmlYaHZOa2RDSkRVOGRDOGtDQjlDTlZqMk01R1pGSTdKckwzMjNaNXBMVk1NZHYybXZYWGM3ZFRmbWQ3R3YzWG9IV1Z0c0hsSFFhZnlDajRWTk45NTkwNDd2ME9qNjNGWVd1YmROeFgzWGk3YUJ3?oc=5",
-      "publishedAt": "2026-09-06T10:07:23+00:00"
+      "title": "Bitcoin ETFs Took In $731 Million in a Day While XRP ETF Inflows Fell 83% in a Week. Is Money Rotating to Bitcoin?",
+      "source": "24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNmIxdkNWSjdMUjc0eWF5akM0aVJkQl92MnljUjFZazAzMktTbzBLQmVkRWx4TV9nekJJbWEwRm4yZmVKM2l3bURKN1kyYW1zRkpJbUkwaFlKNkJIVlBwQTVNWWJzTmVNRUk4R21TM0NXeEZ2VTZNTDlhOHZ0VXJrSV9Fa0J2RXBSN3Vpd2E5RC1IbTJOZ01VTG9RMDhrbllGaVlyNWFYZ1ZWRVFQSEdqM3RRaXpZTmYtWXNDUkZRMkt5OEFMdnNmU2pfZ1hPWTZmTzlxR0xsaC1FT3ZJS2tuQWM1WHJMTGhIbUljMnA0QVdjRVNjcUdmRHZETG1hZw?oc=5",
+      "publishedAt": "2026-09-07T12:21:00+00:00"
     },
     {
-      "title": "BIS Tests XRP Ledger to Anchor Official Statistics On-Chain",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY1hJM0F4aUtTVzZwQk9OWjRMRWVRODNpYy1FX3l6SXhzN2pqNGJzVVpvRm02SGp3Ym5iNktlbWVjTlNJVFc2cVR0UGt4TjExUGlseU1MMG1DRGhBVm9CTTJvM3lybmVWSFQ0ZDNuOUtPZVdCWFVYUnlIaWpHSkQ2ZU5NcUE?oc=5",
-      "publishedAt": "2026-09-06T10:02:50+00:00"
+      "title": "XRP Price Watch: Unraveling the Current Trends",
+      "source": "OneSafe",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMRWloWjJQRTRNMk1EUVo0X3JTbndIR3d3R0E3ODN1aW9yczhGXzNNM1gtcnBWRXlOU2JXcnhzWU12RXZQeFlWTnE4NVdGVjgyblRtTHpZQlZXR3BBR0JRb2huWUs4cGcxSHBBY0wxUThVZw?oc=5",
+      "publishedAt": "2026-09-07T12:09:44+00:00"
     },
     {
-      "title": "XRP Ticks Up On Regulatory Clarity, Robust ETF Inflows",
+      "title": "XRP price at Sep 7, 2026 at 9am EDT Crypto Prediction Market",
+      "source": "Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU2hOV0Z6LXZ0VjE0Z2sweml0TnpZWFc5eDFhTUZJVnpwNGZodUtOREItTUR5ck9sTHdHcThfYjcyNjQtR3ZOY29ON1RraGVkd184b253dk9GZFdIVkxOSk9fakQ3ZHJVUnhyMFVTLWFxSUlfS00wRkU0WmZPUFhCeUZ1MkZETXNUcWpRUUYwRjItSFNnNzhQbEN6MlZoQ0lTN3FFSkZTdGRSbUZ3?oc=5",
+      "publishedAt": "2026-09-07T12:06:50+00:00"
+    },
+    {
+      "title": "XRP Price Declines As Fed Rate Fears Weigh On Sentiment",
       "source": "MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObWp1aFExQUxPWUgyMVg5Zm1DcDJ5TDhlM054Y0gyZXlIODAyWFJ4VUR3VzJ4SzNfOWM2Q3dJSG5IYUs3YW50aVIydzdYRUlXeU94d3NXODU1WXh6cWFONGgyMmpxYi1xMWRzaVhObmRDYmRZR19BLWU3MzF6dktoc0hyQmlJSHM?oc=5",
-      "publishedAt": "2026-09-06T09:55:22+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaXhwMzdjeVNsa2c1N2E4dEdBc3psOTlMb0tBRUtkbjVaSHVidEdmV2dWbzJJRGhvd2JyeVhjMG5Bc0RrRVFxbkNCNzdqR3d5R0xFMU5wS2lLdVZEM2VSa0FxSFhFV0FUeDRQN05QMUhqWGg3Y0FDUTJIVWlXLVBvbzM3cm1WY25pWVE?oc=5",
+      "publishedAt": "2026-09-07T11:51:08+00:00"
     },
     {
-      "title": "XRP Holds $1.40 After Sharp Drop, $2.70 Target Comes Into View",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ2NzR194Mkg1NUcwRWFjWXFKbWhOamFBSG5zTTlvS1dzZHR1WG54M3hzWURlZjBMa3BKYzJlVnVlMmJ6dUxieV92d1pTTk5HZW5WbEYxdmhmMlNEa1pINW4xdEx6RzRSa1RRaldiZG5VOVppdTF6Tjl3dXlRRmFiVGNaOWZOYnFmbHFqY09LRWVJVE1DN3RzWFJUbTBabzE3azRudGRRVzRROXQ5eDktc2k3ZXlHalk?oc=5",
-      "publishedAt": "2026-09-06T09:32:25+00:00"
+      "title": "How BIS Testing Could Expand XRP Ledger Beyond Payments into Institutional Data Verification",
+      "source": "Analytics Insight",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTHF3eVdiMGpKd3hpcktGYlF3bHR6UHo1STEzMU9BVDl5Y3luNmU2MmZnV0xQanQzZTl3dU1ZUnRNeDR0Xzl5SEh1RVdzOXhwRlFyOTFmcGtJNElJNDdsUE5ibnExTFY5QWVGOUY0TDZJdi1SOGxTbXJKXzBDZ0tKNUxXQlYxZjJBNHZLTVdLbzA3MXdHTVZ0WU91SjlFWFlPSG1lYnJNQkg1SmpRdzNKTGxRVC16OGE5Q0d0a0diTnFhWk40TU5lRE0zMTc2anVxM3lpa0hQMWtoVURtZFItdDNJaGpSNmUxbEZJYUUxWdIB_AFBVV95cUxNdFo1dGhxaTEyRlFtQkEzejNrdmhfcElGUG5kYmR3WmtkOUdYRzdSR3NrQTlIbkktUEp0Vk9sWG5LYnR6M0dwNVI0OTNUd0gtR3BGekR3SS01WjV0U0h6ODJzd3oyaW5PTVhKbkh6MTBUUW40elFhcThNQjhKbHBZUFdBNW50b2RCUzhkWUhNb1pHUk9sNF9CUFdlUkhON3I5M0k5RHFCRTNtWDM1QkthaW41Vm5sdzI2UFBReG8xSWx3MS1ham0wVXJlZ1Bka05YUGxCaWNvTldZdU5kYXNvU1hta1BwWDFOOWlFbWN0M2ZSWkZVUWJYM2RoMno?oc=5",
+      "publishedAt": "2026-09-07T11:45:00+00:00"
     },
     {
-      "title": "Ripple CEO urges US crypto clarity, highlights 75 global licenses",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaZ2l1cnQxeWphZmpjOUhidlMzSjFaWVVsT0l5alVLa0VxazRvekRyUTQtNnZNVkdlTDBBUHJ3RW5yUkl3Y2RyYjhpckV6V2JyZU83b1pBM1dVQ0J3emllZkhaUdIBY0FVX3lxTFBaZ2l1cnQxeWphZmpjOUhidlMzSjFaWVVsT0l5alVLa0VxazRvekRyUTQtNnZNVkdlTDBBUHJ3RW5yUkl3Y2RyYjhpckV6V2JyZU83b1pBM1dVQ0J3emllZkhaUQ?oc=5",
-      "publishedAt": "2026-09-06T08:26:55+00:00"
-    },
-    {
-      "title": "XRP Price Eyes $60 While Ripple Expands Into US College Sports",
-      "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xSnJiejVvZVVuenkxQkhFWDdnZnFuWEI5enY3VUdOc28zQnJsbVdiZDR0U3ZPRXkyU1dVVVZ0M19GSW5jOUNISlc4V1d6ekg5cnlITl81RkJkeVNEU3ZxV2w0c9IBY0FVX3lxTE9xSnJiejVvZVVuenkxQkhFWDdnZnFuWEI5enY3VUdOc28zQnJsbVdiZDR0U3ZPRXkyU1dVVVZ0M19GSW5jOUNISlc4V1d6ekg5cnlITl81RkJkeVNEU3ZxV2w0cw?oc=5",
-      "publishedAt": "2026-09-06T08:19:59+00:00"
+      "title": "Ripple Returns to Korea as Major XRP Company Awaits Nasdaq Listing",
+      "source": "Cryptonews",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vNDNIZGZUN0djQklBa3ZBcHVwVU85U3FUa0s4LUpUNHlTMnpyNmpNeklQV1Bsc3JtOXRYeHUzN3hBUVZJaTFkdFFoV2NTaXN2Q19zMEt3ZG5xVUZZX0NpX1NVZm95cFZy?oc=5",
+      "publishedAt": "2026-09-07T11:28:43+00:00"
     }
   ]
 }
