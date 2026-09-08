@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07",
+  "asOf": "2026-09-08",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-07T12:39:43+00:00",
-    "xrpPrice": 1.41,
-    "xrpMarketCap": 88176225530,
-    "xrpVolume24h": 1853649542,
-    "rlusdOnXrpl": 1028940438.691174,
-    "rlusdTotalSupply": 2407151384.647233
+    "updatedAt": "2026-09-08T11:23:47+00:00",
+    "xrpPrice": 1.39,
+    "xrpMarketCap": 87490923146,
+    "xrpVolume24h": 1884732550,
+    "rlusdOnXrpl": 1030940438.691167,
+    "rlusdTotalSupply": 2431651384.647228
   },
   "news": [
     {
-      "title": "XRP futures volume hits $11.37B amid 57% price rebound before Sept. 15 CLARITY Act vote",
+      "title": "Huge Week Ahead for XRP: Could These 2 Events Finally Trigger a Move Toward $2?",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbkdiamx2N081TTdlNEo1Wkt6SU5wQ3M4NHh2VGNKYkZoVGVpME1wbDAyR2dMcFIzSHppUHhNNjhVbTcxUW9BYWdpaWk4eTlpQjRnZEVfRjZiZXBPQ0t4elN4V3hlRW10bW5YTl9WN1FiNjFKWnZFWVZhN3Vzako0U21KT0hCTzdKeVhJRmVVYUNadzFLV0lvcUlIb2gyZ1poLV9vSHM1MGpIbWVVZ25VVGFOVjc?oc=5",
+      "publishedAt": "2026-09-08T11:00:53+00:00"
+    },
+    {
+      "title": "XRP may be poised for a major price surge regar...",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRFpfRVUzdS1pZW9UeUVoYzlPVHNxV1RSU1ZqMmpscGlZVTZvOG4zM0lHMlp1VllITFdVUUVxLXBHQlNXTkstSXNmZGkzU0lqME9zVkZma3lYdDBQckFCMm9ZcTdLb0JjSjZEME53OUI0aTNzMFdzV0oxYU1POExobTBCX2VQcUZYRHVjLThpeUhyQmRaVlRV?oc=5",
-      "publishedAt": "2026-09-07T12:32:37+00:00"
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb21ROXpWaDRSZHdRaVYzazRVUHRha05fSzZKSWZSMmtTMUVEeklBQlhBeElGYUplV2Jpc0dibWxpTndEUlNaNTVwVmI2MklGNTBjU3NCUTZwQ2JtVUlHRmpjdXB0YlhFcUpETmFhcUxoSWhseWtYMElLYzM1Qk5pZHFvTnFDRkJOOU8yaWRVSWxLQQ?oc=5",
+      "publishedAt": "2026-09-08T10:24:52+00:00"
     },
     {
-      "title": "Ripple shifts $1.36M RLUSD stablecoin supply fr...",
+      "title": "XRP shows technical signs of a major price move ahead of key CLARITY Act vote on Sept. 15.",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWjB3T2d1N1p4WGdrOURXVUd2dzU3OE0yRmxKWWEzY29NLVdmN045cnRxQ2d5bk9odEF2NEZGNkUzYVl4ZE1LajJfY2k2QUtoZGppdXZfWUhvLVlPajhkNDFTLVhWNUhmWVAteEszazY0dXduLVZXVlhYX2o0SnVPdHVrdTRxYjVRaDU4?oc=5",
-      "publishedAt": "2026-09-07T12:24:12+00:00"
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdG84d0c3WWZfZVdWcXFpSUMxYWd4XzRSREVXRHg2S2JxblpmWnNRRWZpR1ZXUkRvS25kRU4tOWdqZDhJU1BwcWVoblBVN2RiblhsNGdZWHVDeDg5TW9xeWk1X0dKOE9hYVhEb3JhVlh3MzBhQnJFS0dGWmZSZDZFTVVNOEM1VmxkU3cwZUpxeXhEZUNv?oc=5",
+      "publishedAt": "2026-09-08T10:24:51+00:00"
     },
     {
-      "title": "Bitcoin ETFs Took In $731 Million in a Day While XRP ETF Inflows Fell 83% in a Week. Is Money Rotating to Bitcoin?",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQNmIxdkNWSjdMUjc0eWF5akM0aVJkQl92MnljUjFZazAzMktTbzBLQmVkRWx4TV9nekJJbWEwRm4yZmVKM2l3bURKN1kyYW1zRkpJbUkwaFlKNkJIVlBwQTVNWWJzTmVNRUk4R21TM0NXeEZ2VTZNTDlhOHZ0VXJrSV9Fa0J2RXBSN3Vpd2E5RC1IbTJOZ01VTG9RMDhrbllGaVlyNWFYZ1ZWRVFQSEdqM3RRaXpZTmYtWXNDUkZRMkt5OEFMdnNmU2pfZ1hPWTZmTzlxR0xsaC1FT3ZJS2tuQWM1WHJMTGhIbUljMnA0QVdjRVNjcUdmRHZETG1hZw?oc=5",
-      "publishedAt": "2026-09-07T12:21:00+00:00"
-    },
-    {
-      "title": "XRP Price Watch: Unraveling the Current Trends",
-      "source": "OneSafe",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBMRWloWjJQRTRNMk1EUVo0X3JTbndIR3d3R0E3ODN1aW9yczhGXzNNM1gtcnBWRXlOU2JXcnhzWU12RXZQeFlWTnE4NVdGVjgyblRtTHpZQlZXR3BBR0JRb2huWUs4cGcxSHBBY0wxUThVZw?oc=5",
-      "publishedAt": "2026-09-07T12:09:44+00:00"
-    },
-    {
-      "title": "XRP price at Sep 7, 2026 at 9am EDT Crypto Prediction Market",
-      "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU2hOV0Z6LXZ0VjE0Z2sweml0TnpZWFc5eDFhTUZJVnpwNGZodUtOREItTUR5ck9sTHdHcThfYjcyNjQtR3ZOY29ON1RraGVkd184b253dk9GZFdIVkxOSk9fakQ3ZHJVUnhyMFVTLWFxSUlfS00wRkU0WmZPUFhCeUZ1MkZETXNUcWpRUUYwRjItSFNnNzhQbEN6MlZoQ0lTN3FFSkZTdGRSbUZ3?oc=5",
-      "publishedAt": "2026-09-07T12:06:50+00:00"
-    },
-    {
-      "title": "XRP Price Declines As Fed Rate Fears Weigh On Sentiment",
+      "title": "XRP Slides To $1.39, Token Price Consolidates After Rally",
       "source": "MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaXhwMzdjeVNsa2c1N2E4dEdBc3psOTlMb0tBRUtkbjVaSHVidEdmV2dWbzJJRGhvd2JyeVhjMG5Bc0RrRVFxbkNCNzdqR3d5R0xFMU5wS2lLdVZEM2VSa0FxSFhFV0FUeDRQN05QMUhqWGg3Y0FDUTJIVWlXLVBvbzM3cm1WY25pWVE?oc=5",
-      "publishedAt": "2026-09-07T11:51:08+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQXBKbzBtVnFIZ0VMeE5DN0F0NkRyNjdSVEEwQXNCVUdzUVRxMWpQaFdhUVhyMmh2UGcwNFBXQ3BNamhtRkE4ZEpPZjFZR3BZMWs1U09LUXhWUEJvWU9wVVo1Mjd0eEp3a2c2SDNTVEN3WjJDMkFZWjU0ZS1va0lZckhocTVFNzJkWGc?oc=5",
+      "publishedAt": "2026-09-08T10:20:09+00:00"
     },
     {
-      "title": "How BIS Testing Could Expand XRP Ledger Beyond Payments into Institutional Data Verification",
-      "source": "Analytics Insight",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTHF3eVdiMGpKd3hpcktGYlF3bHR6UHo1STEzMU9BVDl5Y3luNmU2MmZnV0xQanQzZTl3dU1ZUnRNeDR0Xzl5SEh1RVdzOXhwRlFyOTFmcGtJNElJNDdsUE5ibnExTFY5QWVGOUY0TDZJdi1SOGxTbXJKXzBDZ0tKNUxXQlYxZjJBNHZLTVdLbzA3MXdHTVZ0WU91SjlFWFlPSG1lYnJNQkg1SmpRdzNKTGxRVC16OGE5Q0d0a0diTnFhWk40TU5lRE0zMTc2anVxM3lpa0hQMWtoVURtZFItdDNJaGpSNmUxbEZJYUUxWdIB_AFBVV95cUxNdFo1dGhxaTEyRlFtQkEzejNrdmhfcElGUG5kYmR3WmtkOUdYRzdSR3NrQTlIbkktUEp0Vk9sWG5LYnR6M0dwNVI0OTNUd0gtR3BGekR3SS01WjV0U0h6ODJzd3oyaW5PTVhKbkh6MTBUUW40elFhcThNQjhKbHBZUFdBNW50b2RCUzhkWUhNb1pHUk9sNF9CUFdlUkhON3I5M0k5RHFCRTNtWDM1QkthaW41Vm5sdzI2UFBReG8xSWx3MS1ham0wVXJlZ1Bka05YUGxCaWNvTldZdU5kYXNvU1hta1BwWDFOOWlFbWN0M2ZSWkZVUWJYM2RoMno?oc=5",
-      "publishedAt": "2026-09-07T11:45:00+00:00"
-    },
-    {
-      "title": "Ripple Returns to Korea as Major XRP Company Awaits Nasdaq Listing",
+      "title": "ChatGPT AI Predicts XRP Price By The End Of 2026",
       "source": "Cryptonews",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vNDNIZGZUN0djQklBa3ZBcHVwVU85U3FUa0s4LUpUNHlTMnpyNmpNeklQV1Bsc3JtOXRYeHUzN3hBUVZJaTFkdFFoV2NTaXN2Q19zMEt3ZG5xVUZZX0NpX1NVZm95cFZy?oc=5",
-      "publishedAt": "2026-09-07T11:28:43+00:00"
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcHlvVXluVWI0VEllZUs0Z290bzZ6S1B1c0tUc3hHUTJkSnJsWTVVXy04YkZYczBTLUdtbk1QQl84N3pRbHYzQW9mc0w4Q2NtbHFYVlk0YmxmWWZqZGNXdlAyOHFfVWkzVXdndjI0dXowek5EY1RYMTY0UnoxQ3NSUjQ3M1JBREpyUFlsVVNDRXFLNjZkbEV4RWtqYVVQZjJVMHhTbG04TQ?oc=5",
+      "publishedAt": "2026-09-08T10:06:16+00:00"
+    },
+    {
+      "title": "XRP open interest drops 14% after $14.2M liquidations; XRPL assets surge ahead of Senate CLARITY Act vote",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWEpYSVJ3ZmU1cUhqV0pPejdSR2M3Y09TXy1sbGRwZ0dOSnpNbU4wWV9DM3o3NlZNU0lXMHNGWW5UVHBEbUx4OG5CdHY2YjBzdlZZRW93Wk11NVBrS0RXOFZGbmt2bnE5Vlk4am1hRGlUcm4yRzM3T3RzYThYdjVmejY1elotdw?oc=5",
+      "publishedAt": "2026-09-08T10:04:12+00:00"
+    },
+    {
+      "title": "Why Bitcoin, Ethereum and XRP uphold bullish outlook despite correction?",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNENqeTIyeVVIQW1HbHpCRl9JOGZFU0hfT0M1clhRU19sSWhnNXVsVHp2d2JsWDVkZmxCTkZhN0pjUXAzeWIyMndjMFhGMUl4NHFpZkJxcm5jSTN0bFJrVDFRRDNKR0F0VlhsT3I2cU1lT0lSRmlOcnp3bHRHcTloSE1kZk8yeUhremg5S0dnOHdxQXJ3ODh6WHhXZWdxdGN0NWxnUng4MUEwN0JVNlhjeG55dlluN2xsWEt4X1BCQldzcEt1Zm9xZ3BhMDVjTHJ5ZlZ1dUo2WWYyWWpJcDBOZHNONmF2UQ?oc=5",
+      "publishedAt": "2026-09-08T10:00:00+00:00"
+    },
+    {
+      "title": "XRP Ledger's BatchV1_1 upgrade nears activation with 68.57% validator support, needs 80% for 14 days to launch.",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUVKRTVzZjduWmMwcTN6NVlOZzlHR1dFVlpNRWs0NVlpN1VYNkNrdGhKRjhvaFBCaE1vSDZWZGktNWhOLU5lQlh4US16V1NMUGFNOFp6OEEwUTVLSmNJSFJxNkR0cWtiUnZjYWx4Sy1aOHMwRzQ1NDNCeHoxWWx1SklQZ2MxcVY2TE1velZaaw?oc=5",
+      "publishedAt": "2026-09-08T09:38:44+00:00"
     }
   ]
 }
