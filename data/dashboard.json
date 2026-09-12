@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-11",
+  "asOf": "2026-09-12",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-11T11:27:06+00:00",
-    "xrpPrice": 1.32,
-    "xrpMarketCap": 83237188703,
-    "xrpVolume24h": 2118637578,
-    "rlusdOnXrpl": 1031501745.151147,
-    "rlusdTotalSupply": 2405335190.107208
+    "updatedAt": "2026-09-12T10:51:57+00:00",
+    "xrpPrice": 1.37,
+    "xrpMarketCap": 86312250632,
+    "xrpVolume24h": 2588393094,
+    "rlusdOnXrpl": 1053014745.151133,
+    "rlusdTotalSupply": 2422848190.107194
   },
   "news": [
     {
-      "title": "Why are Bitcoin, Ethereum and XRP stabilizing at lower levels?",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOU9LM29UeWJ2dXVyQ1FBa1BXT3dKQy1laUZRbXN4NXM1ajRJQjF2WHl5ZkJwOXhDY0FKU3FvSEE2RkdCYzRxRGZmUjVLVm82WTZnZ25kVldTdVY0RnZlZFR2WGF1a0dIa1VBM1JtdHp2cERkUTdndlQ0TlJoRFlXLUJvQ1BDdUFtN21KekxkYkx1d2UzWmMtRDhQNXdXdTVKX1NLU2ZBVERuLXZXblk3MEpPVmROSUN1cDVNc3dNa0YxQ0s0RTI2eE10Wm42S0pGSTZsUUJMT3hSMTNaYWktSURGem5OWklOaEpDd2ROcW1Ubms?oc=5",
-      "publishedAt": "2026-09-11T11:10:57+00:00"
+      "title": "Ripple\u2019s $1.35 XRP Tests Macro Resolve Ahead of Fed Meet",
+      "source": "fxleaders.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaTZ2aG5KVFI4aTBkUDBfNFRCWmx6dUFncE9EdHZuLVBwdHlHbkpyUS1oZF9nbVdSVWRoLU1TcjZBS01XYk5Gd2dNUDMwZ041NFZZRVFoOVd2cjU5bEtoakVWcVRIc1lHRFZ4eGJJdV96enlsNF9mNlBETXkzZnZJR196bTlpcGhZcGZOQ2ZQb0ZSa1JoeUVmNTNXYmwwUQ?oc=5",
+      "publishedAt": "2026-09-12T10:32:14+00:00"
     },
     {
-      "title": "XRP Dips On High US Yields, Ripple Integrates AI Into Treasury Platform",
+      "title": "XRP price at Sep 12, 2026 at 7am EDT Crypto Prediction Market",
+      "source": "Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0xHYTZwTnRyR2pMRkF2bjBGZXpMdlhTV3p2bzNkY0tNLWFLZXFiVGJOWTh1MGNfTHNLZjc1SU5LeHdEaFk3TnhUTkdmUlFZQWlqamFfbWdITjQ4ZGZ1bGJBcklKeW02ZUtLRzNqLUdkdnhVd05uMGxvay1fUXJVSGprODcyRWpQeHVoYW5HczN1ZGdwdExMQWRpb0RwbGZ2cV9QREl2WnNZZmEyc2c?oc=5",
+      "publishedAt": "2026-09-12T10:08:02+00:00"
+    },
+    {
+      "title": "XRP Climbs As Ex-Ripple CTO Says Token Could Top Bitcoin",
       "source": "MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMEplcDllQU5udlhzdFFscFNncGNCOTN5NlljTmhnU1lZTGE4M3Z4Y0VkXzd3RzhjQmZucHk3ZkwtWVplS3dGeWY3XzNoTGRYVjd1M19yQzZYSlp2UVJXeUNvS2tkWjI1RDk1cmJ3dUdqTDFjX25rSm9veGI1UnlDUUl6a1pBaVNhNGUtclJYZ0lkejU0akVhbUJrRWwzQQ?oc=5",
-      "publishedAt": "2026-09-11T11:01:55+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTUl6VVV0OU9wUDNmcllraEdoOExCWDlaUWExMGhIQ29PMVZZOGVkWHY3TWNUUWNQX1RabXZsLWxzUE14eUFub3hlRXQ4cmhEQTFfM1dCRmlkR0dnVU1aNVRyaThndTZuQUtwQXlaYVdGMTB0UXlEN215eGRwV3ZCcUFFdVBQcG5JaTA0?oc=5",
+      "publishedAt": "2026-09-12T10:07:43+00:00"
     },
     {
-      "title": "Excited About These 3 Catalysts for XRP in September? Don't Be.",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1BfQ1ZqZVZqRm5xWEwyVVU4czFuLWc3eGZiMWJSdmdzZjlIeXQtT2tlaHp1c3VkTUJfSlpHLUNwZnJwaEV1bTRVU3BRc2RyMnF5bHpxLWgyOFNQSENmamszejkyazJZVWdUaE1PMjJWSEY5RmV5MmZIWXh2WkZYaGRLUTlrMVNEYUNVcmtKLTZ5MjRUVmhtVQ?oc=5",
-      "publishedAt": "2026-09-11T10:50:10+00:00"
+      "title": "Ripple (XRP) has shifted from price speculation to asset appreciation: XRP holders earned $3,700 through FTMINING.",
+      "source": "Dolphins Talk",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNE1ZUzNxUXR6Z1paUUFBenlIdWYtZzVCSVUxM0JsZXAtZ2RVQnRLbzJNMlNjcmxwNVgwUGdpVE9aRFdFS3FwUGxabGdRbXJDUmJubEQ0dWluWFdlNmxXeUk3WGxrNUl5bmJOamxGbXVYdkl6Rkg5M2VuS1pTbW8zWkdjMDU0aExrU0ZjU25xSXhVQVZzZkNqV0dJaGJPS0dydVg2OHBYdnRxekZDcVlVX3dVV2NvdkNQX1Z6S1EtYXNRYzJQWGNNUGR0bXFXdVJxeF8xUXVOLU5fQQ?oc=5",
+      "publishedAt": "2026-09-12T09:11:46+00:00"
     },
     {
-      "title": "Ripple Launches AI Treasury Expansion as Analyst Maps XRP\u2019s Path to $13",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNanpTVFFpeENoZHVabnNmV19zYmZWM3paUHJjSFdBck1ZWXdiT1phbnhncjZZWGhpNXlZdlNsQV9ZR3Ztb0RVeGNGRFdOUlppOWxZd0YtQ2tBUzlkbDd0dzR0dDRGUkxvVHpNTEgtZkVqejJENFpSTWk3SnQxQU9fMnRYSTZZajlFNWRxbTZMUm45cnBwcGNEZkhaeGZqbWJ1Ny1Icw?oc=5",
-      "publishedAt": "2026-09-11T10:47:15+00:00"
+      "title": "Ripple\u2019s CEO Sees XRP Hitting $10trn Market Cap",
+      "source": "MarketForces Africa",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jN3h5WnlKTlRQYk0xQmNhc2FxdjVxQXZ5cmNteWxUMDNfV1BqQkFlSXVEWnFjRnByTkZCZThYdklER2o1aWloN1RUSmVJaGJIekhya003dDdJeFlQaWt0YkdhM1FDY1doOVU4MldSakVxMWVubkU2TUdLSzc?oc=5",
+      "publishedAt": "2026-09-12T08:16:42+00:00"
     },
     {
-      "title": "Ripple Treasury Adds Governed AI Agents for Enterprise Finance",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFUHoxcUVheTI5eHZETUNGWWtqOFUyYy1jUFFKbUdYMFMyYVRaWk9Sd2lpQVJESG1ZTnF0Q3FVYlYzWFNfdi1SOVRSbV9taEVFQzhRbmVINjlVR1NmNDRWalRyM1haT1JSNFNhcW1nTWZ4M28?oc=5",
-      "publishedAt": "2026-09-11T10:10:18+00:00"
+      "title": "Is a $25 XRP Within Reach to Challenge Bitcoin?",
+      "source": "OneSafe.io",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGV1hwN3JOdmFfNkxQekMyZDlWRmlQMV80SkZvV0FITG9udTY0NXZiTzhJNnJoWkVOMU5vWWR5Y3BySjdYRmNvdVhFUWYxTGFQX2lEQnFhazZMUkNTU2VTSXNlbHFBS205dU9nWDlzWlBzd3dUWGtNejVR?oc=5",
+      "publishedAt": "2026-09-12T07:45:39+00:00"
     },
     {
-      "title": "XRP drops below $1.40; Ripple CTO sees potentia...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeV9RQ1NDYllYSlJDVTFTbWxiNGNpUkt2VERJTGR3aWhxSFduclEtWEJzaTNhM2VmdW9LTUJwd3F4czRRUDN0RUo3bTg5UkZ2ZWFJQVpMWWs0TXlncFY3MUtua0JNTG0zUmxkRTBCOU1rRWVSZDhWSVJBUVhpQmJPNU5B?oc=5",
-      "publishedAt": "2026-09-11T10:02:35+00:00"
+      "title": "XRP to $25? Expert Reveals the Math They Never Show You",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1heFNaZ0NIelpMZC1SZ081MEYxeU9BSk9KZEIxaU9falpId0ZBMU1GdWE3R0VhQldXQTNlU2pfM3h3NVZXdlQ3THB6SWt4UEg3eUVmb1FyOFpyblR2UGVla3lLSdIBY0FVX3lxTE1heFNaZ0NIelpMZC1SZ081MEYxeU9BSk9KZEIxaU9falpId0ZBMU1GdWE3R0VhQldXQTNlU2pfM3h3NVZXdlQ3THB6SWt4UEg3eUVmb1FyOFpyblR2UGVla3lLSQ?oc=5",
+      "publishedAt": "2026-09-12T07:07:57+00:00"
     },
     {
-      "title": "XRP ETFs Enter Wall Street Repo Market via Schwab Money Fund Collateral",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQi1iRE5HUHdRVjNOMF9SMUlscHlJWWpIOHZtbGFqQkFxWDBWNkN2N0xBZHdSeFUzRlU2WHlxZnJyMjlaMXdid1ZZdjZRVU1BSUVMREp3Y2lmaGlBYkxJNzg4a0hibXlpbzZrRzFTTFV2OTdsNWpJTDVreFhIWURpZTUtb3hIaGk1dkF3ZjJPWVJuNTVEQWc?oc=5",
-      "publishedAt": "2026-09-11T09:47:15+00:00"
-    },
-    {
-      "title": "Ripple CTO Emeritus defends XRP Ledger, highlig...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQM1I3V19vR242RTdsdnM0NXdUQzNrUGQxazU5R3pueTZtZUVKYVVoUkhCQUc1RmE5RjladnV2dmpmazkwOGhucTVFeG5xZ0paQUtiZFlHZFl1d3ZHV2dVVm5pZWxOZGpvMVFrcHJTdlNlOWRzWlVHamZQYjNINDVMb1JETjI?oc=5",
-      "publishedAt": "2026-09-11T09:42:25+00:00"
+      "title": "XRP Breaks Key Technical Pattern, Analyst Projects Bold $15 Target",
+      "source": "Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQlhHcGpkdGtWUzFZUnpYQ3VseExDaXpjTmhCRUliNUd0VVRhUWwxeW40Y0hzTHY2emozM05JWFZiQjRwTHNWYjNaNWtHcUNHcmtXVDJaWUhncmtGRjlDdjRRcm55ZGpqbFctT0RZWklxTllOcXBoS1NpNVlLLUNfNk1XcG4xcW1LVEJQSkVnZnVqOWs5ZFdTZkV5SkY3ZWV0RVh2eE5CWUx3RDJ5MXFyNjJvNjQ5RERf?oc=5",
+      "publishedAt": "2026-09-12T06:00:45+00:00"
     }
   ]
 }
