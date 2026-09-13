@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-12",
+  "asOf": "2026-09-13",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-12T10:51:57+00:00",
-    "xrpPrice": 1.37,
-    "xrpMarketCap": 86312250632,
-    "xrpVolume24h": 2588393094,
-    "rlusdOnXrpl": 1053014745.151133,
-    "rlusdTotalSupply": 2422848190.107194
+    "updatedAt": "2026-09-13T11:57:36+00:00",
+    "xrpPrice": 1.34,
+    "xrpMarketCap": 84449418403,
+    "xrpVolume24h": 931861540,
+    "rlusdOnXrpl": 1053014745.151131,
+    "rlusdTotalSupply": 2422848190.107193
   },
   "news": [
     {
-      "title": "Ripple\u2019s $1.35 XRP Tests Macro Resolve Ahead of Fed Meet",
-      "source": "fxleaders.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaTZ2aG5KVFI4aTBkUDBfNFRCWmx6dUFncE9EdHZuLVBwdHlHbkpyUS1oZF9nbVdSVWRoLU1TcjZBS01XYk5Gd2dNUDMwZ041NFZZRVFoOVd2cjU5bEtoakVWcVRIc1lHRFZ4eGJJdV96enlsNF9mNlBETXkzZnZJR196bTlpcGhZcGZOQ2ZQb0ZSa1JoeUVmNTNXYmwwUQ?oc=5",
-      "publishedAt": "2026-09-12T10:32:14+00:00"
+      "title": "XRP ETFs Continue to See Significant New Inflows. Does That Make XRP a Buy Right Now?",
+      "source": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdGRMNHVEOXV3aTdvYWJVZExDVGFPUVVxb19UTUNzQ1NyUC0tTUhuaXdzSVhsQU9BNUhGTXlUeE9EUnhqeWhZNUQ2QTUyYXhCVlkxZDBvdC1kbVY2LU5IcmwtdUFQdlJmVXJnRS01cmsyTUxQZkJaVDkzZEp2b3VQMm9CbzlXV3hKcElCYUZlWFFWWG1iWHRiaQ?oc=5",
+      "publishedAt": "2026-09-13T11:34:07+00:00"
     },
     {
-      "title": "XRP price at Sep 12, 2026 at 7am EDT Crypto Prediction Market",
+      "title": "Former RippleX Executive Says XRP Has a \u201cKiller Use Case\u201d",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUjRmMUg0a2pGN1VWbnV4ejFQc1BjV3pEbm1tYV9wMGQyMG5wSHdvZDhWQ1JRZ3FKYzVQRG9MdU10YWhoMmN0bmZFcEpSaWVKNGFpQmFub05fVXI5NEw5TnJpbGd4SkdLeC1WMEM1VXVUODNWTjNvcXNHaFhOTFBteFJSRElGU19xcl93cXlwN0g0cmo4Mm43WEJKNTUwNXc?oc=5",
+      "publishedAt": "2026-09-13T11:30:00+00:00"
+    },
+    {
+      "title": "Prediction: This Will Be the Price of XRP (Ripple) by 2030",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUFJsaDI3eWZCVHdSWXFMVmFRM0RtenJ4emMwVFBBZ3RxWmlRT1pkVVM4ZUpienF3WW5ZR1B1V3NDTnpNZkVCckRyeVR1S21vaWUyb1JMTWVBdlhkY2YyUk8tb19tZHQwWWhIZ2RLNGh0MXFESV9YYU1QYmxjeGY2cUhudDd6X2NYYzhZVERmNVBCRVdVSlM3ZHotUW9QUQ?oc=5",
+      "publishedAt": "2026-09-13T11:28:00+00:00"
+    },
+    {
+      "title": "XRP price at Sep 13, 2026 at 8am EDT Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0xHYTZwTnRyR2pMRkF2bjBGZXpMdlhTV3p2bzNkY0tNLWFLZXFiVGJOWTh1MGNfTHNLZjc1SU5LeHdEaFk3TnhUTkdmUlFZQWlqamFfbWdITjQ4ZGZ1bGJBcklKeW02ZUtLRzNqLUdkdnhVd05uMGxvay1fUXJVSGprODcyRWpQeHVoYW5HczN1ZGdwdExMQWRpb0RwbGZ2cV9QREl2WnNZZmEyc2c?oc=5",
-      "publishedAt": "2026-09-12T10:08:02+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb0JNa2ZUQ3l4MDRBYS1yU2IxSjI2X3o4QWR6Q2d6TGtHRUdIR3dfYjB4bVlrNHVFUkpyNHd3LVc3TnRNOEFMNjR6dThQdGMxc0RZU0t3OGUwUEd4U3FneXp4b1dKTzZURzhZekdPcmw3U3ZacndaSzVzaFJSX1REcjRsSFNOWWRfVTVmV19vTGlZTnlOd25vMEJ4NklLSHNCWFRGa01BRHp5RGY4REE?oc=5",
+      "publishedAt": "2026-09-13T11:04:36+00:00"
     },
     {
-      "title": "XRP Climbs As Ex-Ripple CTO Says Token Could Top Bitcoin",
-      "source": "MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTUl6VVV0OU9wUDNmcllraEdoOExCWDlaUWExMGhIQ29PMVZZOGVkWHY3TWNUUWNQX1RabXZsLWxzUE14eUFub3hlRXQ4cmhEQTFfM1dCRmlkR0dnVU1aNVRyaThndTZuQUtwQXlaYVdGMTB0UXlEN215eGRwV3ZCcUFFdVBQcG5JaTA0?oc=5",
-      "publishedAt": "2026-09-12T10:07:43+00:00"
+      "title": "XRP struggles below $1.40 as ETF launches delay and network activity drops sharply.",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNFFva3Y3SkQ0QlVMMGpOVTExRFVubldjWnA4YnBSZlpOdHRlWjRvaTBPU0JMS3RSN3ZRTklpZ3hORjZxS2pBajhzNjJtaGFFbzl1TGdJRHktUkVRRlJWUGh4eDRaOWg1bWJjS3dTc01fQ2FaeV9qbEdMNy1XQVlEUUk2cVEyV3FKcUFGWXlodk9aM1pLN2c?oc=5",
+      "publishedAt": "2026-09-13T10:45:14+00:00"
     },
     {
-      "title": "Ripple (XRP) has shifted from price speculation to asset appreciation: XRP holders earned $3,700 through FTMINING.",
-      "source": "Dolphins Talk",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNE1ZUzNxUXR6Z1paUUFBenlIdWYtZzVCSVUxM0JsZXAtZ2RVQnRLbzJNMlNjcmxwNVgwUGdpVE9aRFdFS3FwUGxabGdRbXJDUmJubEQ0dWluWFdlNmxXeUk3WGxrNUl5bmJOamxGbXVYdkl6Rkg5M2VuS1pTbW8zWkdjMDU0aExrU0ZjU25xSXhVQVZzZkNqV0dJaGJPS0dydVg2OHBYdnRxekZDcVlVX3dVV2NvdkNQX1Z6S1EtYXNRYzJQWGNNUGR0bXFXdVJxeF8xUXVOLU5fQQ?oc=5",
-      "publishedAt": "2026-09-12T09:11:46+00:00"
-    },
-    {
-      "title": "Ripple\u2019s CEO Sees XRP Hitting $10trn Market Cap",
-      "source": "MarketForces Africa",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5jN3h5WnlKTlRQYk0xQmNhc2FxdjVxQXZ5cmNteWxUMDNfV1BqQkFlSXVEWnFjRnByTkZCZThYdklER2o1aWloN1RUSmVJaGJIekhya003dDdJeFlQaWt0YkdhM1FDY1doOVU4MldSakVxMWVubkU2TUdLSzc?oc=5",
-      "publishedAt": "2026-09-12T08:16:42+00:00"
-    },
-    {
-      "title": "Is a $25 XRP Within Reach to Challenge Bitcoin?",
-      "source": "OneSafe.io",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGV1hwN3JOdmFfNkxQekMyZDlWRmlQMV80SkZvV0FITG9udTY0NXZiTzhJNnJoWkVOMU5vWWR5Y3BySjdYRmNvdVhFUWYxTGFQX2lEQnFhazZMUkNTU2VTSXNlbHFBS205dU9nWDlzWlBzd3dUWGtNejVR?oc=5",
-      "publishedAt": "2026-09-12T07:45:39+00:00"
-    },
-    {
-      "title": "XRP to $25? Expert Reveals the Math They Never Show You",
+      "title": "Researcher: If You Hold XRP, Don\u2019t Make This Mistake",
       "source": "Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1heFNaZ0NIelpMZC1SZ081MEYxeU9BSk9KZEIxaU9falpId0ZBMU1GdWE3R0VhQldXQTNlU2pfM3h3NVZXdlQ3THB6SWt4UEg3eUVmb1FyOFpyblR2UGVla3lLSdIBY0FVX3lxTE1heFNaZ0NIelpMZC1SZ081MEYxeU9BSk9KZEIxaU9falpId0ZBMU1GdWE3R0VhQldXQTNlU2pfM3h3NVZXdlQ3THB6SWt4UEg3eUVmb1FyOFpyblR2UGVla3lLSQ?oc=5",
-      "publishedAt": "2026-09-12T07:07:57+00:00"
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRU0wxSkI4cVVSalAyODFEVlRSOC1lRE5xMWlmeFgtdVVBVEVULWtEUHRuMDFUY2Z0aUJ2SVhqbW5mWTh3emdEVUw4Q3J3SzRkbl9DeWNfTFRXb0NCUmU2M04yZ9IBY0FVX3lxTFBRU0wxSkI4cVVSalAyODFEVlRSOC1lRE5xMWlmeFgtdVVBVEVULWtEUHRuMDFUY2Z0aUJ2SVhqbW5mWTh3emdEVUw4Q3J3SzRkbl9DeWNfTFRXb0NCUmU2M04yZw?oc=5",
+      "publishedAt": "2026-09-13T10:19:09+00:00"
     },
     {
-      "title": "XRP Breaks Key Technical Pattern, Analyst Projects Bold $15 Target",
-      "source": "Yellow.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQlhHcGpkdGtWUzFZUnpYQ3VseExDaXpjTmhCRUliNUd0VVRhUWwxeW40Y0hzTHY2emozM05JWFZiQjRwTHNWYjNaNWtHcUNHcmtXVDJaWUhncmtGRjlDdjRRcm55ZGpqbFctT0RZWklxTllOcXBoS1NpNVlLLUNfNk1XcG4xcW1LVEJQSkVnZnVqOWs5ZFdTZkV5SkY3ZWV0RVh2eE5CWUx3RDJ5MXFyNjJvNjQ5RERf?oc=5",
-      "publishedAt": "2026-09-12T06:00:45+00:00"
+      "title": "XRP ETFs see $19M inflow this week, signaling g...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUkY1UmgzR1FLYms1NWp4dHZ4VXdOV1JpT0NjMTY4bjJJSDEyRlZXMndMSEo2ZEJPSnpIQjRTajZKYVVhWUgwS2ctWlVOY29KWVZlNXlFM1k3N3h6ZDJMamEzcU5SVXVjVmxoZ0xscElPMDZOMXVEcll6XzUwM3ZCWGFHb3A?oc=5",
+      "publishedAt": "2026-09-13T10:06:59+00:00"
+    },
+    {
+      "title": "Ripple's RLUSD stablecoin supply grows 50%, dai...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR2RWaEMzRy05VFNtbUlFN05FRlNndzdUSDhqMU9aT1luOV85cjBvNGVBWFVBcUV4NGwzc01iMkplRjMzd1JhN2tRbkZKM0J5ck1uM3JTMDNxaU9reEp6REVYQTgyX29IQXluc0x1b2hVR240NnJNM2Iwb0ZZWThPUExIeUFFbnlxLTRMMHM2aEpCVnozX2ZxME1LR2Z1V3pmOTRnazduZHBOQQ?oc=5",
+      "publishedAt": "2026-09-13T10:06:58+00:00"
     }
   ]
 }
