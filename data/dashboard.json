@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-18",
+  "asOf": "2026-09-19",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-18T11:20:45+00:00",
-    "xrpPrice": 1.32,
-    "xrpMarketCap": 83014277642,
-    "xrpVolume24h": 2678256294,
-    "rlusdOnXrpl": 999048859.5114167,
-    "rlusdTotalSupply": 2350784350.367477
+    "updatedAt": "2026-09-19T11:04:43+00:00",
+    "xrpPrice": 1.42,
+    "xrpMarketCap": 89248027017,
+    "xrpVolume24h": 4285229341,
+    "rlusdOnXrpl": 1036369020.819074,
+    "rlusdTotalSupply": 2378997051.087128
   },
   "news": [
     {
-      "title": "What Is XRP Used For? Payments, Collateral, and Now Stripe\u2019s AI Agents",
-      "source": "24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZms4OVlWdkRHZEV5TDRadXdzNngySV9rZE0yT2lQdUs3WnVtVExqemFXOWtZN28xNkc1WDVKTDRId3B5clZqYlBHcDY0QUQweHdGMHdaZVpmN3B6SkY5aUU5OEJRcUQ5NDdlU244S1ZBQVc1UllhYTN1MkUtU0ZPNnhmdlllOExlSG1sTUI2aTQ1Ry0wMzUxOVFsTWptZzlmSEQ0eGxTZ1BoZ3hiQTJNUVV6dGN5d0o3T0lhdUxhOGhPTHc?oc=5",
-      "publishedAt": "2026-09-18T11:17:00+00:00"
-    },
-    {
-      "title": "XRP Back in US Stockpile Spotlight as House Panel Advances Digital Asset Bill",
-      "source": "CCN.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jNmlYdXVkeUlWaERsSnloLVRlMG9MOURrSEdVZTIzQlNRTkk4RXZfdV9EblBnTUR3RjFqbktja1llYm11UnpOQjMwQzM4bk5FbmtxWkk0bHRxbzZuWFVjbDB0Sk5PR2IxV1BOWC01QnZJQW8xdGxOYzRKMXRVZ3c?oc=5",
-      "publishedAt": "2026-09-18T11:13:43+00:00"
-    },
-    {
-      "title": "XRP treasury firm Evernorth raises $30M via convertible notes tied to SPAC merger",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DajY2UVAyMVZ6ZEliVVNCb3BRbFQ5cnVuTGZTaUtwanRBM01uRGFFX0U0aF9fa0VGV3hFQThjdF9hWFM5UnBrUVE1d2t1VVNHeFFhZlJDVXRkN3pabVk3eFdSdkRlUnZ2Mk9FZEtZdUZ2NS1qSDRJdF9aaS0?oc=5",
-      "publishedAt": "2026-09-18T11:11:37+00:00"
-    },
-    {
-      "title": "XRP ETF Holders Stood Firm as Bitcoin Funds Saw $450M Exit",
-      "source": "DailyCoin",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUlh6Ql9sZmZyN3JmMnc5MTRDNkwyVXEwMW82VUVtanExempta3NYTi1YRXNLZnpkNk5uUjdkSTBGX2k5NWZIMXcyQW9yY2k1UkdDcVRvOVFKcWxpR1FTVWd3STd1bHdCa1V6MEdLX2pTdWx6Mk5HcHNheHpPUndMTWh1WWNhZEU?oc=5",
-      "publishedAt": "2026-09-18T11:11:00+00:00"
-    },
-    {
-      "title": "XRP reserves on Binance hit a 69-day high amid a 32% price rally in 30 days",
+      "title": "XRP jumps 7% to $1.41 amid $8M short squeeze an...",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4tRjFuR1VGcVBpQndaQWh5S3hlRHlKZUVZNHNtQ2o4QUFHdThkb0RMUXJoTzBPd29FOF9Bd0tvdjhBdEJpc3NLS1l5cXVnYUNlV2NSQUdCNEl0X1FHbUE4OEpwTWVyN1ZFYUtJcmlrTXhUVXphV0xDZXY3MWhwZw?oc=5",
-      "publishedAt": "2026-09-18T11:09:04+00:00"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR0Mtc1NHZXZ1aC1STUo0OEZ5MXd6akNaamxqT0NiUzQwS3RCUVRKazJicFk5SHlpTFFOQkZnMG16aVdpQUxzS1Y2TXRUeko1TGpkQVNob2NCaVBwVE9wNWpsWGQzMUE5eERiRDFXR2JqZlpOakdtTjRRY05fWG1tcnJlSkhRenV6UEo2dk12LWNrUUMzalE?oc=5",
+      "publishedAt": "2026-09-19T10:24:58+00:00"
     },
     {
-      "title": "XRP price at Sep 18, 2026 at 8am EDT Prediction Market",
+      "title": "XRP price rises 6.25% to $1.41 but faces key re...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR1NRRElCY2Rua1VWM0NjYkxXb182UG5MSE12djItX0JocU8zVFBMazFhSHh3Q2VHMG84RFlHelhZdUFHeHdmYUZ6Sm41UXlNYVZBNVR1MEJjUWxTUzBhbjBiVXp1UURoREJ2U1hsdGpaWTlrckhXdHlsc05tRngtdWxycTRuYWljWlBaamNFdw?oc=5",
+      "publishedAt": "2026-09-19T10:07:03+00:00"
+    },
+    {
+      "title": "XRP vs Solana vs Cardano \u2014 Which altcoin will have the best September?",
+      "source": "AMBCrypto",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUnJiX1Q3emF0a2Z2T2lMcndPVU9LeWlER3FHSU5XaEp0Wm9BaXZLb2NWb01QQW1xLUIySThWTTM5ZVI4eVhwV0xMeXhMRnIySVZ1WUNMUnlaMHZPT0tYXzVQaXdvbllrYWM0czRMYk83RDRTY2hrY19pUU1FNDNjaENicWlZU2dJODZUcVo3Q1F0Yi1s?oc=5",
+      "publishedAt": "2026-09-19T10:00:06+00:00"
+    },
+    {
+      "title": "XRP price at Sep 19, 2026 at 6am EDT Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMVllZ0hhQjJNcEJtR3IxZlQ0SFRuLW5XYVhPcEsxVy1QVDVMV0dic29ocWtqZm4yMVFxazFYZUotLWc2RV83dWd5enFKTGtBNXBVQVNsa0plckJBeXcwNXNSWXQ4V1BXaU12SGgtX28xV3pGNkVVemktbFQxVEtsUE1JTUVmR1FqZVhfQnpjb25tdWZHcGVIQl9KY1RhbTRCWVhCMW5XZFJBamZxeGc?oc=5",
-      "publishedAt": "2026-09-18T11:04:19+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMjVEMzFrOFd5Zk5OSVBDcnVyV2VqVUlPc2JnNEhlRmRVZ3NncDZfcjVoNGhiMkZKZXNYOTUtWmVyaDZkSzZzU3hEOVJ4dHRzelhXaXR4OFZTMXdhWkdoOVlrbnBMZC0zR2RUcHRYekF6cDZfcDlFRFIxcTJrT0JETkVrX2Z6MUhSWVhGMjdzRmFxSHpSQWladGkxN2F3U0VpWkRUQm5GVkpaV3EyeFE?oc=5",
+      "publishedAt": "2026-09-19T09:03:24+00:00"
     },
     {
-      "title": "XRP reserves on Binance are rocketing",
-      "source": "Finbold",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RWWlJeEk4UVFHRWNFbFNURXVOcGxSeEpPNlp1cnlwdXZER3lOZ0pWcGF1akNNTzNMdkJKTHpLenp6bU9fZ1JQTHR1S1BseWZKNEJFaUpOQ05JaDFKRVRwcnVZX1dVc1BGcUE?oc=5",
-      "publishedAt": "2026-09-18T10:56:15+00:00"
+      "title": "Top Crypto Watchlist for Fed Week: VOIDTRACE AI Stands Out Among Emerging Projects as Bitcoin, Ethereum, Solana and XRP Face Macro Volatility",
+      "source": "StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNS29KWFZadkk2UjVkdnJSRGN6MUo1UGdmU2VWSWlZS3FtckFfcnNFOGZHV0c0OWxtcnBCOFZ0NFpCaGQ3QkVLRVNjNm96cXNzWnNVb1RZT25vMnVmYzhjNV9Tc3Z4RVppTFlmVl9YaXRlMHVuYmYyLWhVUGpBQTAxX3pYLWdkVVRtRS1NZ25GNHduWlJpSV8wREJMTFhROXh1d2ZnTUtsQzdKNFZSczhfQm95MXlXd3c0N0Z2OFc1ZXpROU0yWVdtcWRlN1J5ZEhqQUEwM2RYNkh4QlFNYWRnT2p3TEdQZUhBQ1doY0pWeDdmUzJmYzY4NHRzRVhXb3dtZmU4eS1RdWsxOUZiY0RkRGNNTUtXQUFya0sxOWdHX1VJVWFldHg3NjdjbF9OSzJj?oc=5",
+      "publishedAt": "2026-09-19T08:52:27+00:00"
     },
     {
       "title": "$Ripple (XRP.CC)$",
-      "source": "Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IYklPdlpTcE0xR3VYVlVEZlZUZURCVUpRTE1rcHFGbEUxcF9JNTJ6TXlyRHNDNHhzZ0lZaVpIdm56SWNsSW40bDJoNjh2Y3FQX0UxbjloRDkwX2ZDZXg5NUl6cG15a01kLVhWRFZycTBrdVRNVFE?oc=5",
-      "publishedAt": "2026-09-18T10:42:32+00:00"
+      "source": "moomoo.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vQUNyMVFJVjJFMnFnR2hvNXhUSEg1d0FhV3FIaXNrNU1mcGMtLTZhYTJKY1Z6d0xJNnA1Wmxfd0Q3REpRbEJYdFF2NFZTRnJ6NDhOc0Q1Y1Fzd3Z5U3ZfdDkyM0FJZjUwQS1Hb0QtMldVb1h0VkE?oc=5",
+      "publishedAt": "2026-09-19T06:36:12+00:00"
+    },
+    {
+      "title": "House committee advances Strategic Bitcoin Reserve bill, includes XRP",
+      "source": "Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHeGVGVE5Sc2I2dEw2aU1nUzRoY1dKQ1ZRZ2duR0M2c1V2b1J2WmotRlZ5LWdNX202SnVlcFhMbEVYV3JCbGg2VmVsRVQ2eC1BeFhLWHVyZ3VzUUE4eVdpb0h6a9IBY0FVX3lxTFBHeGVGVE5Sc2I2dEw2aU1nUzRoY1dKQ1ZRZ2duR0M2c1V2b1J2WmotRlZ5LWdNX202SnVlcFhMbEVYV3JCbGg2VmVsRVQ2eC1BeFhLWHVyZ3VzUUE4eVdpb0h6aw?oc=5",
+      "publishedAt": "2026-09-19T06:34:37+00:00"
+    },
+    {
+      "title": "XRP Ledger Ships xrpld 3.4.0 With New Lending Protocol Amendments",
+      "source": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX012UGIxZlBlY0N5TG4yMU9tbjd2anNZV0NIdWl5Qi03NE94Yjd3Yk5sYkRsWFVuNGE0WnBLR1UzaHNTLXNITTN1UUp3ZHJzN2pvUUNGTENBaDR2STZES0ZCVmo0VFVGUmswQUM3Y2s3Wno5SFIyUXZpNGtJd1ZfVGV4Zw?oc=5",
+      "publishedAt": "2026-09-19T05:37:43+00:00"
     }
   ]
 }
