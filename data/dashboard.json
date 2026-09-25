@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-24T11:51:28+00:00",
-    "xrpPrice": 1.47,
-    "xrpMarketCap": 92465605051,
-    "xrpVolume24h": 4349803006,
-    "rlusdOnXrpl": 1059897468.031157,
-    "rlusdTotalSupply": 2370969064.607218
+    "updatedAt": "2026-09-25T11:55:05+00:00",
+    "xrpPrice": 1.6,
+    "xrpMarketCap": 100346858155,
+    "xrpVolume24h": 4994977606,
+    "rlusdOnXrpl": 1073301309.031139,
+    "rlusdTotalSupply": 2414872907.207199
   },
   "news": [
     {
-      "title": "XRP faces 1522% liquidation imbalance as sudden market selloff shocks bullish traders.",
+      "title": "Ripple CEO says XRP isn't always best for payme...",
       "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaGM0N1ZYTzhucWhTUXBYeU5Pc0VWUnZPUWVzQnpkSFNuV0k0TUlLUVZrd01xYTNXUTQzU2huZkFuLVlYUmZGN0VFOGNkdGFKcERsUFB2YUJlX01sUXAyY3hmRVBSZkZmRm1WM2ZhWkhPeW9BaVpTTTJzTDVWVURfcVlVeHdpU1h0OVZPei02VjE2NFRJUlVNR2JOeVFWcEE?oc=5",
-      "publishedAt": "2026-09-24T11:36:55+00:00"
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ2VNdXZ1ZGpGeXV3NFhncExxcnk3VW9QZDVaS2hiUHE1d19FZlJldDRiRWJKV3gtaEpOMVZ3UFF1OFpqTWh0djQ1ODV0TzFEb3NBWXYwUEw0RXhjY3lJMkR5cmRfdUl5NmNpMVF6aUM3TGp0T05fR29DSF9BeW13OUdQNENqbHVKMEF1Ym5KdGticmhtcUFVd0pn?oc=5",
+      "publishedAt": "2026-09-25T11:46:08+00:00"
     },
     {
-      "title": "Ripple will unlock 1 billion XRP in 7 days",
-      "source": "Finbold",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02OUVMQUhnQTVSbXJKbFJIa09vaE1hLTZtdFd3eGduTjVaZGJ5a3F1bU90V1NxZVcyNVNVYjMyX1o3aFFlM1c1U3lTTjVVX3pkWEpyRGJEU1R1Q28zcG1zRWx5bXo4TjB0dG9UZlExVHA?oc=5",
-      "publishedAt": "2026-09-24T11:26:41+00:00"
+      "title": "XRP could lose some payment flows to stablecoins, Ripple CEO says",
+      "source": "Crypto News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9uWWsyQ0F2R09wZW1oRmdUTE9PX21lOTB2ajVPRkVIbHdhT0ZFa1F4MWxBdmV6dzZUeUFDb1pNUlFlRDlKb255SjdHcGpsZ0J1OWN0bGlYZmR5NmV5N3RJaFRwbXpic0l5X1dCbFVYaWFrUUhmSTdiQQ?oc=5",
+      "publishedAt": "2026-09-25T11:36:46+00:00"
     },
     {
-      "title": "XRP price at Sep 24, 2026 at 8am EDT Crypto Prediction Market",
+      "title": "XRP and DOGE show high unrealized losses, easin...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONGkyUjI0TW5EcEdkUkJJV3FLN2pDTDJNcTJQcUVZS0tLa09NSDBDS1pEaVZNbGhGTm9ZUG9ZcGRnQ2hjTklyYkdGdkltRnc1aDhxbmcxNzlpQUtZck14eC02aWZtMlNrUGIzQVhWZlBqUGZuMzhnZXQ0dWlzcmxwa3FOMF92TnJLRW02MU14Mlo1QmFyUDJfczVDbw?oc=5",
+      "publishedAt": "2026-09-25T11:34:06+00:00"
+    },
+    {
+      "title": "Over 12 million XRP stolen from 7,393 wallets l...",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR3FpeUZmUUdGc0YzMmpSUzZWd0tHc3hrV2FSNUxnc2ZyQnIzRGRiTDFsYkdKMHNmWm9aOW92MlBuOXdPVVA4Mk9mako2S2pidkRKM01FM2RjZm9JYnJud05rdHdxaU00aXFIQzNYbk5YTlhzUzBkRUpZUjc0SGVUNWpRdUdWQ3V6Y0M4Yw?oc=5",
+      "publishedAt": "2026-09-25T11:26:03+00:00"
+    },
+    {
+      "title": "XRP price at Sep 25, 2026 at 8am EDT Crypto Prediction Market",
       "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXRzenVNSU05T0k1NThLRVZybGJGaGwtWmRpYWZZX1BsTnQ4RzNjamNDMUJSQldHazR2UXVudTJhVlh4SG40a2hpTlR5REx2RV81aU5FLWlWaGo5WDZMWTJVWmJ0MjFfZ0E1bm5IN2lQR2toWE1qM25CS2Q1a1I5UWx0bUswSm1TUFdkMnBvMHYxSFdVa01VOFZQU3hMTUhaVFJ5c3Fvc3V0SFQxR2c?oc=5",
-      "publishedAt": "2026-09-24T11:10:52+00:00"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOWVCSWtkRUUzWDBxMW5ZSjBXYzB2VjVKRkFqak1GY1JQdklPYzQtTzVKNzhfQ1FsbGUtWVA5bVVIVVFhTy1wNUZRNlRzZjRhYTQ1S2NnZXNUNmE0NGFobi1VeHZmTFotMVpkWG4wNE9oX1dsRF9VWWhza3c1eGVNX2hsbHNmai1sXy1lME5YWGZPcjZudklpR0MxaGNDTm9TNENFMzNDcjdMZWpyZmc?oc=5",
+      "publishedAt": "2026-09-25T11:09:35+00:00"
     },
     {
-      "title": "Ripple Powers Absa\u2019s Digital Asset Custody Push as Market Heads Toward $4.3T",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObXRsLXRidkoxZy1IclZpbnhqa2ZPMWRHaHJFUnZzZWltcS1RSE9RdzA1WVctalZSNjdxRUt2Q0p6dUljZWllRC1SMEVaSVR1V0tDc1cwRFF5ZzhveEhKN1BfZm5FQkZOTVAzeUVzTkdtMkhoQTE3aDhwdk9kZjU4T1A4Z3BEY2I4VVJDblIzOWRyVjNTSk5KOUZ6MHdkQQ?oc=5",
-      "publishedAt": "2026-09-24T10:25:50+00:00"
+      "title": "UAE firm extends Singapore\u2019s TradeTrust framework to Ripple USD stablecoin settlement",
+      "source": "Trade Finance Global",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWlVISmtETUlyMi1OUG1mSHJLMi01dVlwczhFejlzbUtDYVh5NnktYm91R1Q0Tm1lTXRvQ3YtQUtNSG5ZTktIOHY2RnhrWVlldnlYa0l1QnRXNFVFYk9jX0R2UnRKMFhVSTJxVzlTUlZMUEdYOUFXUnVLNGRIR3hsZ3B2b2cyY1JqdVQ2Wkl4aG5TVTdtWkNUeFZVcUFFN1ZWODMyNmxabDFVMzFDc3VpSGJsbFdUT3EtOGJ1Q2lXdU5JOFcw?oc=5",
+      "publishedAt": "2026-09-25T11:05:19+00:00"
     },
     {
-      "title": "XRP risks dropping to $1 if a double-top patter...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc0xNbV9fdjYtRUxFUlBlVENxM09sd3ZET1h4REpSZXFPcjFnc01VdkpsbGxmdmNocGJLbVpxZC1VNG1TcWxjTE9mT004Z0ZwZ3N2b1UzcDQ5cXEzeklIZ1RYUlVYeEtwN0dJa3VGNmVkZ1k4OVEyX3RoX3V5VGxoMFJxaThZb2FPWHJBeVVLN1N5S2s0d1l1czB6WTE?oc=5",
-      "publishedAt": "2026-09-24T09:58:28+00:00"
+      "title": "Crypto Today: Bitcoin and Ethereum edge lower, XRP extends recovery as macro headwinds weigh",
+      "source": "FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVVEzbzV4Rmpxd0J3NWVLaS03clJSdkhlNkF0cVNkeDJOLXVtSHpaZ0JsYkZVWTZwZlVhTHo3RVplSnFfV2h6Wk5KVm42ZXdUSUhEWTd2MDZPZGpFQmgxeklQV1ZPWl93bFA3YzJQUzZDQ003dEZUTjVMTFIxS1oydlVKM0d4bzhJMFA1TzI5NmxMSm8wam81eDRmd1F1MmRtdTRaWHlTalpBcVlOY0RHNDRJdllkWmNIaktyaUdscE9UM24zeU8zNXU1LTBoSUlrdGVYd2M2U3ppTzh1M2FNVlVCb0k?oc=5",
+      "publishedAt": "2026-09-25T10:56:06+00:00"
     },
     {
-      "title": "Crypto Market Slides After Rally: Why Bitcoin, XRP and NEAR Fall",
-      "source": "trendingtopics.eu",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVEszNkJLS3Bkc0RpLTlOdnE0cEdFM01rd1lfTmoyMmRwZ3hYMWtLQ1FjbDN3UFlLbmQzMThuTXZkVHA1RzU1emxGQTlCSnlUOGRKMjJVeU5HOVY1NE54a2NIalhHYnVqckUyenBNdWQtajh0VE56a2s1bFg2WUdkZjRvZ2F2eERz?oc=5",
-      "publishedAt": "2026-09-24T09:58:20+00:00"
-    },
-    {
-      "title": "11.7M XRP stolen from 6,678 D\u2019CENT wallets in a major crypto hack",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaWJLYy1qUTNWMmVraW1CSzZKSm9vU1N3LTNtRGxob25kS1BFV0VscUJZMDlxSHVhUTJsRUxKWU5tVjlhWHAteWEtLWtLTDdWb1RDaW5fdkg1eFhNWW5EejVhdUc1QW80bkl3eHB3QWV6S2lDZWtfS0pBVDZwMzRSaw?oc=5",
-      "publishedAt": "2026-09-24T09:45:23+00:00"
-    },
-    {
-      "title": "XRP Faces $2.7B Liquidation Wall at $0.98: Is Another Crash Coming",
-      "source": "CryptoRank",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaFNhQXdBR1U1SmtzTm45VUt3dXNfVm5BYlJ0LUhlMVdsWlZsRjR1WnM0M0xTRGdveFI2UjJPMm1HcW5hR09hOWozdFU5VS0yZGxaV0ttb0ZFMDBjMXFwdnZtMWxLbTFoZzdPajY3LTVncVhOV285RTRVLVdNTGZ1eU8zTU1CaWVqbUNaOXdyWFBkdFRYVDhTMWUtOFFPU1h2WlpF?oc=5",
-      "publishedAt": "2026-09-24T09:43:38+00:00"
+      "title": "XRP tops list of cryptos stolen in Bitget hack with $157 million",
+      "source": "Finbold",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTi1halpxeUVfaVBJcjB1T0lKYjljOVd5UUc0LTJOblVrcmZSV0RYQlZHX1BZYWJ6T2RZc2Mxd2FRXzVnWWNyQV9Wd3NBMmdYZWE0WUQ5azlvQ3FwQTM4OUhreUdnSE5GT1Y5cEdkSXFZZDJxSlJzOUFZN2lnRHk4WDFkTFpKRWtUME1NVw?oc=5",
+      "publishedAt": "2026-09-25T10:51:38+00:00"
     }
   ]
 }
