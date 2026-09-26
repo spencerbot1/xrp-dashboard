@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-26",
   "dataStatus": "Curated baseline \u2014 demonstration estimates until the XRPL ingestion pipeline is live",
   "score": 72,
   "scoreNote": "Offline fallback estimate \u2014 shown only when live data is unreachable. When connected, the score is computed in the browser from price momentum, liquidity, RLUSD adoption and sampled ledger activity.",
@@ -111,61 +111,61 @@
   ],
   "cached": {
     "note": "Snapshot for offline fallback \u2014 refreshed by scripts/refresh_data.py",
-    "updatedAt": "2026-09-25T11:55:05+00:00",
-    "xrpPrice": 1.6,
-    "xrpMarketCap": 100346858155,
-    "xrpVolume24h": 4994977606,
-    "rlusdOnXrpl": 1073301309.031139,
-    "rlusdTotalSupply": 2414872907.207199
+    "updatedAt": "2026-09-26T11:29:15+00:00",
+    "xrpPrice": 1.55,
+    "xrpMarketCap": 97388555984,
+    "xrpVolume24h": 5762811321,
+    "rlusdOnXrpl": 1100811209.031134,
+    "rlusdTotalSupply": 2491272908.017203
   },
   "news": [
     {
-      "title": "Ripple CEO says XRP isn't always best for payme...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ2VNdXZ1ZGpGeXV3NFhncExxcnk3VW9QZDVaS2hiUHE1d19FZlJldDRiRWJKV3gtaEpOMVZ3UFF1OFpqTWh0djQ1ODV0TzFEb3NBWXYwUEw0RXhjY3lJMkR5cmRfdUl5NmNpMVF6aUM3TGp0T05fR29DSF9BeW13OUdQNENqbHVKMEF1Ym5KdGticmhtcUFVd0pn?oc=5",
-      "publishedAt": "2026-09-25T11:46:08+00:00"
+      "title": "Ripple to Unlock Up to 1 Billion XRP From Escrow on Oct. 1",
+      "source": "bloomingbit",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CaXRTMndLdlZobmhwbDlCNTBtbTJWYnJxaXR1eldLMWM1Rzk3eEZ1eXUzWEw4V0VKZVZLNTljUnNVRFplR3RseFl5TGhYUk51aXJiSA?oc=5",
+      "publishedAt": "2026-09-26T11:28:03+00:00"
     },
     {
-      "title": "XRP could lose some payment flows to stablecoins, Ripple CEO says",
-      "source": "Crypto News",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9uWWsyQ0F2R09wZW1oRmdUTE9PX21lOTB2ajVPRkVIbHdhT0ZFa1F4MWxBdmV6dzZUeUFDb1pNUlFlRDlKb255SjdHcGpsZ0J1OWN0bGlYZmR5NmV5N3RJaFRwbXpic0l5X1dCbFVYaWFrUUhmSTdiQQ?oc=5",
-      "publishedAt": "2026-09-25T11:36:46+00:00"
-    },
-    {
-      "title": "XRP and DOGE show high unrealized losses, easin...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONGkyUjI0TW5EcEdkUkJJV3FLN2pDTDJNcTJQcUVZS0tLa09NSDBDS1pEaVZNbGhGTm9ZUG9ZcGRnQ2hjTklyYkdGdkltRnc1aDhxbmcxNzlpQUtZck14eC02aWZtMlNrUGIzQVhWZlBqUGZuMzhnZXQ0dWlzcmxwa3FOMF92TnJLRW02MU14Mlo1QmFyUDJfczVDbw?oc=5",
-      "publishedAt": "2026-09-25T11:34:06+00:00"
-    },
-    {
-      "title": "Over 12 million XRP stolen from 7,393 wallets l...",
-      "source": "Pluang",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR3FpeUZmUUdGc0YzMmpSUzZWd0tHc3hrV2FSNUxnc2ZyQnIzRGRiTDFsYkdKMHNmWm9aOW92MlBuOXdPVVA4Mk9mako2S2pidkRKM01FM2RjZm9JYnJud05rdHdxaU00aXFIQzNYbk5YTlhzUzBkRUpZUjc0SGVUNWpRdUdWQ3V6Y0M4Yw?oc=5",
-      "publishedAt": "2026-09-25T11:26:03+00:00"
-    },
-    {
-      "title": "XRP price at Sep 25, 2026 at 8am EDT Crypto Prediction Market",
-      "source": "Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOWVCSWtkRUUzWDBxMW5ZSjBXYzB2VjVKRkFqak1GY1JQdklPYzQtTzVKNzhfQ1FsbGUtWVA5bVVIVVFhTy1wNUZRNlRzZjRhYTQ1S2NnZXNUNmE0NGFobi1VeHZmTFotMVpkWG4wNE9oX1dsRF9VWWhza3c1eGVNX2hsbHNmai1sXy1lME5YWGZPcjZudklpR0MxaGNDTm9TNENFMzNDcjdMZWpyZmc?oc=5",
-      "publishedAt": "2026-09-25T11:09:35+00:00"
-    },
-    {
-      "title": "UAE firm extends Singapore\u2019s TradeTrust framework to Ripple USD stablecoin settlement",
-      "source": "Trade Finance Global",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWlVISmtETUlyMi1OUG1mSHJLMi01dVlwczhFejlzbUtDYVh5NnktYm91R1Q0Tm1lTXRvQ3YtQUtNSG5ZTktIOHY2RnhrWVlldnlYa0l1QnRXNFVFYk9jX0R2UnRKMFhVSTJxVzlTUlZMUEdYOUFXUnVLNGRIR3hsZ3B2b2cyY1JqdVQ2Wkl4aG5TVTdtWkNUeFZVcUFFN1ZWODMyNmxabDFVMzFDc3VpSGJsbFdUT3EtOGJ1Q2lXdU5JOFcw?oc=5",
-      "publishedAt": "2026-09-25T11:05:19+00:00"
-    },
-    {
-      "title": "Crypto Today: Bitcoin and Ethereum edge lower, XRP extends recovery as macro headwinds weigh",
-      "source": "FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVVEzbzV4Rmpxd0J3NWVLaS03clJSdkhlNkF0cVNkeDJOLXVtSHpaZ0JsYkZVWTZwZlVhTHo3RVplSnFfV2h6Wk5KVm42ZXdUSUhEWTd2MDZPZGpFQmgxeklQV1ZPWl93bFA3YzJQUzZDQ003dEZUTjVMTFIxS1oydlVKM0d4bzhJMFA1TzI5NmxMSm8wam81eDRmd1F1MmRtdTRaWHlTalpBcVlOY0RHNDRJdllkWmNIaktyaUdscE9UM24zeU8zNXU1LTBoSUlrdGVYd2M2U3ppTzh1M2FNVlVCb0k?oc=5",
-      "publishedAt": "2026-09-25T10:56:06+00:00"
-    },
-    {
-      "title": "XRP tops list of cryptos stolen in Bitget hack with $157 million",
+      "title": "Ripple set to dumb massive $1.5 billion XRP next week",
       "source": "Finbold",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTi1halpxeUVfaVBJcjB1T0lKYjljOVd5UUc0LTJOblVrcmZSV0RYQlZHX1BZYWJ6T2RZc2Mxd2FRXzVnWWNyQV9Wd3NBMmdYZWE0WUQ5azlvQ3FwQTM4OUhreUdnSE5GT1Y5cEdkSXFZZDJxSlJzOUFZN2lnRHk4WDFkTFpKRWtUME1NVw?oc=5",
-      "publishedAt": "2026-09-25T10:51:38+00:00"
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9aMGFMaUxRNUQtX0NUMjk2OE9SQkZySVQzRWNvLXNyMlNqdnB6VmRBbVpzdmlwOHh0bldLMmRKcFU5Zkl1MTBycDNhZVVwOVJXeGVyXzJrLXhyeFJZMDdvTVhUNmY0RGg0R2hCT0toaF9qMTVhaGJzemZjSFNrdw?oc=5",
+      "publishedAt": "2026-09-26T11:13:18+00:00"
+    },
+    {
+      "title": "XRP price at Sep 26, 2026 at 8am EDT Crypto Prediction Market",
+      "source": "robinhood.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPenNFXzZXRGwyczFwMmRaRDFKS3dfWlUzTjlNVkIyRWNpcGFQQ3hwdlhQcmRMVWRLODF2bGVsc2t2YmNjRVR2RzRzVng4c0FBV3pZWEVIRHJFTWJadi1FMVg5c0VHTTM4a0pzWlJaMC1oNEFDc1RpaHlHRy1FOWZzR05TNEhmcUVyWkUwRFY0UDZNLU94X0QyYmNSUURqbU0yVU8wRDJjOFQ4UVZYUHc?oc=5",
+      "publishedAt": "2026-09-26T11:05:14+00:00"
+    },
+    {
+      "title": "XRP Price Increases To $1.54 After Bitget Exchange Hack",
+      "source": "MarketForces Africa",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQel9zQWpYWEhmM3hJQU9SbmtON0tUSjdKalZIZm1zSEYtNUx6VXREekVQT2dFcG0tWVBsalg0Z1hrdEZXU1pQRnlBQlJGTDljUlQwSnRVckN2WWo3WFJ1WVVsOEdTcTJRMkdVbFlrVE9iRlpMWURsbXc4TVdtTjdXWkJZRERuWlJv?oc=5",
+      "publishedAt": "2026-09-26T10:34:26+00:00"
+    },
+    {
+      "title": "XRP Eyes $1.76-$1.81 Range If It Repeats Last Weekend's Rally",
+      "source": "KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWnhKU0NQaG0zRlU0eHhxTmxWdy1iMmxPRXB6TVBfNjcwSEIzQVdVVWpBaWVaUzhKYjVTOEY2Z25BSmVKVlg3aUsxc21KTTVRaVI5MmhUTzhEbnBVdjU4Q3RBQUt6LUNwdkxETjVhN3YzcW5JZHp3LUl0anUxd3gzNE1lRC05eHU0V1BzSjhIQUJCRzNXQzg5MA?oc=5",
+      "publishedAt": "2026-09-26T10:32:57+00:00"
+    },
+    {
+      "title": "Proposed XRP Ledger code update aims to improve performance but is not yet deployed",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUk1TUjJ0bUdjUXg2NDNrLWhONUw1Q0F4eGVBSXE0WGtuc01yNnpxNkl0SUxpX0tvQ3N1RjZ1U2ViSWNoYmxRUlZCaXUwdmNMUTNHOGNhZG1iN2tPbWI1RUdRcjBGWWJFMVhkb2lBaHgxS3VYSVJxLVJPT0Z6ek5OZENNaFNtWHBsc2M0NA?oc=5",
+      "publishedAt": "2026-09-26T10:30:50+00:00"
+    },
+    {
+      "title": "XRP Price \u2018Crash Coming,\u2019 Warns Analyst \u2014 But Chart Still Reaches $30",
+      "source": "CCN.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2ViYVRJU04tS1pGYkMzZC1Gbi01ckNKbkN3aHZPd01rYnM2RGEwT0swVnVxQllwWkdrRWpEbHluOHotQnotekdPNUpjZnEyR0JzcVdrWTg1aWtCZTRLdG9VVVN4bXBKbnZBaGRaWlFmLWZJa1JQQ0pJMVdhWHVlaGVRV0QwSzdGTndSMDlKWQ?oc=5",
+      "publishedAt": "2026-09-26T10:07:07+00:00"
+    },
+    {
+      "title": "Bitget To Resume Crypto Withdrawals After $352M XRP, ETH Theft In Latest Hack",
+      "source": "CoinGape",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZXFZLVpSSk01Nk42YzJ2MHhjVTFoQ2xHMVZRMnJQdjdGbzZLcjNJUnlJUnV4QklaZldDZ3hGUlZ0UlA4bEtEUEZQVmYzU21pODBqNWtTT0J6c3VRTHEySTFhQi05MjgtQlNlaXZCc0JEOU02UlJ1TDFfRnVTb1N1dXg2amdkU2x1TFpUOGNCNG5yVE9mLTJlMkRLa2dKZw?oc=5",
+      "publishedAt": "2026-09-26T09:59:27+00:00"
     }
   ]
 }
